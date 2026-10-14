@@ -6,8 +6,17 @@ using UnityEngine.Localization;
 using UnityEngine.Localization.Tables;
 using System.Linq;
 
+[InitializeOnLoad]
 public static class RecoveryLocalizationSettings
 {
+    static RecoveryLocalizationSettings()
+    {
+        // Play-mode domain reload can enable localized labels before runtime callbacks.
+        // Avoid loading assets during the initial editor import, which initializes editor overlays.
+        if(!EditorApplication.isPlayingOrWillChangePlaymode) return;
+        var settings=AssetDatabase.LoadAssetAtPath<LocalizationSettings>("Assets/MonoBehaviour/Localization Settings.asset");
+        if(settings) LocalizationSettings.Instance=settings;
+    }
     [InitializeOnLoadMethod]
     static void WatchPlayMode()
     {
@@ -16,8 +25,9 @@ public static class RecoveryLocalizationSettings
     }
     static void OnPlayMode(PlayModeStateChange state)
     {
-        if (state != PlayModeStateChange.EnteredPlayMode) return;
+        if (state != PlayModeStateChange.EnteredPlayMode && state != PlayModeStateChange.ExitingEditMode) return;
         RecoveryLocalizationCatalog.Initialize();
+        if (state == PlayModeStateChange.ExitingEditMode) return;
         foreach (var localized in Object.FindObjectsByType<UnityEngine.Localization.Components.LocalizeStringEvent>(FindObjectsSortMode.None))
             localized.RefreshString();
     }
@@ -28,6 +38,12 @@ public static class RecoveryLocalizationSettings
         var settings = AssetDatabase.LoadAssetAtPath<LocalizationSettings>("Assets/MonoBehaviour/Localization Settings.asset");
         if (settings == null) return;
         LocalizationSettings.Instance = settings;
+        var catalog = AssetDatabase.LoadAssetAtPath<RecoveryLocalizationCatalog>("Assets/Resources/RecoveryLocalizationCatalog.asset");
+        if (catalog != null)
+        {
+            catalog.Configure(settings);
+            EditorUtility.SetDirty(settings);
+        }
         EditorApplication.delayCall += BuildCatalog;
         EditorApplication.delayCall += RecoveryLocalizationCatalog.Initialize;
         EditorBuildSettings.AddConfigObject("com.unity.localization.settings", settings, true);

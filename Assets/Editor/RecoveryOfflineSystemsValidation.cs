@@ -25,8 +25,9 @@ public static class RecoveryOfflineSystemsValidation
     static RecoveryOfflineSystemsValidation() { EditorApplication.update += Tick; }
     static void Tick()
     {
+        if (SessionState.GetBool("RecoveryBossProgression.Requested", false)) return;
         if (!EditorApplication.isPlaying) { ran = false; return; }
-        if (ran || !SessionState.GetBool("RecoveryPlayValidation.LocalGame", false) || Time.time < 30) return;
+        if (ran || !SessionState.GetBool("RecoveryPlayValidation.LocalGame", false) || Time.time < 40) return;
         if (Player.LocalPlayer == null || MainMenuManager.IsInMenu) return;
         ran = true;
         Validate();
@@ -46,16 +47,8 @@ public static class RecoveryOfflineSystemsValidation
             if (MoneyManager.Instance && MoneyManager.Instance.IsServerInitialized)
             {
                 int original = MoneyManager.Instance._money.Value;
-                // Restore authority even when sound/UI code throws. Do not leave test money in a save.
-                try
-                {
-                    MoneyManager.AddMoney(17, player);
-                    check("money-credit", MoneyManager.Instance._money.Value == original + 17, "Expected original balance + 17.");
-                    MoneyManager.RemoveMoney(17, player);
-                    check("money-debit", MoneyManager.Instance._money.Value == original, "Expected original balance after matching debit.");
-                }
-                finally { MoneyManager.Instance._money.Value = original; }
                 check("money-client-sync", MoneyManager.Money == original, "Displayed balance must match authority.");
+                report.pending.Add("Economy sale / purchase in an isolated save; synthetic credit removed because balance callbacks emit OnItemSold.");
             }
             int quests = 0;
             foreach (var npc in UnityEngine.Object.FindObjectsByType<NPC>(FindObjectsSortMode.None))

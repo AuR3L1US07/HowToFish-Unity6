@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
@@ -17,6 +18,38 @@ public static class RecoveryBuildValidation
         public int warnings;
         public string[] scenes;
         public string failure;
+        public string[] errorMessages;
+    }
+
+    // The Addressables player-build callback injects its regenerated runtime data
+    // (catalog.bin/catalog.hash/settings.json and rebuilt script/locale bundles).
+    // Stale copies shipped with the original game in StreamingAssets/aa conflict at
+    // the Bee build-program level. Back them up instead of deleting so the original
+    // files stay recoverable; the callback then copies a set consistent with the
+    // recovered assemblies.
+    static void MoveAddressablesCallbackConflicts()
+    {
+        const string aaRoot = "Assets/StreamingAssets/aa";
+        const string callbackRoot = "Library/com.unity.addressables/aa/Windows";
+        if(!Directory.Exists(callbackRoot)) return;
+        var provided=new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach(var file in Directory.GetFiles(callbackRoot,"*",SearchOption.AllDirectories))
+            provided.Add(Path.GetFileName(file));
+        var backup=Path.Combine("CompilationChecks","streaming-aa-backup");
+        Directory.CreateDirectory(backup);
+        foreach(var file in Directory.GetFiles(aaRoot,"*",SearchOption.AllDirectories))
+        {
+            var name=Path.GetFileName(file);
+            if(name.EndsWith(".meta",StringComparison.OrdinalIgnoreCase))
+                name=name.Substring(0,name.Length-5);
+            if(!provided.Contains(name)) continue;
+            var relative=file.Substring(aaRoot.Length).TrimStart('\\','/');
+            var destination=Path.Combine(backup,relative);
+            Directory.CreateDirectory(Path.GetDirectoryName(destination));
+            if(File.Exists(destination)) File.Delete(destination);
+            File.Move(file,destination);
+        }
+        AssetDatabase.Refresh();
     }
 
     public static void BuildWindows()
@@ -34,6 +67,7 @@ public static class RecoveryBuildValidation
             RecoveryLocalizationSettings.Initialize();
             RecoveryLocalizationSettings.BuildCatalog();
             AssetDatabase.SaveAssets();
+            MoveAddressablesCallbackConflicts();
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
                 scenes = result.scenes,
@@ -44,6 +78,9 @@ public static class RecoveryBuildValidation
             result.status = report.summary.result.ToString();
             result.errors = (int)report.summary.totalErrors;
             result.warnings = (int)report.summary.totalWarnings;
+            result.errorMessages = report.steps.SelectMany(step => step.messages)
+                .Where(message => message.type == LogType.Error || message.type == LogType.Exception)
+                .Select(message => message.content).Distinct().ToArray();
         }
         catch (Exception exception)
         {

@@ -1,0 +1,288 @@
+using System;
+using System.Runtime.InteropServices;
+using Concentus.Enums;
+using Microsoft.Win32.SafeHandles;
+
+namespace Concentus.Native {
+internal class NativeOpusMultistreamEncoder : SafeHandleZeroOrMinusOneIsInvalid, IOpusMultiStreamEncoder, IDisposable
+{
+	private int _sampleRate;
+
+	private int _numChannels;
+
+	private NativeOpusMultistreamEncoder NativeHandle => this;
+
+	public int SampleRate => _sampleRate;
+
+	public int NumChannels => _numChannels;
+
+	public int Complexity
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4011, out var value);
+			return value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4010, value);
+		}
+	}
+
+	public bool UseDTX
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4017, out var value);
+			return value != 0;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4016, value ? 1 : 0);
+		}
+	}
+
+	public int Bitrate
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4003, out var value);
+			return value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4002, value);
+		}
+	}
+
+	public OpusMode ForceMode
+	{
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 11002, (int)value);
+		}
+	}
+
+	public bool UseVBR
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4007, out var value);
+			return value != 0;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4006, value ? 1 : 0);
+		}
+	}
+
+	public OpusApplication Application
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4001, out var value);
+			return (OpusApplication)value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4000, (int)value);
+		}
+	}
+
+	public OpusBandwidth Bandwidth
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4009, out var value);
+			return (OpusBandwidth)value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4008, (int)value);
+		}
+	}
+
+	public OpusFramesize ExpertFrameDuration
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4041, out var value);
+			return (OpusFramesize)value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4040, (int)value);
+		}
+	}
+
+	public uint FinalRange
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4031, out var value);
+			return (uint)value;
+		}
+	}
+
+	public int Lookahead
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4027, out var value);
+			return value;
+		}
+	}
+
+	public int LSBDepth
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4037, out var value);
+			return value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4036, value);
+		}
+	}
+
+	public OpusBandwidth MaxBandwidth
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4005, out var value);
+			return (OpusBandwidth)value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4004, (int)value);
+		}
+	}
+
+	public int PacketLossPercent
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4015, out var value);
+			return value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4014, value);
+		}
+	}
+
+	public bool PredictionDisabled
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4043, out var value);
+			return value != 0;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4042, value ? 1 : 0);
+		}
+	}
+
+	public OpusSignal SignalType
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4025, out var value);
+			return (OpusSignal)value;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4024, (int)value);
+		}
+	}
+
+	public bool UseConstrainedVBR
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4021, out var value);
+			return value != 0;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4020, value ? 1 : 0);
+		}
+	}
+
+	public bool UseInbandFEC
+	{
+		get
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4013, out var value);
+			return value != 0;
+		}
+		set
+		{
+			NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4012, value ? 1 : 0);
+		}
+	}
+
+	internal NativeOpusMultistreamEncoder()
+		: base(ownsHandle: true)
+	{
+	}
+
+	protected override bool ReleaseHandle()
+	{
+		NativeOpus.opus_multistream_encoder_destroy(handle);
+		return true;
+	}
+
+	public unsafe static NativeOpusMultistreamEncoder Create(int sampleRate, int channelCount, int mapping_family, out int streams, out int coupled_streams, byte[] mapping, OpusApplication application)
+	{
+		fixed (byte* mapping2 = mapping)
+		{
+			int error;
+			NativeOpusMultistreamEncoder nativeOpusMultistreamEncoder = NativeOpus.opus_multistream_surround_encoder_create(sampleRate, channelCount, mapping_family, out streams, out coupled_streams, mapping2, (int)application, out error);
+			if (error != 0)
+			{
+				nativeOpusMultistreamEncoder.Dispose();
+				throw new Exception($"Failed to create opus MS encoder: error {error}");
+			}
+			nativeOpusMultistreamEncoder._sampleRate = sampleRate;
+			nativeOpusMultistreamEncoder._numChannels = channelCount;
+			return nativeOpusMultistreamEncoder;
+		}
+	}
+
+	public unsafe int EncodeMultistream(ReadOnlySpan<float> in_pcm, int frame_size, Span<byte> out_data, int max_data_bytes)
+	{
+		fixed (float* pcm = in_pcm)
+		{
+			fixed (byte* data = out_data)
+			{
+				return NativeOpus.opus_multistream_encode_float(NativeHandle, pcm, frame_size, data, max_data_bytes);
+			}
+		}
+	}
+
+	public unsafe int EncodeMultistream(ReadOnlySpan<short> in_pcm, int frame_size, Span<byte> out_data, int max_data_bytes)
+	{
+		fixed (short* pcm = in_pcm)
+		{
+			fixed (byte* data = out_data)
+			{
+				return NativeOpus.opus_multistream_encode(NativeHandle, pcm, frame_size, data, max_data_bytes);
+			}
+		}
+	}
+
+	public void ResetState()
+	{
+		NativeOpus.opus_multistream_encoder_ctl(NativeHandle, 4028, 0);
+	}
+
+	public string GetVersionString()
+	{
+		return Marshal.PtrToStringAnsi(NativeOpus.opus_get_version_string());
+	}
+}
+
+}

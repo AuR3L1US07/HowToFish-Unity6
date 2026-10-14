@@ -9,7 +9,9 @@ public static class SaveSystem
 #if UNITY_EDITOR
 	private static readonly string _saveRootFolder = Path.GetFullPath(Path.Combine(Application.dataPath, "../EditorRuntime/Saves"));
 #else
-	private static readonly string _saveRootFolder = LocalPlayMode.Enabled ? Path.Combine(Application.persistentDataPath, "RecoveryLocal", "Saves") : Path.Combine(Application.persistentDataPath, "Saves");
+	private static readonly string _saveRootFolder = !string.IsNullOrEmpty(RecoveryStandaloneValidation.Argument("-recovery-save-root"))
+		? Path.GetFullPath(RecoveryStandaloneValidation.Argument("-recovery-save-root"))
+		: LocalPlayMode.Enabled ? Path.Combine(Application.persistentDataPath, "RecoveryLocal", "Saves") : Path.Combine(Application.persistentDataPath, "Saves");
 #endif
 
 	private static readonly string _localFileName = "local";

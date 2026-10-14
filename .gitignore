@@ -17,3 +17,12 @@
 *.log
 .DS_Store
 Thumbs.db
+
+# Generated runtime/cache artifacts (not project source)
+**/.Runtime/
+
+# Unity never imports folders ending in '~' (no .meta = not part of the asset database).
+# Exclude the bulky, non-functional ones from embedded packages to keep the repo lean.
+/Packages/**/Documentation~/
+/Packages/**/Samples~/
+/Packages/**/Tools~/

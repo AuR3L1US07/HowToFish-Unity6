@@ -167,6 +167,12 @@ public class Creature : Item
 
 	public override void Awake()
 	{
+		RecoveryInvokeExactCreatureAwake();
+	}
+
+	// Preserves the original nonvirtual ancestor call emitted by FishNet weaving.
+	protected void RecoveryInvokeExactCreatureAwake()
+	{
 		NetworkInitialize___Early();
 		Awake_UserLogic_Creature_Assembly_002DCSharp_002Edll();
 		NetworkInitialize___Late();

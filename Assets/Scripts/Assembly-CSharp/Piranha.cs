@@ -324,7 +324,7 @@ public class Piranha : AttackingFish
 
 	protected virtual void Awake_UserLogic_Piranha_Assembly_002DCSharp_002Edll()
 	{
-		((Fish)this).Awake();
+		RecoveryInvokeExactFishAwake();
 		_inSecondPhase.OnChange += OnSecondPhaseChange;
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "name": "FishNet.CodeAnalysis",
+  "references": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

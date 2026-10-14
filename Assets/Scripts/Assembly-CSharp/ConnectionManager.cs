@@ -177,6 +177,8 @@ public class ConnectionManager : MonoBehaviour
 		if (LocalPlayMode.Enabled && _multipass.ClientTransport is UnityTransport localTransport)
 		{
 			localTransport.ConnectionData.ServerListenAddress = "127.0.0.1";
+			if (ushort.TryParse(RecoveryStandaloneValidation.Argument("-recovery-port"), out var validationPort) && validationPort > 0)
+				localTransport.SetPort(validationPort);
 			localTransport.SetMaximumClients(1);
 		}
 		_multipass.ClientTransport.StartConnection(server: true);

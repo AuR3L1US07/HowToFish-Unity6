@@ -1,0 +1,10 @@
+{
+  "name": "GameKit.Dependencies",
+  "references": [
+    "UnityEngine.UI"
+  ],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

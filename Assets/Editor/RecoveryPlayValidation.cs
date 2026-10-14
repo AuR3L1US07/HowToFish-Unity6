@@ -38,7 +38,9 @@ public static class RecoveryPlayValidation
         if (precheck.steamRestartRequired) { EditorApplication.Exit(1); return; }
         EditorSceneManager.OpenScene("Assets/Scenes/Game.unity", OpenSceneMode.Single);
         SessionState.SetBool("RecoveryPlayValidation.Active", true);
-        EditorApplication.isPlaying = true;
+        // Allow editor startup callbacks (including creation of the default
+        // Search index) to finish before entering Play mode.
+        EditorApplication.delayCall += () => EditorApplication.isPlaying = true;
     }
     public static void RunLocalGame()
     {
@@ -66,6 +68,20 @@ public static class RecoveryPlayValidation
                     textReport.AppendLine(text.name + " | " + text.text + " | visible=" + text.textInfo.characterCount + " | font=" + (text.font ? text.font.name : "NULL") + " | atlasMatches=" + (text.font && text.fontSharedMaterial && text.fontSharedMaterial.mainTexture == text.font.atlasTexture));
                 }
                 File.WriteAllText("CompilationChecks/local-menu-text.txt", textReport.ToString());
+                foreach(var field in UnityEngine.Object.FindObjectsByType<TMPro.TMP_InputField>(FindObjectsInactive.Include))
+                    if(field.name=="ServerNameInputField")
+                    {
+                        var testCanvas=new GameObject("Input validation canvas",typeof(Canvas));
+                        testCanvas.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;
+                        var test=UnityEngine.Object.Instantiate(field,testCanvas.transform);
+                        test.onValueChanged=new TMPro.TMP_InputField.OnChangeEvent();
+                        test.onEndEdit=new TMPro.TMP_InputField.SubmitEvent();
+                        test.gameObject.SetActive(true);test.text="Local123";
+                        Canvas.ForceUpdateCanvases();test.ForceLabelUpdate();test.textComponent.ForceMeshUpdate(true,true);
+                        var font=test.textComponent.font;
+                        File.WriteAllText("CompilationChecks/latin-input-validation.txt", "value="+test.text+" label="+test.textComponent.text+" glyphs="+test.textComponent.textInfo.characterCount+" atlas="+font.atlasTexture.width+"x"+font.atlasTexture.height);
+                        UnityEngine.Object.Destroy(testCanvas);
+                    }
                 CaptureMenu("CompilationChecks/local-menu.png"); ScreenCapture.CaptureScreenshot("CompilationChecks/local-menu-gameview.png"); captureRequested=true;
             }
             if(localGame && !gameRequested && Time.time > 7 && ConnectionManager.Instance && SaveManager.HasLocalSave)
@@ -102,7 +118,25 @@ public static class RecoveryPlayValidation
                     }
                 }
             }
-            if(Time.time < (localGame ? 45 : 20)) return;
+            float duration = SessionState.GetBool("RecoveryBossProgression.Requested", false) ? 240 :
+                SessionState.GetBool("RecoveryFishingAcceptance.Requested", false) ? 180 : (localGame ? 65 : 20);
+            if(Time.time < duration) return;
+            if(!localGame) {
+                result.completed=true;
+                result.steamInitialized=HeathenEngineering.SteamworksIntegration.API.App.Initialized;
+                SessionState.SetBool("RecoveryPlayValidation.Active",false);
+                EditorApplication.isPlaying=false;
+                EditorApplication.delayCall+=()=>{
+                    File.WriteAllText("CompilationChecks/menu-play-validation.json",JsonUtility.ToJson(result,true));
+                    EditorApplication.Exit(result.errors.Count==0 ? 0 : 1);
+                };
+                return;
+            }
+            if(localGame && !Player.LocalPlayer) {
+                result.errors.Add("Local player did not spawn within the validation period.");
+                File.WriteAllText("CompilationChecks/local-game-validation.json",JsonUtility.ToJson(result,true));
+                EditorApplication.Exit(1);return;
+            }
             result.inputDiagnostics = "menu="+MainMenuManager.IsInMenu+" enabled="+Player.LocalPlayerEnabled+" driving="+SelfDrivingBoat.IsDriving+" paused="+PauseManager.IsPaused+" time="+Time.time+" input="+GameInfo.Input.currentActionMap+" blocked="+(Player.LocalPlayer != null && Player.LocalPlayer.BlockInputs)+" moveEnabled="+GameInfo.Input.actions["PlayerMove"].enabled+" controls="+GameInfo.Input.actions["PlayerMove"].controls.Count+" owner="+Player.LocalPlayer.Movement.Owner.IsLocalClient+" keyboard="+Keyboard.current.wKey.isPressed+" inputUser="+GameInfo.Input.user.valid; result.steamInitialized = HeathenEngineering.SteamworksIntegration.API.App.Initialized;
             result.localPlayerSpawned = Player.LocalPlayer != null;
             if(localGame && result.localPlayerSpawned)
@@ -118,11 +152,16 @@ public static class RecoveryPlayValidation
             if(localGame) { result.screenshot = "CompilationChecks/local-game.png"; CaptureMenu(result.screenshot); }
             SessionState.SetBool("RecoveryPlayValidation.Active", false);
             SessionState.SetBool("RecoveryPlayValidation.LocalGame", false);
+            SessionState.SetBool("RecoveryFishingAcceptance.Requested", false);
+            SessionState.SetBool("RecoveryBossProgression.Requested", false);
             result.completed = true;
             File.WriteAllText(localGame ? "CompilationChecks/local-game-validation.json" : "CompilationChecks/menu-play-validation.json", JsonUtility.ToJson(result,true));
             Debug.Log("RECOVERY_PLAY_VALIDATION_FINISHED errors="+result.errors.Count);
             EditorApplication.isPlaying = false;
-            EditorApplication.delayCall += () => EditorApplication.Exit(0);
+            EditorApplication.delayCall += () => {
+                File.WriteAllText(localGame ? "CompilationChecks/local-game-validation.json" : "CompilationChecks/menu-play-validation.json", JsonUtility.ToJson(result,true));
+                EditorApplication.Exit(result.errors.Count==0 ? 0 : 1);
+            };
         }
         else if(EditorApplication.timeSinceStartup-started > 40)
         {
@@ -136,9 +175,16 @@ public static class RecoveryPlayValidation
         var camera = Player.LocalPlayer != null ? Player.LocalPlayer.CurCam : MainMenuManager.MenuCam;
         if(camera == null) camera = UnityEngine.Object.FindFirstObjectByType<Camera>();
         if(camera == null) return;
+        var diagnostics = new System.Text.StringBuilder();
+        diagnostics.AppendLine("capture=" + camera.name + " position=" + camera.transform.position + " rotation=" + camera.transform.eulerAngles + " fov=" + camera.fieldOfView + " mask=" + camera.cullingMask);
+        foreach(var candidate in UnityEngine.Object.FindObjectsByType<Camera>(FindObjectsSortMode.None))
+            diagnostics.AppendLine("camera=" + candidate.name + " enabled=" + candidate.enabled + " position=" + candidate.transform.position + " rotation=" + candidate.transform.eulerAngles + " depth=" + candidate.depth + " mask=" + candidate.cullingMask);
+        if(Player.LocalPlayer)
+            foreach(var renderer in Player.LocalPlayer.GetComponentsInChildren<Renderer>())
+                diagnostics.AppendLine("renderer=" + renderer.name + " enabled=" + renderer.enabled + " layer=" + renderer.gameObject.layer + " bounds=" + renderer.bounds + " shadow=" + renderer.shadowCastingMode);
+        File.WriteAllText(filename + ".diagnostics.txt", diagnostics.ToString());
         var texture = new RenderTexture(1280,720,24);
         var previous = camera.targetTexture;
-        int previousMask = camera.cullingMask;
         var active = RenderTexture.active;
         var canvases = UnityEngine.Object.FindObjectsByType<Canvas>(FindObjectsSortMode.None);
         var changed = new List<Canvas>(); var modes = new Dictionary<Canvas,RenderMode>(); var cameras = new Dictionary<Canvas,Camera>(); var distances = new Dictionary<Canvas,float>();
@@ -147,7 +193,6 @@ public static class RecoveryPlayValidation
         try
         {
             camera.targetTexture = texture;
-            camera.cullingMask = -1;
             Canvas.ForceUpdateCanvases();
             camera.Render();
             RenderTexture.active = texture;
@@ -159,7 +204,7 @@ public static class RecoveryPlayValidation
         }
         finally
         {
-            camera.targetTexture = previous; camera.cullingMask = previousMask; RenderTexture.active = active;
+            camera.targetTexture = previous; RenderTexture.active = active;
             foreach(var canvas in changed) { canvas.renderMode=modes[canvas]; canvas.worldCamera=cameras[canvas]; canvas.planeDistance=distances[canvas]; }
             UnityEngine.Object.Destroy(texture);
         }

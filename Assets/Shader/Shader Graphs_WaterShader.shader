@@ -1,6 +1,8 @@
 Shader "Shader Graphs/WaterShader" {
 	Properties {
 		[ToggleUI] _Testing ("Testing", Float) = 0
+		[HideInInspector] _Fake_Time ("Recovery simulation time", Float) = 0
+		[HideInInspector] _Wave_Offset ("Simulation wave offset", Float) = 0
 		_DeepColor ("Deep Color", Vector) = (0.03921569,0.09803922,0.2745098,0.7058824)
 		_DeepColor_1 ("Deep Color 2", Vector) = (0.03921569,0.09803922,0.2745098,0.7058824)
 		Color_93e06cd551a5449091bcde90b46765a0 ("Shallow Color", Vector) = (0.03804734,0.5490196,0.5490196,0.1960784)
@@ -48,16 +50,37 @@ Shader "Shader Graphs/WaterShader" {
  #pragma fragment frag
  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
- struct A { float4 pos:POSITION; };
- struct V { float4 pos:SV_POSITION; float3 direction:TEXCOORD0; float3 world:TEXCOORD1; };
- float4 _DeepColor, _DeepColor_1;
+ #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DeclareDepthTexture.hlsl"
+ #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Hashes.hlsl"
+ struct A { float4 pos:POSITION; float2 uv:TEXCOORD0; };
+ struct V { float4 pos:SV_POSITION; float2 uv:TEXCOORD0; float3 world:TEXCOORD1; };
+ float4 _DeepColor, _DeepColor_1, Color_1, Color_93e06cd551a5449091bcde90b46765a0, _Foam_Color;
+ float _Testing,_Fake_Time,_Peak_1,_Peak_2,_Pixels,_Color_Noise_Scale,_Foam_Amount,_Foam_Threshold,_Foam_Speed,_Foam_Scale;
+ float Vector1_6f56a0970372485390c6587863c2374e, Vector1_6c82dffdd68049bcb019d3a9c64c92a0;
  float _Wave_Frequency_1, _Wave_Frequency_2, _Gradient_Speed_1, _Gradient_Speed_2, _Wave_Height_1, _Wave_Height_2, _Wave_Offset;
  float4 _Wave_Direction_1, _Wave_Direction_2;
  float WaterHash(float2 p) { return frac(sin(dot(p,float2(127.1,311.7)))*43758.5453); }
+ float WaterValueNoise(float2 p) {
+ float2 ip=floor(p),f=frac(p); f=f*f*(3-2*f); float a,b,c,d;
+ Hash_Tchou_2_1_float(ip,a); Hash_Tchou_2_1_float(ip+float2(1,0),b);
+ Hash_Tchou_2_1_float(ip+float2(0,1),c); Hash_Tchou_2_1_float(ip+1,d);
+ return lerp(lerp(a,b,f.x),lerp(c,d,f.x),f.y); }
+ float2 WaterNoiseDirection(float2 p) { float x; Hash_Tchou_2_1_float(p,x); return normalize(float2(x-floor(x+.5),abs(x)-.5)); }
+ float WaterGradientNoise(float2 p) { float2 ip=floor(p),fp=frac(p),f=fp*fp*fp*(fp*(fp*6-15)+10);
+ float a=dot(WaterNoiseDirection(ip),fp),b=dot(WaterNoiseDirection(ip+float2(0,1)),fp-float2(0,1));
+ float c=dot(WaterNoiseDirection(ip+float2(1,0)),fp-float2(1,0)),d=dot(WaterNoiseDirection(ip+1),fp-1);
+ return lerp(lerp(a,b,f.y),lerp(c,d,f.y),f.x)+.5; }
+ float3 WaterWave(float3 world,float3 rawDirection,float frequency,float speed,float height,float peak,float time) {
+ float3 direction=rawDirection*rsqrt(max(dot(rawDirection,rawDirection),.000001));
+ float phase=dot(direction,world)*frequency+time*speed;
+ return float3(rawDirection.x*peak*height*cos(phase),height*sin(phase),rawDirection.z*peak*height*cos(phase)); }
  V vert(A v) { V o; float3 world=TransformObjectToWorld(v.pos.xyz);
- world.y += sin(dot(normalize(_Wave_Direction_1.xyz),world)*_Wave_Frequency_1+(_Time.y+_Wave_Offset)*_Gradient_Speed_1)*_Wave_Height_1;
- world.y += sin(dot(normalize(_Wave_Direction_2.xyz),world)*_Wave_Frequency_2+(_Time.y+_Wave_Offset)*_Gradient_Speed_2)*_Wave_Height_2;
- o.pos=TransformWorldToHClip(world); o.direction=v.pos.xyz; o.world=world; return o; }
+ float time=(_Testing!=0?_Time.y:_Fake_Time)+_Wave_Offset;
+ // Original globalgamemanagers.assets vertex DXBC program-0: world phase,
+ // Gerstner horizontal peak offsets then displacement in object coordinates.
+ float3 displaced=float3(v.pos.x,0,v.pos.z)+WaterWave(world,_Wave_Direction_1.xyz,_Wave_Frequency_1,_Gradient_Speed_1,_Wave_Height_1,_Peak_1,time)
+ +WaterWave(world,_Wave_Direction_2.xyz,_Wave_Frequency_2,_Gradient_Speed_2,_Wave_Height_2,_Peak_2,time);
+ o.world=TransformObjectToWorld(displaced); o.pos=TransformWorldToHClip(o.world); o.uv=v.uv; return o; }
  half4 frag(V i):SV_Target {
  float3 normal=normalize(cross(ddy(i.world),ddx(i.world)));
  normal*=normal.y<0?-1:1;
@@ -68,10 +91,20 @@ Shader "Shader Graphs/WaterShader" {
  normal=normalize(normal+float3((waveShade-0.5)*0.45,0,(WaterHash(cell+13.7)-0.5)*0.4));
  float3 view=normalize(GetCameraPositionWS()-i.world);
  float fresnel=pow(1-saturate(dot(view,normal)),3);
- float t=saturate(0.5+normal.x*1.3+normal.z*0.8);
- float3 water=lerp(float3(0.13,0.28,0.43),float3(0.26,0.43,0.59),t);
- float3 sky=lerp(float3(0.25,0.40,0.56),float3(0.38,0.55,0.70),saturate(reflect(-view,normal).y));
- water=lerp(water,sky,0.35+fresnel*0.45);
+ float2 pixelUV=_Pixels>0?floor(i.uv*_Pixels)/_Pixels:i.uv;
+ float2 noiseUV=pixelUV*_Color_Noise_Scale;
+ float colorNoise=WaterValueNoise(noiseUV)*.125+WaterValueNoise(noiseUV*.5)*.25+WaterValueNoise(noiseUV*.25)*.5;
+ float sceneEye=LinearEyeDepth(SampleSceneDepth(GetNormalizedScreenSpaceUV(i.pos)),_ZBufferParams);
+ float surfaceEye=-TransformWorldToView(i.world).z;
+ float waterDepth=max(0,sceneEye-surfaceEye);
+ float depthBlend=saturate((waterDepth-Vector1_6f56a0970372485390c6587863c2374e)*Vector1_6c82dffdd68049bcb019d3a9c64c92a0);
+ float3 shallow=lerp(Color_93e06cd551a5449091bcde90b46765a0.rgb,Color_1.rgb,colorNoise);
+ float3 deep=lerp(_DeepColor.rgb,_DeepColor_1.rgb,colorNoise);
+ float3 water=lerp(shallow,deep,depthBlend);
+ float foamNoise=WaterGradientNoise(i.uv*_Foam_Scale+_Time.y*_Foam_Speed);
+ float foamThreshold=saturate(max(waterDepth-.01,0)/max(_Foam_Amount,.0001))*_Foam_Threshold;
+ float foam=step(foamThreshold,foamNoise);
+ water=lerp(water,_Foam_Color.rgb,foam);
  water*=0.82+0.35*saturate(dot(normal,GetMainLight().direction));
  water*=0.88+waveShade*0.24;
  float distanceToCamera=distance(GetCameraPositionWS(),i.world);

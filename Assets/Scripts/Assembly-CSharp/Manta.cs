@@ -501,7 +501,7 @@ public class Manta : AttackingFish
 
 	protected virtual void Awake_UserLogic_Manta_Assembly_002DCSharp_002Edll()
 	{
-		((Fish)this).Awake();
+		RecoveryInvokeExactFishAwake();
 		_syncedCurState.OnChange += OnCurStateChange;
 	}
 }

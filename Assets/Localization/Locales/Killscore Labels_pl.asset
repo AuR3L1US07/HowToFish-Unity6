@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
   m_Name: Killscore Labels_pl
   m_EditorClassIdentifier:
   m_LocaleId:
     m_Code: pl
-  m_SharedData: {fileID: 11400000, guid: 560c6af84b1a9ba4ba8355b9e974466b, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 8234f18fdd63ed84ebceb433894f8034, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:

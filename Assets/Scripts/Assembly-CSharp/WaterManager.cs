@@ -128,6 +128,21 @@ public class WaterManager : MonoBehaviour
 
 	private void Awake()
 	{
+		var originalWaterShader=RecoveryOriginalShaders.Get("Shader Graphs/WaterShader");
+		if(originalWaterShader && _waterMat)
+		{
+			var originalMaterial=RecoveryOriginalShaders.GetAsset<Material>(2002);
+			_waterMat=new Material(originalMaterial ? originalMaterial : _waterMat) {shader=originalWaterShader};
+			var originalNormal=RecoveryOriginalShaders.GetAsset<Texture2D>(2001);
+			if(originalNormal) _waterMat.SetTexture("_Normal_Bumps_Map",originalNormal);
+			var originalMesh=RecoveryOriginalShaders.GetAsset<Mesh>(2000);
+			if(originalMesh) {
+				_waterMesh=originalMesh;
+				foreach(var filter in _waterFilters) if(filter) filter.sharedMesh=originalMesh;
+				var mainFilter=_mainWater.GetComponent<MeshFilter>();if(mainFilter) mainFilter.sharedMesh=originalMesh;
+			}
+			foreach(var tile in _waterTiles) if(tile) tile.sharedMaterial=_waterMat;
+		}
 		Renderer[] waterTiles = _waterTiles;
 		for (int i = 0; i < waterTiles.Length; i++)
 		{

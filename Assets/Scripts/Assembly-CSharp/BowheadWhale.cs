@@ -724,7 +724,7 @@ public class BowheadWhale : AttackingFish
 
 	protected virtual void Awake_UserLogic_BowheadWhale_Assembly_002DCSharp_002Edll()
 	{
-		((Fish)this).Awake();
+		RecoveryInvokeExactFishAwake();
 		_inSecondPhase.OnChange += OnSecondPhaseChange;
 		_whale = this;
 		_orgRigUp = _rig.transform.up;

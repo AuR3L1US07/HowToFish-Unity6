@@ -150,6 +150,9 @@ public class ShaderManager : MonoBehaviour
 	private void Awake()
 	{
 		Setter.SetSingleInstance(ref _instance, this);
+		_defaultShader = RecoveryOriginalShaders.Get(_defaultShader.name) ?? _defaultShader;
+		_boatShader = RecoveryOriginalShaders.Get(_boatShader.name) ?? _boatShader;
+		RecoveryOriginalShaders.Apply();
 		GradientNoiseKW = new LocalKeyword(_defaultShader, "_SKIN_TYPE_GRADIENT_NOISE");
 		CheckerboardKW = new LocalKeyword(_defaultShader, "_SKIN_TYPE_CHECKERBOARD");
 		VoronoiKW = new LocalKeyword(_defaultShader, "_SKIN_TYPE_VORONOI");
@@ -297,11 +300,13 @@ public class ShaderManager : MonoBehaviour
 
 	public static void ApplyItemSkin(ItemSkin itemSkin, Renderer rend, bool forBoat = false)
 	{
+		var original=RecoveryOriginalShaders.Get(rend.material.shader.name);
+		if(original) rend.material.shader=original;
 		rend.material.SetInt(UseSkinID, itemSkin.UseSkin ? 1 : 0);
 		rend.material.SetInt(RainbowSkinID, itemSkin.IsRainbowSkin ? 1 : 0);
-		LocalKeyword keyword = ((!forBoat) ? GradientNoiseKW : BoatGradientNoiseKW);
-		LocalKeyword keyword2 = ((!forBoat) ? CheckerboardKW : BoatCheckerboardKW);
-		LocalKeyword keyword3 = ((!forBoat) ? VoronoiKW : BoatVoronoiKW);
+		LocalKeyword keyword = new LocalKeyword(rend.material.shader, "_SKIN_TYPE_GRADIENT_NOISE");
+		LocalKeyword keyword2 = new LocalKeyword(rend.material.shader, "_SKIN_TYPE_CHECKERBOARD");
+		LocalKeyword keyword3 = new LocalKeyword(rend.material.shader, "_SKIN_TYPE_VORONOI");
 		rend.material.SetKeyword(in keyword, value: false);
 		rend.material.SetKeyword(in keyword2, value: false);
 		rend.material.SetKeyword(in keyword3, value: false);
@@ -323,9 +328,9 @@ public class ShaderManager : MonoBehaviour
 			rend.material.SetFloat(VoronoiName, 1f);
 			break;
 		}
-		LocalKeyword keyword4 = ((!forBoat) ? OnlyMetallicKW : BoatOnlyMetallicKW);
-		LocalKeyword keyword5 = ((!forBoat) ? OnlyMetallicNoiseKW : BoatOnlyMetallicNoiseKW);
-		LocalKeyword keyword6 = ((!forBoat) ? EverythingKW : BoatEverythingKW);
+		LocalKeyword keyword4 = new LocalKeyword(rend.material.shader, "_SKIN_AFFECTS_ONLY_METALLIC");
+		LocalKeyword keyword5 = new LocalKeyword(rend.material.shader, "_SKIN_AFFECTS_ONLY_METALLIC_NOISE");
+		LocalKeyword keyword6 = new LocalKeyword(rend.material.shader, "_SKIN_AFFECTS_EVERYTHING");
 		rend.material.SetKeyword(in keyword4, value: false);
 		rend.material.SetKeyword(in keyword5, value: false);
 		rend.material.SetKeyword(in keyword6, value: false);

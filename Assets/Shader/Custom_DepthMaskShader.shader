@@ -1,13 +1,18 @@
 Shader "Custom/DepthMaskShader" {
 	Properties {
 	}
-	//DummyShaderTextExporter
+	// Recovery implementation: original serialized pass state, sharedassets0 pathID 525.
 	SubShader{
-		Tags { "RenderType" = "Opaque" }
+		Tags { "Queue" = "Geometry-1" "RenderPipeline"="UniversalPipeline" }
 		LOD 200
 
 		Pass
 		{
+			ColorMask 0
+			ZWrite Off
+			ZTest LEqual
+			Cull Back
+			Stencil { Ref 64 ReadMask 64 WriteMask 64 Comp Always Pass Replace }
 			HLSLPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -34,7 +39,7 @@ Shader "Custom/DepthMaskShader" {
 
 			float4 frag(Vertex_Stage_Output input) : SV_TARGET
 			{
-				return float4(1.0, 1.0, 1.0, 1.0); // RGBA
+				return 0; // Original pass writes stencil only, never color or depth.
 			}
 
 			ENDHLSL

@@ -1,0 +1,157 @@
+[
+  {
+    "Assembly": "Unity.Addressables",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.AI.Navigation",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Animation.Rigging",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Animation.Rigging.DocCodeExamples",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.InternalAPIEngineBridge.013",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Localization",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Multiplayer.Center.Common",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Multiplayer.Playmode.Common.Runtime",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Multiplayer.Playmode",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Networking.Transport",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Profiling.Core",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.ResourceManager",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.ScriptableBuildPipeline",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Scripting",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Analytics",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Authentication",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Authentication.PlayerAccounts",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Analytics",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Components",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Configuration",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Device",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Environments",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Environments.Internal",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Internal",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Networking",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Registration",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Scheduler",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Telemetry",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.Services.Core.Threading",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  },
+  {
+    "Assembly": "Unity.VisualEffectGraph.Runtime",
+    "Version": "0.0.0.0",
+    "PublicKeyToken": ""
+  }
+]

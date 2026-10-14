@@ -103,6 +103,7 @@ public class SlotMachine : MonoBehaviour
 		_slotCam.backgroundColor = new Color(0f, 0f, 0f, 0f);
 		_slotCam.enabled = false;
 		_slotCam.targetTexture = GameInfo.SlotMachineTexture;
+		_slotCam.Render();
 		_rollerText.text = "";
 		_defaultRollHolderSize = _rollHolder.sizeDelta;
 		_rollHolder.sizeDelta = new Vector2(_defaultRollHolderSize.x, 0f);

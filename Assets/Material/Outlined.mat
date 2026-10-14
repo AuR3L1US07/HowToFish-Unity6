@@ -20,37 +20,37 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties:
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _Colors:
+    - _Colors:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      unity_Lightmaps:
+    - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      unity_LightmapsInd:
+    - unity_LightmapsInd:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      unity_ShadowMasks:
+    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: {}
+    m_Ints: []
     m_Floats:
-      _Animation_Multiplier: 0.25
-      _Animation_Speed: 10
-      _Emission: 0
-      _Outline_Thickness: 0.0075
-      _QueueControl: 0
-      _QueueOffset: 0
-      _Test: 1.1
+    - _Animation_Multiplier: 0.25
+    - _Animation_Speed: 10
+    - _Emission: 0
+    - _Outline_Thickness: 0.0075
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Test: 1.1
     m_Colors:
-      _Outline_Color: {r: 1, g: 1, b: 1, a: 1}
-      _Test_1: {r: 1, g: 0, b: 0, a: 0}
+    - _Outline_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Test_1: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 0

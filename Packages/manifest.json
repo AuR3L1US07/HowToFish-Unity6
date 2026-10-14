@@ -44,6 +44,15 @@
     "com.unity.ext.nunit": "2.0.5",
     "com.unity.shadergraph": "17.4.0",
     "com.unity.render-pipelines.universal-config": "17.4.0",
-    "com.unity.inputsystem": "1.19.0"
+    "com.unity.inputsystem": "1.19.0",
+    "com.unity.visualeffectgraph": "17.4.0",
+    "com.unity.localization": "1.5.13",
+    "com.unity.addressables": "2.10.3",
+    "com.unity.scriptablebuildpipeline": "2.6.2",
+    "com.unity.profiling.core": "1.0.2",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.animation.rigging": "1.4.1",
+    "com.unity.ai.navigation": "2.0.16",
+    "com.unity.transport": "2.5.3"
   }
 }

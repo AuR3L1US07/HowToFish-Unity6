@@ -26,7 +26,8 @@ public class RecoveryLocalizationCatalog : ScriptableObject
     [System.Serializable]
     sealed class LocalStringDatabase : LocalizedStringDatabase
     {
-        [SerializeField] StringTable[] localTables;
+        [SerializeField] StringTable[] localTables = System.Array.Empty<StringTable>();
+        public LocalStringDatabase() { }
         public LocalStringDatabase(StringTable[] tables) { localTables = tables; }
         public override AsyncOperationHandle<StringTable> GetTableAsync(TableReference reference, Locale locale = null)
         {
@@ -46,18 +47,23 @@ public class RecoveryLocalizationCatalog : ScriptableObject
         }
     }
 
+    public void Configure(LocalizationSettings target)
+    {
+        LocalizationSettings.Instance = target;
+        var provider = new LocalLocales();
+        foreach (var locale in locales) provider.AddLocale(locale);
+        LocalizationSettings.AvailableLocales = provider;
+        LocalizationSettings.PreloadBehavior = PreloadBehavior.NoPreloading;
+        LocalizationSettings.StringDatabase = new LocalStringDatabase(tables);
+        LocalizationSettings.SelectedLocale = provider.GetLocale(new LocaleIdentifier("en")) ?? provider.Locales[0];
+    }
+
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void Initialize()
     {
         var catalog = Resources.Load<RecoveryLocalizationCatalog>("RecoveryLocalizationCatalog");
         if (!catalog) return;
-        LocalizationSettings.Instance = Instantiate(catalog.settings);
-        var provider = new LocalLocales();
-        foreach (var locale in catalog.locales) provider.AddLocale(locale);
-        LocalizationSettings.AvailableLocales = provider;
-        LocalizationSettings.PreloadBehavior = PreloadBehavior.NoPreloading;
-        LocalizationSettings.StringDatabase = new LocalStringDatabase(catalog.tables);
-        LocalizationSettings.SelectedLocale = provider.GetLocale(new LocaleIdentifier("en")) ?? provider.Locales[0];
-        Debug.Log("RECOVERY_LOCALIZATION_READY locales=" + provider.Locales.Count + " tables=" + catalog.tables.Length);
+        catalog.Configure(catalog.settings);
+        Debug.Log("RECOVERY_LOCALIZATION_READY locales=" + catalog.locales.Length + " tables=" + catalog.tables.Length);
     }
 }

@@ -42,4 +42,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Islands/Mini5.unity
     guid: e852a2b7ef3415247a508b921c16fe3b
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5b828478863b8aa4c8428ef7d53dceea, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 90cb13a308584e242a753949756bc7af, type: 2}

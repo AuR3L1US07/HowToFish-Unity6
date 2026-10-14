@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
   m_Name: Info Labels_ko
   m_EditorClassIdentifier:
   m_LocaleId:
     m_Code: ko
-  m_SharedData: {fileID: 11400000, guid: 466ed49066ba2574cbcebed37ad5db7b, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 940f80e340e60514cabc5d11f76313d1, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:

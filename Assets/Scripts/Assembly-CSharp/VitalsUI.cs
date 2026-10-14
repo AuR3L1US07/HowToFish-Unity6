@@ -70,18 +70,26 @@ public class VitalsUI : MonoBehaviour
 	{
 		_healthColor = _healthImage.color;
 		_fullnessColor = _fullnessImage.color;
-		_healthMat = new Material(_healthImage.material);
+		_healthMat = CreateVitalMaterial(_healthImage);
 		_healthImage.material = _healthMat;
-		_fullnessMat = new Material(_fullnessImage.material);
+		_fullnessMat = CreateVitalMaterial(_fullnessImage);
 		_fullnessImage.material = _fullnessMat;
-		_poisonMat = new Material(_poisonImage.material);
+		_poisonMat = CreateVitalMaterial(_poisonImage);
 		_poisonImage.material = _poisonMat;
 		_poisonMat.SetFloat(RotMultID, 1f);
 		_poisonGroup.alpha = 0f;
-		_fireMat = new Material(_fireImage.material);
+		_fireMat = CreateVitalMaterial(_fireImage);
 		_fireImage.material = _fireMat;
 		_fireMat.SetFloat(RotMultID, 1f);
 		_fireGroup.alpha = 0f;
+	}
+
+	private static Material CreateVitalMaterial(Image image)
+	{
+		var material=new Material(image.material);
+		var original=RecoveryOriginalShaders.Get(material.shader.name);
+		if(original) material.shader=original;
+		return material;
 	}
 
 	private void OnDestroy()

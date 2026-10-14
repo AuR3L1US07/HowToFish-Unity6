@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -149288805, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
   m_Name: Fonts_zh-TW
   m_EditorClassIdentifier:
   m_LocaleId:
     m_Code: zh-TW
-  m_SharedData: {fileID: 11400000, guid: 418da556b65b6ce429bbf1468d857748, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 506992a00a01a464887ed9e937314b1a, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:

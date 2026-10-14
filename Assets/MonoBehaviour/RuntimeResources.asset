@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 361006317, guid: 8b25d78d443c80b6b3b8c89d3a3cdab7, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3fd20ed9033b241b5235f00e27c333, type: 3}
   m_Name: RuntimeResources
   m_EditorClassIdentifier:
   m_SDFRayMapCS: {fileID: 7200000, guid: b13ae71a8467a4b4c917ede549317fea, type: 2}

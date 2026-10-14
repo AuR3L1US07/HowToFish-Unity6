@@ -1,0 +1,12 @@
+{
+  "name": "FishNet.Runtime",
+  "references": [
+    "FishNet.CodeAnalysis",
+    "GameKit.Dependencies",
+    "Unity.Mathematics"
+  ],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

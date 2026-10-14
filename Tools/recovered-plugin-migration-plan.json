@@ -1,0 +1,594 @@
+{
+  "project": "E:\\分析howtofish\\HowToFish-Unity6",
+  "assemblies": [
+    {
+      "name": "FishNet.CodeAnalysis",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\FishNet.CodeAnalysis",
+      "sourceCount": 3,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\FishNet.CodeAnalysis.dll",
+      "oldGuid": "83aaffa981de19e17d06e6a0fb225725",
+      "mappedScripts": [],
+      "unmapped": []
+    },
+    {
+      "name": "GameKit.Dependencies",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\GameKit.Dependencies",
+      "sourceCount": 71,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\GameKit.Dependencies.dll",
+      "oldGuid": "2c7dbe087f51370cff944bbda964d321",
+      "mappedScripts": [
+        {
+          "type": "GameKit.Dependencies.Utilities.PointerMonoBehaviour",
+          "guid": "0bf2b4eb24e514de02f6d8c24c342deb",
+          "path": "GameKit.Dependencies.Utilities\\PointerMonoBehaviour.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.ObjectPooling.ObjectPool",
+          "guid": "e171099fbea8755a80454978ee2441f6",
+          "path": "GameKit.Dependencies.Utilities.ObjectPooling\\ObjectPool.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.ObjectPooling.Examples.Projectile",
+          "guid": "db26fa246b270f4f842991e3edb32193",
+          "path": "GameKit.Dependencies.Utilities.ObjectPooling.Examples\\Projectile.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.ObjectPooling.Examples.ProjectileSpawner",
+          "guid": "3b096a098c73fa1103a3b56836bf9773",
+          "path": "GameKit.Dependencies.Utilities.ObjectPooling.Examples\\ProjectileSpawner.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.CanvasGroupFader",
+          "guid": "b0fedbecaa0597ea60f30741d9902299",
+          "path": "GameKit.Dependencies.Utilities.Types\\CanvasGroupFader.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.DDOL",
+          "guid": "9b52fa5bedf9758b22bb7a4f8d6b637a",
+          "path": "GameKit.Dependencies.Utilities.Types\\DDOL.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.RectTransformResizer",
+          "guid": "fd9262f6af0c6580f943c4cbf09f2fac",
+          "path": "GameKit.Dependencies.Utilities.Types\\RectTransformResizer.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.SingletonScriptableObject",
+          "guid": "6631140ca6c185e6941d40dafea1aa6c",
+          "path": "GameKit.Dependencies.Utilities.Types\\SingletonScriptableObject.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.SmoothCameraTarget",
+          "guid": "4001c8f807b8422be70099bd58ba212a",
+          "path": "GameKit.Dependencies.Utilities.Types\\SmoothCameraTarget.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.CanvasContainers.FloatingContainer",
+          "guid": "b59caa40394b7d3942ece9ef2fd57c19",
+          "path": "GameKit.Dependencies.Utilities.Types.CanvasContainers\\FloatingContainer.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.CanvasContainers.FloatingImage",
+          "guid": "52a46ba239e99773061576147deb62b5",
+          "path": "GameKit.Dependencies.Utilities.Types.CanvasContainers\\FloatingImage.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.CanvasContainers.ResizableContainer",
+          "guid": "5d6ceb6aa6ddb532fb396bcee8080b1e",
+          "path": "GameKit.Dependencies.Utilities.Types.CanvasContainers\\ResizableContainer.cs"
+        },
+        {
+          "type": "GameKit.Dependencies.Utilities.Types.OptionMenuButtons.FloatingOptions",
+          "guid": "00d8fd24f6b50e67a2ad30f9e14647c5",
+          "path": "GameKit.Dependencies.Utilities.Types.OptionMenuButtons\\FloatingOptions.cs"
+        }
+      ],
+      "unmapped": []
+    },
+    {
+      "name": "FishNet.Runtime",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\FishNet.Runtime",
+      "sourceCount": 383,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\FishNet.Runtime.dll",
+      "oldGuid": "1f191796bb5acf747b48ef6cf55d4ccf",
+      "mappedScripts": [
+        {
+          "type": "FishNet.Authenticating.Authenticator",
+          "guid": "88c4c4b739d19ddc146978da008234b6",
+          "path": "FishNet.Authenticating\\Authenticator.cs"
+        },
+        {
+          "type": "FishNet.Component.Animating.NetworkAnimator",
+          "guid": "b50a2d777c5d8e48c66df1745e0d2d75",
+          "path": "FishNet.Component.Animating\\NetworkAnimator.cs"
+        },
+        {
+          "type": "FishNet.Component.ColliderRollback.ColliderRollback",
+          "guid": "8055ea486384b57a98d29a11f1dabbcc",
+          "path": "FishNet.Component.ColliderRollback\\ColliderRollback.cs"
+        },
+        {
+          "type": "FishNet.Component.ColliderRollback.RollbackManager",
+          "guid": "ac7fef8f5c585e97f21ae3a95ae0e298",
+          "path": "FishNet.Component.ColliderRollback\\RollbackManager.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.DistanceCondition",
+          "guid": "4e048a303d9d6f14bd0709adf4b1cc00",
+          "path": "FishNet.Component.Observing\\DistanceCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.GridCondition",
+          "guid": "2f0952a8728044efdff7139779144266",
+          "path": "FishNet.Component.Observing\\GridCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.HashGrid",
+          "guid": "bc027b2fbe883b6e393919ba2cb17406",
+          "path": "FishNet.Component.Observing\\HashGrid.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.HostOnlyCondition",
+          "guid": "97f67c570a7e63e4843f8271e2573ff3",
+          "path": "FishNet.Component.Observing\\HostOnlyCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.MatchCondition",
+          "guid": "d317c6d5211e2b7ee376d8668d0b1885",
+          "path": "FishNet.Component.Observing\\MatchCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.OwnerOnlyCondition",
+          "guid": "6f4d1b48d366fcf5b989fc76adb7e3d2",
+          "path": "FishNet.Component.Observing\\OwnerOnlyCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Observing.SceneCondition",
+          "guid": "d246a5abdf98655da253680e1dce3a57",
+          "path": "FishNet.Component.Observing\\SceneCondition.cs"
+        },
+        {
+          "type": "FishNet.Component.Ownership.PredictedOwner",
+          "guid": "1d4135951eb03b89ad75e1d3e19c508e",
+          "path": "FishNet.Component.Ownership\\PredictedOwner.cs"
+        },
+        {
+          "type": "FishNet.Component.Ownership.PredictedSpawn",
+          "guid": "5ab3d38ecb36db1bfa9d598d420bb464",
+          "path": "FishNet.Component.Ownership\\PredictedSpawn.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkCollider",
+          "guid": "6c8341f891c5a662ce88957df493b3b4",
+          "path": "FishNet.Component.Prediction\\NetworkCollider.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkCollider2D",
+          "guid": "beeacc1297708fe326c55036933e15a2",
+          "path": "FishNet.Component.Prediction\\NetworkCollider2D.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkColliderBase",
+          "guid": "d4d36cd1dab596c83fc4af297b2917f5",
+          "path": "FishNet.Component.Prediction\\NetworkColliderBase.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkCollision",
+          "guid": "4aeb75d9926ce8ce3cc42a5959a81065",
+          "path": "FishNet.Component.Prediction\\NetworkCollision.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkCollision2D",
+          "guid": "5145a55f74cda813cb6ff622b2784189",
+          "path": "FishNet.Component.Prediction\\NetworkCollision2D.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkTrigger",
+          "guid": "fe09d7f0722e703428801d99a5ce0672",
+          "path": "FishNet.Component.Prediction\\NetworkTrigger.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.NetworkTrigger2D",
+          "guid": "22c71e4cf1f16b9913d0d3faf78c3c8b",
+          "path": "FishNet.Component.Prediction\\NetworkTrigger2D.cs"
+        },
+        {
+          "type": "FishNet.Component.Prediction.OfflineRigidbody",
+          "guid": "570e3e782f54399b39f9b5d197018676",
+          "path": "FishNet.Component.Prediction\\OfflineRigidbody.cs"
+        },
+        {
+          "type": "FishNet.Component.Scenes.DefaultScene",
+          "guid": "6225ec24b648364c08d446559caa9fc8",
+          "path": "FishNet.Component.Scenes\\DefaultScene.cs"
+        },
+        {
+          "type": "FishNet.Component.Spawning.PlayerSpawner",
+          "guid": "fd0fa27423d0db4629bd1e355ec2e44b",
+          "path": "FishNet.Component.Spawning\\PlayerSpawner.cs"
+        },
+        {
+          "type": "FishNet.Component.Spawning.ServerSpawner",
+          "guid": "94059c5a16d005b1232d121be99073b5",
+          "path": "FishNet.Component.Spawning\\ServerSpawner.cs"
+        },
+        {
+          "type": "FishNet.Component.Transforming.DetachableNetworkTickSmoother",
+          "guid": "726e498db0493c839739113291d94767",
+          "path": "FishNet.Component.Transforming\\DetachableNetworkTickSmoother.cs"
+        },
+        {
+          "type": "FishNet.Component.Transforming.MonoTickSmoother",
+          "guid": "e0315633e47256f08a677682524ecaf4",
+          "path": "FishNet.Component.Transforming\\MonoTickSmoother.cs"
+        },
+        {
+          "type": "FishNet.Component.Transforming.NetworkTransform",
+          "guid": "903d83a037d3c01166c1d98eae3f298f",
+          "path": "FishNet.Component.Transforming\\NetworkTransform.cs"
+        },
+        {
+          "type": "FishNet.Component.Transforming.Beta.NetworkTickSmoother",
+          "guid": "127620abb5221b311087e822906f21f0",
+          "path": "FishNet.Component.Transforming.Beta\\NetworkTickSmoother.cs"
+        },
+        {
+          "type": "FishNet.Component.Transforming.Beta.OfflineTickSmoother",
+          "guid": "237b912b25e13101b7d2fe79003b43af",
+          "path": "FishNet.Component.Transforming.Beta\\OfflineTickSmoother.cs"
+        },
+        {
+          "type": "FishNet.Component.Utility.BandwidthDisplay",
+          "guid": "81b03a9e2876c3197c40a6ec5928fb2f",
+          "path": "FishNet.Component.Utility\\BandwidthDisplay.cs"
+        },
+        {
+          "type": "FishNet.Component.Utility.PingDisplay",
+          "guid": "6e96775ebdaf393a212697fe58409ac7",
+          "path": "FishNet.Component.Utility\\PingDisplay.cs"
+        },
+        {
+          "type": "FishNet.Managing.NetworkManager",
+          "guid": "f7e077b06c68d462c7cb7ac02bd22e02",
+          "path": "FishNet.Managing\\NetworkManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Client.ClientManager",
+          "guid": "eda627bbe9c8d236ced327cffccc0451",
+          "path": "FishNet.Managing.Client\\ClientManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Debugging.DebugManager",
+          "guid": "986391e4a7bca1865a7ebf44fe0d9022",
+          "path": "FishNet.Managing.Debugging\\DebugManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Logging.LevelLoggingConfiguration",
+          "guid": "f92c7e33fc04c2535ebdf6054b77908c",
+          "path": "FishNet.Managing.Logging\\LevelLoggingConfiguration.cs"
+        },
+        {
+          "type": "FishNet.Managing.Logging.LoggingConfiguration",
+          "guid": "85c9890dd69e72bb849dfbb6d1d1fe36",
+          "path": "FishNet.Managing.Logging\\LoggingConfiguration.cs"
+        },
+        {
+          "type": "FishNet.Managing.Object.DefaultPrefabObjects",
+          "guid": "e6bf90dd1f5e9dfd100c29b95ba3d37e",
+          "path": "FishNet.Managing.Object\\DefaultPrefabObjects.cs"
+        },
+        {
+          "type": "FishNet.Managing.Object.DualPrefabObjects",
+          "guid": "5e518b22db61f76c4f1671905be48fb0",
+          "path": "FishNet.Managing.Object\\DualPrefabObjects.cs"
+        },
+        {
+          "type": "FishNet.Managing.Object.PrefabObjects",
+          "guid": "05f86265c7b23ded269b2b59e4d3c847",
+          "path": "FishNet.Managing.Object\\PrefabObjects.cs"
+        },
+        {
+          "type": "FishNet.Managing.Object.SinglePrefabObjects",
+          "guid": "97098d1e19782bd62f231e0a2ea9defc",
+          "path": "FishNet.Managing.Object\\SinglePrefabObjects.cs"
+        },
+        {
+          "type": "FishNet.Managing.Observing.ObserverManager",
+          "guid": "d65fc20c478fd302c1da8bbde0f453bd",
+          "path": "FishNet.Managing.Observing\\ObserverManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Predicting.PredictionManager",
+          "guid": "1566a9492efdc4b3db78b3d2073b771b",
+          "path": "FishNet.Managing.Predicting\\PredictionManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Scened.DefaultSceneProcessor",
+          "guid": "ae06a1ea18abd90b407af1004111e650",
+          "path": "FishNet.Managing.Scened\\DefaultSceneProcessor.cs"
+        },
+        {
+          "type": "FishNet.Managing.Scened.SceneManager",
+          "guid": "c97e9a01a4b789f6f50da9afe807a936",
+          "path": "FishNet.Managing.Scened\\SceneManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Scened.SceneProcessorBase",
+          "guid": "4b2c9091938c1463fd37fdb724ba9f9a",
+          "path": "FishNet.Managing.Scened\\SceneProcessorBase.cs"
+        },
+        {
+          "type": "FishNet.Managing.Server.ServerManager",
+          "guid": "68b5968d335ce8b647f7e8a2f9e8ce6e",
+          "path": "FishNet.Managing.Server\\ServerManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Statistic.StatisticsManager",
+          "guid": "f8f592b0ad08e2b2039075799dc232ff",
+          "path": "FishNet.Managing.Statistic\\StatisticsManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Timing.TimeManager",
+          "guid": "ca8288d77b6ebe7868a654f60135c2e4",
+          "path": "FishNet.Managing.Timing\\TimeManager.cs"
+        },
+        {
+          "type": "FishNet.Managing.Transporting.IntermediateLayer",
+          "guid": "49b836674948741a36cbbabe43db55cc",
+          "path": "FishNet.Managing.Transporting\\IntermediateLayer.cs"
+        },
+        {
+          "type": "FishNet.Managing.Transporting.TransportManager",
+          "guid": "3f3db7f8fb4e9365d3a7e6db85afa76d",
+          "path": "FishNet.Managing.Transporting\\TransportManager.cs"
+        },
+        {
+          "type": "FishNet.Object.EmptyNetworkBehaviour",
+          "guid": "f096086fb5da6b1ecde2f61c0660cec5",
+          "path": "FishNet.Object\\EmptyNetworkBehaviour.cs"
+        },
+        {
+          "type": "FishNet.Object.GlobalPreserveOwnedObjects",
+          "guid": "0a187cf3865c2f9258da10c34a87f616",
+          "path": "FishNet.Object\\GlobalPreserveOwnedObjects.cs"
+        },
+        {
+          "type": "FishNet.Object.NetworkBehaviour",
+          "guid": "d96cd67293c695abaa584a2d04f6347c",
+          "path": "FishNet.Object\\NetworkBehaviour.cs"
+        },
+        {
+          "type": "FishNet.Object.NetworkObject",
+          "guid": "db50036957fe4f01b1287258b215063f",
+          "path": "FishNet.Object\\NetworkObject.cs"
+        },
+        {
+          "type": "FishNet.Object.NetworkPreserveOwnedObjects",
+          "guid": "4b87cdd3caa00edd1137f2bbbeac2cfc",
+          "path": "FishNet.Object\\NetworkPreserveOwnedObjects.cs"
+        },
+        {
+          "type": "FishNet.Observing.NetworkObserver",
+          "guid": "96e27971abc5325a845105103bf63af9",
+          "path": "FishNet.Observing\\NetworkObserver.cs"
+        },
+        {
+          "type": "FishNet.Observing.ObserverCondition",
+          "guid": "7cd541a28476418d613bbfde55b7e5ee",
+          "path": "FishNet.Observing\\ObserverCondition.cs"
+        },
+        {
+          "type": "FishNet.Transporting.NetworkReaderLoop",
+          "guid": "3e3b2e3b289cf6e921f51ec3ea7c58f6",
+          "path": "FishNet.Transporting\\NetworkReaderLoop.cs"
+        },
+        {
+          "type": "FishNet.Transporting.NetworkWriterLoop",
+          "guid": "ca303502639b54a4bb121c26521a4e34",
+          "path": "FishNet.Transporting\\NetworkWriterLoop.cs"
+        },
+        {
+          "type": "FishNet.Transporting.Transport",
+          "guid": "cb842b719b91e7c45e138b4b89f822ef",
+          "path": "FishNet.Transporting\\Transport.cs"
+        },
+        {
+          "type": "FishNet.Transporting.Multipass.Multipass",
+          "guid": "f9342d74af1077bd0bb16f9312125611",
+          "path": "FishNet.Transporting.Multipass\\Multipass.cs"
+        },
+        {
+          "type": "FishNet.Transporting.Tugboat.Tugboat",
+          "guid": "abeba72dc0022fae799f5f50b1be8829",
+          "path": "FishNet.Transporting.Tugboat\\Tugboat.cs"
+        },
+        {
+          "type": "FishNet.Transporting.Yak.Yak",
+          "guid": "c955f3ebcc1f0489a9d78a4ba705e36e",
+          "path": "FishNet.Transporting.Yak\\Yak.cs"
+        },
+        {
+          "type": "FishNet.Utility.Performance.DefaultObjectPool",
+          "guid": "d90fecf31926ba5c7190ce2c7a643a4c",
+          "path": "FishNet.Utility.Performance\\DefaultObjectPool.cs"
+        },
+        {
+          "type": "FishNet.Utility.Performance.ObjectPool",
+          "guid": "71fcf22fadbbadd0733d2af7f15223ae",
+          "path": "FishNet.Utility.Performance\\ObjectPool.cs"
+        },
+        {
+          "type": "FishNet.Utility.Template.TickNetworkBehaviour",
+          "guid": "df82a30ebf94f97b9794e9c57855ea98",
+          "path": "FishNet.Utility.Template\\TickNetworkBehaviour.cs"
+        }
+      ],
+      "unmapped": []
+    },
+    {
+      "name": "FishyUnityTransport",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\FishyUnityTransport",
+      "sourceCount": 11,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\FishyUnityTransport.dll",
+      "oldGuid": "d8db7e6e61692c478fb9733936ad93bb",
+      "mappedScripts": [
+        {
+          "type": "FishNet.Transporting.UTP.UnityTransport",
+          "guid": "5c55b595b0d44511f4b9eed704e30b02",
+          "path": "FishNet.Transporting.UTP\\UnityTransport.cs"
+        }
+      ],
+      "unmapped": []
+    },
+    {
+      "name": "Unified.Universal.Blur",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\Unified.Universal.Blur",
+      "sourceCount": 15,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\Unified.Universal.Blur.dll",
+      "oldGuid": "490754a642a66baec2900e84ab6bdd67",
+      "mappedScripts": [
+        {
+          "type": "Unified.UniversalBlur.Runtime.UniversalBlurFeature",
+          "guid": "7495a9e2b094ad938585f04a67e93565",
+          "path": "Unified.UniversalBlur.Runtime\\UniversalBlurFeature.cs"
+        }
+      ],
+      "unmapped": []
+    },
+    {
+      "name": "Concentus",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\Concentus",
+      "sourceCount": 152,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\Concentus.dll",
+      "oldGuid": "7640311bdf6297050b0d0cfaa5fe4bf3",
+      "mappedScripts": [],
+      "unmapped": []
+    },
+    {
+      "name": "Adrenak.RNNoise4Unity.Runtime",
+      "source": "E:\\分析howtofish\\tools\\OfficialPackages\\RecoveredCandidates\\Adrenak.RNNoise4Unity.Runtime",
+      "sourceCount": 3,
+      "originalDll": "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Plugins\\Adrenak.RNNoise4Unity.Runtime.dll",
+      "oldGuid": "ce89801e45e8bcd127afca6067814412",
+      "mappedScripts": [],
+      "unmapped": []
+    }
+  ],
+  "problems": [],
+  "unresolved": [],
+  "editedResources": [
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\MonoBehaviour\\Debug Logging.asset",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\MonoBehaviour\\DefaultPrefabObjects.asset",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\MonoBehaviour\\UniversalBlurFeature.asset",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Angelfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Anglerfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Bass.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\BingBong.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Blobfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Bluegill.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Albatross.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Blue Shark.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Bowhead Whale.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Giant Piranha.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Goblin Shark.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Manta.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Mutated Bowhead Whale.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Pufferfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Spidercrab.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Sunfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\The Old Pike.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\bosses\\Tuna.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Bowlfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\BrownCrab.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Carp.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Catfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Clam.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Clownfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Cod.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Dogfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Dripper.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Eel.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Alaska Pollock.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Amberjack.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Char.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Mahi-Mahi.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Sponge.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Squid.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Starfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\euro\\Tench.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Flying Fish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\FootSnail.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Gar.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Goby.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Goldfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Halibut.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\KoiFish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Leech.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Lobster.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Mackerel.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Needlefish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Oarfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Parrotfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Perch.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Pike.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Piranha.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Red Snapper.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\RockCrab.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Salmon.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Sea Urchin.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Seagull.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Seahorse.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Sengarat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Shrimp.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Stonefish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Superdwarf Fish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Tigerfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Triggerfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Tripod Fish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Voxel Fish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\creatures\\Yellow Boxfish.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\meat\\AlbatrossMeat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\meat\\CrabMeat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\meat\\PiranhaMeat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\meat\\PufferfishMeat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\meat\\WhaleMeat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\other\\Barrel.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\other\\DeadPlayer.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\other\\GroundBait.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\other\\MoneyInABottle.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Assault Rifle.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Badball.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Beer.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Bow.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Brass Knuckles.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\BrassKnucklesPackedBackup.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Crab Fishing Rod.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Disc.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Dynamite.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Fishing Rod.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Knife.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\KnifePackedBackup.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Map.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Pistol.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Radio.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Shotgun.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Smg.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Sniper Rifle.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Snowball1.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Snowball2.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\purchasable\\Snowball3.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\trophies\\Albatross Head.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\trophies\\GiantPiranhaSkeleton.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\trophies\\Pufferfish Fin.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\trophies\\Spidercrab Shell.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\items\\trophies\\Whale Fin.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\networking\\Client.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\networking\\NetworkManager.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\networking\\Server.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\other\\Boat.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\other\\PlayerHolder.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Resources\\other\\PlayerHolderBackup.prefab",
+    "E:\\分析howtofish\\HowToFish-Unity6\\Assets\\Scenes\\Game.unity"
+  ],
+  "editedDefinitions": []
+}

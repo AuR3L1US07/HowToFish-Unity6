@@ -1,0 +1,14 @@
+{
+  "name": "FishyUnityTransport",
+  "references": [
+    "GameKit.Dependencies",
+    "Unity.Collections",
+    "Unity.Burst",
+    "Unity.Networking.Transport",
+    "FishNet.Runtime"
+  ],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

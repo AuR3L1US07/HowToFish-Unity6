@@ -438,7 +438,7 @@ public class Spidercrab : Crab
 
 	protected virtual void Awake_UserLogic_Spidercrab_Assembly_002DCSharp_002Edll()
 	{
-		((Creature)this).Awake();
+		RecoveryInvokeExactCreatureAwake();
 		_inSecondPhase.OnChange += OnSecondPhaseChange;
 		_isStunned.OnChange += OnStunnedChange;
 		PlayerManager.OnPlayerAmountChange += OnPlayerAmountChange;

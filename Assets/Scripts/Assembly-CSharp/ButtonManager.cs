@@ -301,6 +301,7 @@ public class ButtonManager : MonoBehaviour
 
 	private void SetupUI()
 	{
+		if(LocalPlayMode.Enabled) ChangeMultiplayerMode(false);
 		_sensitivitySlider.value = PlayerPrefs.GetFloat("Sensitivity", 1f);
 		_sensitivityInputField.text = _sensitivitySlider.value.ToString("F2", CultureInfo.CurrentCulture);
 		PlayerCamera.SetSensitivity(_sensitivitySlider.value);
