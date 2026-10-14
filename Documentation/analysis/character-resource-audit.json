@@ -1,0 +1,4708 @@
+{
+  "scope": "Static exported Unity YAML audit, no runtime equivalence claim",
+  "seeds": [
+    {
+      "path": "Resources\\other\\PlayerHolder.prefab",
+      "sha256": "7167db35f75b7d3423b7efbead3355ae7d46eb136a8a78a4a1b53b81d2d980cd",
+      "skinned_renderers": [
+        {
+          "fileID": "137614633881320249",
+          "line": 41219,
+          "name": "Hat",
+          "references": {
+            "m_Mesh": {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            "m_RootBone": {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4467979045859712",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4535105210992211",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4501794396217490",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4717183892201011",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4807262945048703",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4899466080393748",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4138770155796879",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966468324997154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4311220100902882",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4379418981374655",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4445483375414556",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4754040417984154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4066277740905745",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4531403864476142",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4327953948702788",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4575229228051179",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4371470690536272",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137338621707748197",
+          "line": 41312,
+          "name": "Accessory",
+          "references": {
+            "m_Mesh": {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            "m_RootBone": {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4467979045859712",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4535105210992211",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4501794396217490",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4717183892201011",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4807262945048703",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4899466080393748",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4138770155796879",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966468324997154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4311220100902882",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4379418981374655",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4445483375414556",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4754040417984154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4066277740905745",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4531403864476142",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4327953948702788",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4575229228051179",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4371470690536272",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137446501002466758",
+          "line": 41405,
+          "name": "Outfit",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "841c41f05adbcc144ac655a79c444f29",
+              "path": "Mesh\\FishingClothes1.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4467979045859712",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4535105210992211",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4501794396217490",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4717183892201011",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4807262945048703",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4899466080393748",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4138770155796879",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966468324997154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4311220100902882",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4379418981374655",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4445483375414556",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4754040417984154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4066277740905745",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4531403864476142",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4327953948702788",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4575229228051179",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4371470690536272",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137018995376739841",
+          "line": 41498,
+          "name": "CharacterHead",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "16e8099a86052e34890f4928cc166ffc",
+              "path": "Mesh\\CharacterHead.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4546646229512125",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4467979045859712",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4535105210992211",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4501794396217490",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4717183892201011",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4807262945048703",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4899466080393748",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4138770155796879",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966468324997154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4311220100902882",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4379418981374655",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4445483375414556",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4754040417984154",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4066277740905745",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4531403864476142",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4327953948702788",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4575229228051179",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4371470690536272",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137845656233039568",
+          "line": 41919,
+          "name": "LeftHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "1f1758b81df6a8a4c99aab7a42090977",
+              "path": "Mesh\\LeftHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4759867790606704",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4759867790606704",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4933626853888410",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4528365366424937",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4907083182378140",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4098409043053056",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4904982833644911",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4125276257439516",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966976447469911",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4906453135521035",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4309252583328135",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4642681635662726",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4762886975984406",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4459478764812769",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4586527601835286",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4899247655390989",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4318451417473684",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137496312270990727",
+          "line": 42378,
+          "name": "RightHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "9cf79c42a3f069e4391e584bebbbf911",
+              "path": "Mesh\\RightHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4719753279318995",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4719753279318995",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4887576668542804",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4867973555736086",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4643592611943884",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4373144227906848",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4069874286018287",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4541884296080772",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4146408951744241",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4162041421361110",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4168595041167201",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4850556806188949",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4905984569091657",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4018029491951338",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4261059567411690",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4614166617577293",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4386449053441999",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        }
+      ],
+      "animators": [],
+      "missing_local_refs": [],
+      "missing_external_refs": [],
+      "invalid_external_fileIDs": [],
+      "reachable_assets": [
+        {
+          "path": "AnimationClip\\Fire.anim",
+          "bytes": 175845,
+          "sha256": "9b5880ed368e8e4fb3637874aadb57ae70ae24b7c3671e6f8ea57b04f63c8953"
+        },
+        {
+          "path": "AnimationClip\\Fire_2.anim",
+          "bytes": 112859,
+          "sha256": "6da1db7a94990e46d0b7aa1e54b0be0bf96d5747e3e5beda878cc79d371f9198"
+        },
+        {
+          "path": "AnimationClip\\FireLast_0.anim",
+          "bytes": 162516,
+          "sha256": "7ce24e51e00ba76f356e5c9267aa90281671bc2b23dd680582f510383b001368"
+        },
+        {
+          "path": "AnimationClip\\FireLast_2.anim",
+          "bytes": 113756,
+          "sha256": "301e9f362a87100c7583881c348b2ba580ec06567349f00dc26b72bf810b5764"
+        },
+        {
+          "path": "AnimationClip\\Idle.anim",
+          "bytes": 106064,
+          "sha256": "d594dbff284385e4b6f7f92c5c7ea77e606913480764ec0a2348ce2d8f972348"
+        },
+        {
+          "path": "AnimationClip\\Idle_3.anim",
+          "bytes": 112320,
+          "sha256": "e6e709954e1a34dceabdcd6b77d3aaaec91b215e39c50c651e95289a414fd974"
+        },
+        {
+          "path": "AnimationClip\\Inspect.anim",
+          "bytes": 129840,
+          "sha256": "da2c7165c363f608e8d8b782c9c7b9d31f4afd68246e4ae85c3014a76fcd0f7b"
+        },
+        {
+          "path": "AnimationClip\\Inspect_3.anim",
+          "bytes": 151618,
+          "sha256": "4800a3f309347e09bac48eba63d35bb34ed99c71ec8758df44450ea81baa8401"
+        },
+        {
+          "path": "AnimationClip\\Reload_1.anim",
+          "bytes": 183483,
+          "sha256": "98259359c8d6a4f23efa388326e6ae0889c1d83a7f982cdd88117db92ee7fd9f"
+        },
+        {
+          "path": "AnimationClip\\Reload_4.anim",
+          "bytes": 199410,
+          "sha256": "cdf71a08336ce2b81bcbbe8186c9ff8f69fe14dd5d786d4b3dc2d3a845f2bd26"
+        },
+        {
+          "path": "AnimationClip\\ReloadLast_1.anim",
+          "bytes": 233443,
+          "sha256": "e18a3dfa91cc90cfb5642c4b59088611a9269efc321b425a8fe09da8ce7133ac"
+        },
+        {
+          "path": "AnimationClip\\ReloadLast_3.anim",
+          "bytes": 244669,
+          "sha256": "043080c7882e5f5b87623a123eff3fcef40c88675b28cb709faa1ac09e5307e5"
+        },
+        {
+          "path": "AudioMixerController\\Main Audio Mixer.mixer",
+          "bytes": 6477,
+          "sha256": "268bb98eceeaad0f86fe90b3b1db74b2a921e59c2d13481dd7012ec5e671a3f0"
+        },
+        {
+          "path": "Cubemap\\Sky.png",
+          "bytes": 46624,
+          "sha256": "dd5da53ac49617d5c29b65fd3e840fe1e8cd62cb5c0e82ce07058e27248df79b"
+        },
+        {
+          "path": "Cubemap\\Water.png",
+          "bytes": 62594,
+          "sha256": "2bf537d8833d174f5852294662dddcba81041442e710c9a07e15617bb69f12f8"
+        },
+        {
+          "path": "Font\\JP_NotoSans.ttf",
+          "bytes": 9135128,
+          "sha256": "04b2ac921347b12c63bc35adda5722dd2b1860d900f668dc5050a44202464fa5"
+        },
+        {
+          "path": "Font\\NotoSansKR.ttf",
+          "bytes": 10400436,
+          "sha256": "84f383e0a0fda713f329013e397fec854f53bea59a448451d7d72f2f707309a2"
+        },
+        {
+          "path": "Font\\NotoSansSC-VariableFont_wght.ttf",
+          "bytes": 17804708,
+          "sha256": "82387b972ce226190d722d731b1ba5b103106f868b5b266be4f6857b212a856d"
+        },
+        {
+          "path": "Font\\NotoSansTC.ttf",
+          "bytes": 11937564,
+          "sha256": "6ce0f80c4d3e5b8ff32174239fc4c7efc1fdc3251b21f45702e206b59ee45ac6"
+        },
+        {
+          "path": "Font\\Underdog-Regular.ttf",
+          "bytes": 75836,
+          "sha256": "4d16f6d98143708fc8af05e96f6fa58fa982e5d7ca89259dc5f355e8117a6944"
+        },
+        {
+          "path": "Material\\Bean.mat",
+          "bytes": 3479,
+          "sha256": "1fb093a8359cdb16241bf667b7c3309bd61135db3954150864bc1e982d388bbc"
+        },
+        {
+          "path": "Material\\Character.mat",
+          "bytes": 1902,
+          "sha256": "35f540dbe6dd4f934c2f21341035cc5b6b5e640e8ee9d37e394282a1e0e74ce4"
+        },
+        {
+          "path": "Material\\Default.mat",
+          "bytes": 7204,
+          "sha256": "0c234aad637cedb9d3b5fe38edbbf130363c8c5c4d187735f7db19ddb23e23ab"
+        },
+        {
+          "path": "Material\\DefaultUI.mat",
+          "bytes": 2088,
+          "sha256": "3edda35e0f2cf573cb05157cf4a1b2ff9e5558b7209c0b63a0336cfaa25bb503"
+        },
+        {
+          "path": "Material\\Fire.mat",
+          "bytes": 3388,
+          "sha256": "e487b7f1f627b13a1a458c47062970cc153906d8413f4ad508fcb4122792b935"
+        },
+        {
+          "path": "Material\\FishingLine.mat",
+          "bytes": 5752,
+          "sha256": "859a5a0d3377211c08213ab30b28304505a92c3affece3723705c7d597de49c5"
+        },
+        {
+          "path": "Material\\JP_NotoSans Atlas Material.mat",
+          "bytes": 3027,
+          "sha256": "b0737b4739b0abf12d45b5b7a85aaf9a4759ffdd845bad202e89a4043caaccfd"
+        },
+        {
+          "path": "Material\\JP_NotoSans Atlas Material_0.mat",
+          "bytes": 3027,
+          "sha256": "7e6bb6bb076ff7a341bb05d388adb98cceca37a5f4e2a015082e3165123ce492"
+        },
+        {
+          "path": "Material\\LaserSight.mat",
+          "bytes": 1496,
+          "sha256": "61f6f7c2c34dffd1dd0c2163f9878a35bcaf8f9af191203836b9b1c003916eb8"
+        },
+        {
+          "path": "Material\\Material.001_8.mat",
+          "bytes": 3427,
+          "sha256": "e3d7203a257490c3c296ba94d2e6e0415efc7be77bf4c1f4e04f2d9c11fbb042"
+        },
+        {
+          "path": "Material\\Material.002_11.mat",
+          "bytes": 3396,
+          "sha256": "ae9b65698aff50f5459b48c6cd0e12fd6c0b07b749b530d80c8ad554379eae0b"
+        },
+        {
+          "path": "Material\\Material.002_14.mat",
+          "bytes": 3396,
+          "sha256": "ae9b65698aff50f5459b48c6cd0e12fd6c0b07b749b530d80c8ad554379eae0b"
+        },
+        {
+          "path": "Material\\Material.003_11.mat",
+          "bytes": 3427,
+          "sha256": "ee99adb8a94d1bda0b082482648b78e75daa273a97d70485cd3a8628774714bf"
+        },
+        {
+          "path": "Material\\Material.003_8.mat",
+          "bytes": 3396,
+          "sha256": "9089a346c3f024962c4b1677bd10b374d15968d3d0ae57df6742d8e99281cdf6"
+        },
+        {
+          "path": "Material\\NotoSansKR Atlas Material.mat",
+          "bytes": 3026,
+          "sha256": "16a2f61a0b944451a76a5eac22608a22d66dc68c676440d5a562362e96a4c040"
+        },
+        {
+          "path": "Material\\NotoSansKR Atlas Material_0.mat",
+          "bytes": 3040,
+          "sha256": "d8fbbdd1acc4fdccf8e40df48a9276ad365e8017425c04992b9d1d5bf3945018"
+        },
+        {
+          "path": "Material\\NotoSansSC-VariableFont_wght Atlas Material.mat",
+          "bytes": 3058,
+          "sha256": "b0d03f30dcb46fe20fe36f1a9f157fcf957a3ca39110c6703029dfd620941cf5"
+        },
+        {
+          "path": "Material\\NotoSansSC-VariableFont_wght Atlas Material_0.mat",
+          "bytes": 3058,
+          "sha256": "02627dc398e8033e6a9e89c2fce674e6639d7c2d4a657185977ddf65779bde7b"
+        },
+        {
+          "path": "Material\\NotoSansTC-VariableFont_wght Atlas Material.mat",
+          "bytes": 3058,
+          "sha256": "d528e7be68bd4173372fd75d26b11f6ac0ecc0e7a058370d307c1c1a7721250b"
+        },
+        {
+          "path": "Material\\NotoSansTC-VariableFont_wght Atlas Material_0.mat",
+          "bytes": 3058,
+          "sha256": "4615a3b1257c295c848456cf899c48d642db80d2281feee15d696c1d79278370"
+        },
+        {
+          "path": "Material\\RedDot.mat",
+          "bytes": 1603,
+          "sha256": "01e1150bf2832d78f62e682671d68bb329ce662b7d4c4a10f9139319698d0269"
+        },
+        {
+          "path": "Material\\SniperAim.mat",
+          "bytes": 1616,
+          "sha256": "f7fabf226167572c40e3992683ef6b6605f2478f8b4a840bc7858f0f02195393"
+        },
+        {
+          "path": "Material\\SnowParticles.mat",
+          "bytes": 2193,
+          "sha256": "638a36f8da3a802e25f55b620112f02f9dfbc6002a951f4046355936aa2a5303"
+        },
+        {
+          "path": "Material\\Thinking.mat",
+          "bytes": 2471,
+          "sha256": "05005b333df808d619d1484cd510fa178cb19a45f1a1986605cf62896399601c"
+        },
+        {
+          "path": "Material\\UIBlur.mat",
+          "bytes": 2679,
+          "sha256": "3db6236b6fca231da4c8b521ab1c0e41dc99d1c41364132119d7fb28663a4f2a"
+        },
+        {
+          "path": "Material\\UIMask.mat",
+          "bytes": 2024,
+          "sha256": "82632dc23df1080d1575ccc83d73950bc8e440f549e3643f581b455d591eb097"
+        },
+        {
+          "path": "Material\\UIMasked.mat",
+          "bytes": 2003,
+          "sha256": "40213b447747af74fd111a626a8d59da4bf343b5c38fe9ae2d2ab9c451cf4545"
+        },
+        {
+          "path": "Material\\UIVitals.mat",
+          "bytes": 2550,
+          "sha256": "cf1396d132d3b24ab5e7057c0711b9938923439c3448f4a44f6a1e712881d4df"
+        },
+        {
+          "path": "Material\\Underdog-Regular Atlas Material.mat",
+          "bytes": 3076,
+          "sha256": "163968351eb8c1e327cd70a00bdc2b9bd2f3227b26517111a3f8b0015a645ea4"
+        },
+        {
+          "path": "Material\\Underdog-Regular Atlas Material_0.mat",
+          "bytes": 3046,
+          "sha256": "6409b7f67a7b8741a71c0718df38e296da47a5b805a6f841d87622fe9c545005"
+        },
+        {
+          "path": "Material\\Vignette.mat",
+          "bytes": 2135,
+          "sha256": "b38a72b971278ab44b750b396164b166036b7e564edfa997c6095bb7d8f4502c"
+        },
+        {
+          "path": "Material\\WindyDefault.mat",
+          "bytes": 1749,
+          "sha256": "09af2be1bc0cff40777c2282a1e06f3ec56cbfc5eebb9e755674eda257c9b713"
+        },
+        {
+          "path": "Mesh\\CharacterHead.asset",
+          "bytes": 265732,
+          "sha256": "eabf7f34664bd701b442493c93c55a50c7a679a54ce2103e895ae07f5ab3971c"
+        },
+        {
+          "path": "Mesh\\Cube.001.asset",
+          "bytes": 9932,
+          "sha256": "043437165407bfd8012f9ecf280211bb944e79bec20b7254ab93b5cde64238d7"
+        },
+        {
+          "path": "Mesh\\Cube_3.asset",
+          "bytes": 14625,
+          "sha256": "5a32c5f8cb0b39daabf626fba8db78289588b96d2d059d63554dbe02d178034f"
+        },
+        {
+          "path": "Mesh\\FishingClothes1.asset",
+          "bytes": 445493,
+          "sha256": "088b228261b88096ab4356bad1dea6eae2130a5ae94f993dcea0c0266bb2eb31"
+        },
+        {
+          "path": "Mesh\\Hands.asset",
+          "bytes": 432673,
+          "sha256": "2605e6f237d224bd2992d11a997621949b1467dfe2a60d2ea12830354190ccd7"
+        },
+        {
+          "path": "Mesh\\Hands_4.asset",
+          "bytes": 433049,
+          "sha256": "7503415f2533df19386dd50c321edb825f011259ba1125ad3ef7bafe3f6a2361"
+        },
+        {
+          "path": "Mesh\\Icosphere_3.asset",
+          "bytes": 19693,
+          "sha256": "2c504f3f9d4ccaccf6ecccae2fb83cbf1417c1334f7445c097e4b58bf114245b"
+        },
+        {
+          "path": "Mesh\\LeftHand.asset",
+          "bytes": 217028,
+          "sha256": "4fbe2dca3c87250ad6993bd6c1c8ca45d15e2294fad84fc112bf6f273ad521a9"
+        },
+        {
+          "path": "Mesh\\RightHand.asset",
+          "bytes": 217083,
+          "sha256": "923f228feeae3c4a3a8e2f3f4b7369b806d9c354688c858860cec19dbd3af8cb"
+        },
+        {
+          "path": "Mesh\\SMG.asset",
+          "bytes": 454768,
+          "sha256": "6d97a7ee6613a6bee5da07b0d3b3a40017e4e2f568dbb186f1f839afccf65920"
+        },
+        {
+          "path": "Mesh\\SMGCompensator.asset",
+          "bytes": 57760,
+          "sha256": "35d49ea0633bfa8afea0a0c8e21515e2bbd3b86a5ad1702f8bb27c8fd6aa4d6b"
+        },
+        {
+          "path": "Mesh\\SMGLaser.asset",
+          "bytes": 79445,
+          "sha256": "8eae90adfb5b7fda2b586fa7034d16387c406988158ea111621065c32d563b24"
+        },
+        {
+          "path": "Mesh\\SMGRedDot.asset",
+          "bytes": 76289,
+          "sha256": "188dbe1b2da6bcc73f64c15ea9732e37de033df5410e2deff42cc268756a8c05"
+        },
+        {
+          "path": "Mesh\\SMGScope.asset",
+          "bytes": 221939,
+          "sha256": "8e32db8814f04d4f90b6905a9194f8979196f6bc5de7d2e42af5ceb6ddc20be5"
+        },
+        {
+          "path": "Mesh\\SMGSuppressor.asset",
+          "bytes": 110630,
+          "sha256": "55b9ccbae561b7aaa29fd329cb42f393cd378b53ffdba99108d8291dee5c8bd5"
+        },
+        {
+          "path": "Mesh\\SniperIronSights.asset",
+          "bytes": 97955,
+          "sha256": "7e5c08cabb174149ffb1a9378450da1c0697928fd8af0d80d9eed936c344fcae"
+        },
+        {
+          "path": "Mesh\\SniperLaser.asset",
+          "bytes": 76738,
+          "sha256": "8c9a52eb2f089883a6c8e5c25bc171d4f3245e5b170bdb7c057ce6d279cce64f"
+        },
+        {
+          "path": "Mesh\\SniperRedDot.asset",
+          "bytes": 71955,
+          "sha256": "c3e4630d074dc61e8004748b3c2b34e92018b96678c65d08b272a097ff3b6eff"
+        },
+        {
+          "path": "Mesh\\Sniperrifle.asset",
+          "bytes": 915503,
+          "sha256": "80f1d76d262b76db6f848aa436812f221ffa8e33b34610f66ca2919ea5d19fc0"
+        },
+        {
+          "path": "Mesh\\SniperrifleCompensator.asset",
+          "bytes": 56063,
+          "sha256": "02fc9c0a10823dc435588cb047dc2d0f4ca2bf1b456a0fb7e3cdc3a22b7c8618"
+        },
+        {
+          "path": "Mesh\\SniperrifleDefaultBarrel.asset",
+          "bytes": 35258,
+          "sha256": "f8788dd5f1d1a917ae25b2544584f8009ca3ccc835e1693eb671ae26051098ec"
+        },
+        {
+          "path": "Mesh\\SniperScope.asset",
+          "bytes": 206138,
+          "sha256": "758a009c68ccd0358b2b565271a0ffa40d5ddda13084a650b723f34d5f5912e0"
+        },
+        {
+          "path": "Mesh\\SniperSuppressor.asset",
+          "bytes": 110921,
+          "sha256": "6c710aef53d63a5f36dd2f1cb90bd48327c5a7a6d75b5f97a9a8647823dcb2c1"
+        },
+        {
+          "path": "MonoBehaviour\\Default OnAudioFilterRead VC Config.asset",
+          "bytes": 586,
+          "sha256": "e8a9ff1d8f65d992dd2a862f5833561e0d6577f75acedf26d32679d1cf423cd2"
+        },
+        {
+          "path": "MonoBehaviour\\Gunlmpact.asset",
+          "bytes": 727,
+          "sha256": "238a94548130860384577a3788a9fd181727834aed79ef59b80cbf08edc92bda"
+        },
+        {
+          "path": "MonoBehaviour\\InputActions.asset",
+          "bytes": 18681,
+          "sha256": "3f74a1144d040a83a5ff2e7c47e2a898c128ccd9c09f013a82d7a8cfcc910577"
+        },
+        {
+          "path": "MonoBehaviour\\JP_BD_NotoSans.asset",
+          "bytes": 60433,
+          "sha256": "67dfa4e46689666f43bfa5cc7177597043dd834c6d57760d192649f0798969e8"
+        },
+        {
+          "path": "MonoBehaviour\\JP_NotoSans.asset",
+          "bytes": 4029,
+          "sha256": "6d48a87f12949e5a07984e653ddc4c7abc64a7c957c534e6e8628f35441d371e"
+        },
+        {
+          "path": "MonoBehaviour\\KR_BD_NotoSans.asset",
+          "bytes": 4032,
+          "sha256": "1bfd52d077beb4101a425e122aefec36318a20ea75f06b16e0907e9852d75e40"
+        },
+        {
+          "path": "MonoBehaviour\\KR_NotoSans.asset",
+          "bytes": 11469,
+          "sha256": "74e8ad3e5cd804187a81a5c484c6df32ff4cbae4f823f5a525ec873f587812d4"
+        },
+        {
+          "path": "MonoBehaviour\\Latin_BD_Underdog.asset",
+          "bytes": 916401,
+          "sha256": "3f2551b4b5145b68b74fc5af488c54e1e4c8a130ff6ba39a68aa13ed7810e10d"
+        },
+        {
+          "path": "MonoBehaviour\\Latin_Underdog.asset",
+          "bytes": 785526,
+          "sha256": "20444e44ac9f7c000b20557488d35e7c29b6cbdf7468121faeb11fc51fa92625"
+        },
+        {
+          "path": "MonoBehaviour\\Player_PlayerTab.asset",
+          "bytes": 537,
+          "sha256": "d60f1b58ba283c496da88bd97d49c4ef913c91e1ee19b71a3d1be05409d9e6f6"
+        },
+        {
+          "path": "MonoBehaviour\\SC_BD_NotoSans.asset",
+          "bytes": 157797,
+          "sha256": "22a83524b80e054bc8b2be7b0b21e0b335fa897967f9733fe1924978715a2979"
+        },
+        {
+          "path": "MonoBehaviour\\SC_NotoSans.asset",
+          "bytes": 74187,
+          "sha256": "acc452951ada19fd8dbfee24348bc7927f92ab2cd3dd7d3f7ebe604ecaee9c6a"
+        },
+        {
+          "path": "MonoBehaviour\\Smg Skins.asset",
+          "bytes": 7252,
+          "sha256": "a6bb13d3ab6bda3c3075e1b0faccd44a78bf66d22de93351536a37ba93c3e806"
+        },
+        {
+          "path": "MonoBehaviour\\Sniper Skins.asset",
+          "bytes": 7304,
+          "sha256": "9aadf079f919a0434421c65cb7daa03f414c84f2a32c6c9aa5bc1cea0abb68fd"
+        },
+        {
+          "path": "MonoBehaviour\\TC_BD_NotoSans.asset",
+          "bytes": 4032,
+          "sha256": "8a5eddda13c1ee61981e1f27e2992b602161ed84199139b998e06051affbedd4"
+        },
+        {
+          "path": "MonoBehaviour\\TC_NotoSans.asset",
+          "bytes": 4029,
+          "sha256": "4a7c6a1aba331d6944cdb90fd275f9c33a8922f5b295949398e0512fab0f2ae1"
+        },
+        {
+          "path": "PhysicsMaterial\\PlayerBody.physicMaterial",
+          "bytes": 357,
+          "sha256": "2d4d94226762323e89540239c59e50a3d52ac5502b1fbddf37683beaaa58203a"
+        },
+        {
+          "path": "PhysicsMaterial\\PlayerFeet.physicMaterial",
+          "bytes": 357,
+          "sha256": "93d8b38327756d383d9e0bea18f6a290e39ed5576f97c8c0faecd0db7362410f"
+        },
+        {
+          "path": "Plugins\\FishNet.Runtime.dll",
+          "bytes": 803328,
+          "sha256": "ed015f36733d803e2c2062c2917c676ccbc373a637eee862c9c45992e60aa5a0"
+        },
+        {
+          "path": "Plugins\\Unity.InputSystem.dll",
+          "bytes": 1137152,
+          "sha256": "d2edbbde7302e1be39931cb80e1fc8d5578dbc62ab8409797a94615a9e6d9e12"
+        },
+        {
+          "path": "Plugins\\Unity.Localization.dll",
+          "bytes": 324096,
+          "sha256": "4e24605d1395340056b8c2c3c419be8b10eb8c138773f0cef0068d83224cc993"
+        },
+        {
+          "path": "Plugins\\Unity.RenderPipelines.Universal.Runtime.dll",
+          "bytes": 770560,
+          "sha256": "550c755e489d13a1d5821d642ede66b0361cc63adf03f46b23471996ab7f9b4d"
+        },
+        {
+          "path": "Plugins\\Unity.TextMeshPro.dll",
+          "bytes": 447488,
+          "sha256": "11ac7641bd0dbbe8d04dc50b29f28d9c6647f52d730e2f856381f717ebb9ab05"
+        },
+        {
+          "path": "Plugins\\UnityEngine.UI.dll",
+          "bytes": 276480,
+          "sha256": "0b10c409727401a50a8bbd99a19153923adafbbb69a1b29a0f943633d69c78f3"
+        },
+        {
+          "path": "RenderTexture\\InventoryTexture.renderTexture",
+          "bytes": 862,
+          "sha256": "aaae2d86fcb5f5a94e302f66abbfb6bd619d97db2e60d0beac6417eedd58b293"
+        },
+        {
+          "path": "RenderTexture\\JournalTexture.renderTexture",
+          "bytes": 860,
+          "sha256": "088ee124c0e640197e3957416d900d1b1f292940ae98e36931cba6799f8ea8e1"
+        },
+        {
+          "path": "Resources\\attachments\\Compensator.asset",
+          "bytes": 1017,
+          "sha256": "f80513c4b86b009939fa7cfbc32748b74aa0cd357387cdf1a4e742226950af5b"
+        },
+        {
+          "path": "Resources\\attachments\\Extended Mag.asset",
+          "bytes": 1031,
+          "sha256": "8e9bba3b31cead27de28beb7ef6401e6981ab2087efd9c894b619f873e09648c"
+        },
+        {
+          "path": "Resources\\attachments\\Iron Sight.asset",
+          "bytes": 1026,
+          "sha256": "b3d16bfc61acae66c0fd8d421c01a871c87f3db668bd2ad56fc771e27f4d628b"
+        },
+        {
+          "path": "Resources\\attachments\\Laser Sight.asset",
+          "bytes": 1045,
+          "sha256": "cd34f53f390915c3e166972dc09ea48b08974e90ade9eadc6285d351ebb31a13"
+        },
+        {
+          "path": "Resources\\attachments\\Red Dot Sight.asset",
+          "bytes": 1030,
+          "sha256": "1781a083acda4b2b36537b031077eefe7a1263aff62522eff8f4a7df5e9c72d9"
+        },
+        {
+          "path": "Resources\\attachments\\Sniper Scope.asset",
+          "bytes": 1037,
+          "sha256": "4bbdb6b0d037981f6597f36152ec14ff3865dc500eacbfaebc789903d978da8b"
+        },
+        {
+          "path": "Resources\\attachments\\Suppressor.asset",
+          "bytes": 1018,
+          "sha256": "9a6bdfd69f937588f4417090d388c76da4114aad672b7edf7966f5ec043d04bb"
+        },
+        {
+          "path": "Resources\\audio\\character\\Eating.ogg",
+          "bytes": 959210,
+          "sha256": "d9bb2ae12643b15bea69f2845155c1a1b6a3160287e518b4b58f54a48e8fae77"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\items\\impacts\\gun\\GunItemImpact_V1.ogg",
+          "bytes": 41449,
+          "sha256": "e7be4d6a7ff6d0a90fdc3f168fbff48ef8ff9fcce9a306d1ff507316860c16f2"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\items\\impacts\\gun\\GunItemImpact_V2.ogg",
+          "bytes": 57409,
+          "sha256": "6227f415bd60f4542dd31f5aeed0ad569ff02526a45932be6f5c3cb5bf0bca66"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\items\\impacts\\gun\\GunItemImpact_V3.ogg",
+          "bytes": 43875,
+          "sha256": "cf5b43b31f7d2c4154306f90830543ee9b216e477d612fdf0a101885e7dc6a19"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\player\\drink\\BeerDrink.ogg",
+          "bytes": 47799,
+          "sha256": "90ca03b9b09dfe69365b083fb90809db9f21b1efd15d97054e63f0ce51ab4faa"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\player\\underwater\\UnderwaterLoop.ogg",
+          "bytes": 199370,
+          "sha256": "3fdac7bd235f2bd5ed0ee02d3e81ac4d072983085c2a3aaf2d82c901edfec5dd"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_Bolt_V1.ogg",
+          "bytes": 33110,
+          "sha256": "4f256a10b0b250219cf09fc1e50f74ad59f564d2b4e19b28faddb0bc493fda42"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_Bolt_V2.ogg",
+          "bytes": 32071,
+          "sha256": "96abf68c88dce83f8102d995bf8f16699e8174a9153ee38f333e614f04190430"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_EjectMagazine_V1.ogg",
+          "bytes": 33151,
+          "sha256": "f86dde47e3bbc8fb290a7a1e012e83e6b73df1396d89e5682d4de48267ca19f1"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_EjectMagazine_V2.ogg",
+          "bytes": 32748,
+          "sha256": "21510d05963fb7121456eb98d6c5431c4a5a8454c8b366777a699f53b687b428"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_InsertMagazine_V1.ogg",
+          "bytes": 33945,
+          "sha256": "9e36b22648cc4c92933744e2a4f05b5a457661485f59ca2482857849b1525a20"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\smg\\SMGReload_InsertMagazine_V2.ogg",
+          "bytes": 33472,
+          "sha256": "68b698029fae80d82e3459d3341762daad1ca9a575dd4948f05a860eb8b3313d"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleBoltAction_CloseBolt_V1.ogg",
+          "bytes": 30134,
+          "sha256": "18f8ee578f41f524f8b918b1275b917b51ead1e8c7b32611637d641bf5f68e5d"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleBoltAction_CloseBolt_V2.ogg",
+          "bytes": 19264,
+          "sha256": "e547f9207774b0ee3a38a7c9095aa174a3a321bdc5e65224dbeac8cbf6698bb9"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleBoltAction_OpenBolt_V1.ogg",
+          "bytes": 39888,
+          "sha256": "eb53b682282f28554580823048f5fa8b9bbfbc91a5636f3622ae6454511e1007"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleBoltAction_OpenBolt_V2.ogg",
+          "bytes": 39594,
+          "sha256": "b952ae5b5a7a604b4f139641470507e6471d166d60a47b2df2227a4cc1f9e034"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleEjectMagazine.ogg",
+          "bytes": 40540,
+          "sha256": "3f16729f3a7eb7b59c8d010548930ad84572b05dfdb6f1d2c406135fdc9f7efa"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\warfare\\guns\\sniper\\SniperrifleInsertMagazine.ogg",
+          "bytes": 41982,
+          "sha256": "486da60d07bf83c54de26bed681f3337248fe23cbc7ec373ac521d71322c5efa"
+        },
+        {
+          "path": "Resources\\items\\purchasable\\Smg.prefab",
+          "bytes": 358309,
+          "sha256": "e8fd77ad91f95e0ba20cf31eee46f7a542a9c992364c5b11e703e16b673792a0"
+        },
+        {
+          "path": "Resources\\items\\purchasable\\Sniper Rifle.prefab",
+          "bytes": 374218,
+          "sha256": "63464dd7bd0382584bb9dce294ec6f436bafab02ea9e29d05f0ec43a2f59bfaa"
+        },
+        {
+          "path": "Resources\\other\\CanvasText.prefab",
+          "bytes": 4000,
+          "sha256": "1cebb73eecf1d5149f9f6206b34f43b2e902a2c6ea4e6666e7da5608215f4109"
+        },
+        {
+          "path": "Resources\\other\\HitMarkerUI.prefab",
+          "bytes": 2238,
+          "sha256": "f068ddf851f1ab84a292ac171c4eeebf6eecf62103be9c934849a673da6fd233"
+        },
+        {
+          "path": "Resources\\other\\PlayerHolder.prefab",
+          "bytes": 1238508,
+          "sha256": "7167db35f75b7d3423b7efbead3355ae7d46eb136a8a78a4a1b53b81d2d980cd"
+        },
+        {
+          "path": "Resources\\other\\TutorialBox.prefab",
+          "bytes": 16572,
+          "sha256": "e9dcd649dd972f94b9a970d38f873d7909bf629b7bbd0cfc09295ac9cd911970"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\AttachmentInfo.cs",
+          "bytes": 580,
+          "sha256": "487fa361f72f23e38734d47e6f525ff3e21a9f0b60a006e0af8b4d76810b6a45"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\Attachments.cs",
+          "bytes": 14773,
+          "sha256": "5f0f5e9e43e4138d33dbf29bc29acb52c6e869f62957c3c46a7b55b467aca58a"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\AudioGainFilter.cs",
+          "bytes": 365,
+          "sha256": "2f42238444c7d9aae9dd04807c3f9560ef5c89fd267af8eaa618f3cb5a25feb9"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\AudioInputTypeFilter.cs",
+          "bytes": 636,
+          "sha256": "b249812cf53691294b1ce9214f58a48649f585efd04f7dc98863e3146e780f0f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BaitSlot.cs",
+          "bytes": 1961,
+          "sha256": "22fb4c89edad857bef436970807416bf9575e4fe8a0f1e873de06e99b8a6b556"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BarrelAttachment.cs",
+          "bytes": 2745,
+          "sha256": "08e36791073994163dde8ad3a85915349c3c0beef67d7e5fee4d39f22287b379"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BonusScoreRow.cs",
+          "bytes": 2865,
+          "sha256": "2658d78db3bea4580dc2da10d8f76a784163f2d4131de7ab06ca1eec3682fed2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BossUI.cs",
+          "bytes": 4935,
+          "sha256": "43772db7ca7150ca07746324ab8c05ebad3dbe52c185933c92768f66fd300174"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+          "bytes": 4221,
+          "sha256": "8c38a390416c5531015769b07358a319228a8c425a4228d18c2a3bc5a4a19a19"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\DeathUI.cs",
+          "bytes": 3004,
+          "sha256": "1e7c5ae2adcf60031d22850083668ea2ac0e0b94f1e729bc268ed390b97d08f4"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\DripText.cs",
+          "bytes": 1990,
+          "sha256": "eaf16611ea317058bd87b7360436173417cb6990b4a3da76f735e702b1080cf8"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\FishingUI.cs",
+          "bytes": 4068,
+          "sha256": "4b4431600ca0c39173c85f2454e262ad36eff86bbcc696862b7b79ce29f3befc"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\IK.cs",
+          "bytes": 7176,
+          "sha256": "42433687d9584c94939da622ab4958ddf724d0f7926b2a2e81018a5cdef75130"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ImpactSoundType.cs",
+          "bytes": 785,
+          "sha256": "888c47a98d19ba7941f9d1e191f8c7151edb99ba2532d37eb64ef8c873cf7c54"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\InventorySlot.cs",
+          "bytes": 2436,
+          "sha256": "3abd74ce393df8aa9d77085f4b7c5e770663e3fa2a27ad91ec3bf77f3bda3a14"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\IslandUI.cs",
+          "bytes": 467,
+          "sha256": "ea59a677914e1b39aaceed27a9a585b1f2e97a4ee294b2702e37bd55b76161aa"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ItemExtraRigidbody.cs",
+          "bytes": 4555,
+          "sha256": "c7002112660078732e6a01e25c49678cc4b67b31deae8a0f21a90d822180fc85"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ItemUI.cs",
+          "bytes": 5811,
+          "sha256": "107f13b24cb860e6ba536db0f13de528cdc2954995a70208d6ba006022f46456"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\JournalSlot.cs",
+          "bytes": 2288,
+          "sha256": "276581b4083e95836c9c16ec8c5d6234f11996f9d701c5011a7b1b0a50e2d978"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\LaserSight.cs",
+          "bytes": 1030,
+          "sha256": "148ef6eb7f90adcf1940029c589b816c7dfa232b05cc6e2740fd582c5b3e0132"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Input\\Mic\\VcMicAudioInput.cs",
+          "bytes": 2404,
+          "sha256": "287476433d07b0c1f987302804f7aa7413ab16cb4ff3367e693802e20cbf81a5"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\MetaVc.cs",
+          "bytes": 6318,
+          "sha256": "a91a41f9265084b671623fd27282cf0d6a1bc49539bca74d9e91a2ee0d09952f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\NetProviders\\FishNet\\FishNetNetProvider.cs",
+          "bytes": 7302,
+          "sha256": "d51e0b29c067ddaeb9a02cf51a364811a2529ae56225ae859e422a1ea12e77a9"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Output\\OnAudioFilterReadVcOutput\\OnAudioFilterReadVcConfig.cs",
+          "bytes": 3289,
+          "sha256": "4974f41297292af84dd01ff913817d661e6dd4b8accc9757ecdfc78496bb3bff"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Output\\OnAudioFilterReadVcOutput\\OnAudioFilterReadVcOutput.cs",
+          "bytes": 32644,
+          "sha256": "a8a10c885a94997cdb3b8685adf2e3b68627b7e4fa3c62d567d2827aa5fc7600"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Rnnoise\\RnnoiseVcInputFilter.cs",
+          "bytes": 1546,
+          "sha256": "27e780e47a6d2b86557109fc1ee7702f0dd3ba9f8446d8b8658e0e0c74cb1e03"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MoneyUI.cs",
+          "bytes": 5185,
+          "sha256": "acba4b7bd3c1ee75270a1b1347f85e112548c2dddd558ab3caeae0a488ec5769"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\NpcUI.cs",
+          "bytes": 3304,
+          "sha256": "e4a6d6d7def41c32e9380c97ffb48f0395c11179d1ed7a6959b978c415c2eea2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\OnHitUI.cs",
+          "bytes": 5459,
+          "sha256": "066e80db71335b386ef2a958c484fd969ec2a731efbaafae022a588c99a84445"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\OtherPlayer.cs",
+          "bytes": 9379,
+          "sha256": "b94a1565096ff661ada9f119853ffb8d0956afb45506ea4b754c10e2730f75a2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ParticleAudio.cs",
+          "bytes": 1116,
+          "sha256": "fe88eff28d9f80245bda485cc8d2e7c6d041c8f7c3ff5a9166eec54132d9eacc"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\Player.cs",
+          "bytes": 16537,
+          "sha256": "c740fef7b64aec51bede815a07b6cc1c1954d3b41adfecc83cb7ff7ad7cefb78"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerAimAssist.cs",
+          "bytes": 5573,
+          "sha256": "931d133959a71972a0fe71c61585893f5321ee9718993db26aba392f426b5b19"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerArms.cs",
+          "bytes": 386,
+          "sha256": "f79fdbd5383e7364f0e39402b3f10d75f40858e3a1517d236637269b6264fe34"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerBody.cs",
+          "bytes": 4456,
+          "sha256": "b92f509c79589692218a269a9fd73a518ca2530a452b964ef8a33e8b40cbb2ab"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerCamera.cs",
+          "bytes": 13037,
+          "sha256": "5d935076ce6b30b9e6fea65f54fa69d835e29a9b9be411e2a4bfadba1a452374"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerColDetector.cs",
+          "bytes": 222,
+          "sha256": "3bc9a83a98e04a491b947636b561142953c464d95a2132047416380c3d4a74ab"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerDeathCam.cs",
+          "bytes": 8141,
+          "sha256": "660b4db90a0d029c5314a28883b0f82841a2366ac633e14313804e1f48cbda2f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerDying.cs",
+          "bytes": 6413,
+          "sha256": "0b94b2db9db6841b70836ede3eb54dbaf617eaec734464ba834a2b1adf60cb76"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerEating.cs",
+          "bytes": 6402,
+          "sha256": "9f6272ef06688924f35e453cc7937d2bde1612b7ad9ac4d687a6496a951712f4"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerEffects.cs",
+          "bytes": 3869,
+          "sha256": "6da0ca34b320ecb2f528cb859a8a524498497780fb367292ccc2c212f9a9aca6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerHands.cs",
+          "bytes": 24887,
+          "sha256": "65f4289b7eb3abe9b858d5194d96d25bc6155eba9e34f27f95396b7cee27247a"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+          "bytes": 20158,
+          "sha256": "eec81d58dd487780168b31a2f0028b4b4598000c5a3e363cf4d6cbd3d277f43f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+          "bytes": 24913,
+          "sha256": "d49a794754173ab6ff89e309a2c652cfed2f376577ab8fe172896ebdb0983133"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerKillScore.cs",
+          "bytes": 3372,
+          "sha256": "26036d5dc6d3343baea4a1206f843e8f02a6048ad0846781e7ba7ab1eb65cac6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerLegs.cs",
+          "bytes": 13663,
+          "sha256": "dd58bb4d3a31c9ed059f7ef81b2457f3059d01173aad146f72609faa526c7194"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerMouth.cs",
+          "bytes": 4810,
+          "sha256": "a04546bee2c95d3214ad0f31c9a77d36ebcba3063682168ffe635720ef5ed1e3"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerMovement.cs",
+          "bytes": 20903,
+          "sha256": "9f1070f8484c3ce4e4d13cbd1c9fd06ee32dd9eba456f9eeeb853bf7171a364f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+          "bytes": 15576,
+          "sha256": "2a0c35cb64af87a5d5a0c7c90a2716422953e17dd6e39f76d720ecd86757b4ef"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerScreenShake.cs",
+          "bytes": 2508,
+          "sha256": "e593ed49fd399b1b66a6de3e39ad73c3e7cda3729aab9045b6a23021646cd6d6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerSkills.cs",
+          "bytes": 3698,
+          "sha256": "a66e2768c18602f9f0403ab3393b4a9a86a722e91c123f38aab33a1b89078b1a"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+          "bytes": 7400,
+          "sha256": "fa57ccfcc8edb8d73d6f3b82897c46e7a0669dff3ec3bde072b88315f3261869"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerThinking.cs",
+          "bytes": 2290,
+          "sha256": "8362ae020206208fd53e17304b1e6a9fb0aafc4111c6f52f7b2651bc0a621ea1"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerToolMovement.cs",
+          "bytes": 13357,
+          "sha256": "32d8771c791a5821c2a1d7ddef3b18f1e34bdde6ff32bea3dd4e7d3fe999aca1"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerTutorial.cs",
+          "bytes": 2092,
+          "sha256": "930a10f7d755a86c07cda0a18c4850ea71337318d3c47050131d9b8e1d865566"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerUI.cs",
+          "bytes": 8611,
+          "sha256": "77d3148e463b7de806ce05e4d77e92c27a55f3007db68efee24b81571e603b1c"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerUnderwater.cs",
+          "bytes": 2946,
+          "sha256": "2f3557db6db51bc6a067fcd4bbcd1e1925c4568397e29b3a06b12b4fb207eec2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+          "bytes": 16621,
+          "sha256": "fecbbca99b35754d0d33c9d530349c30d2705763669cd25cbc2b001e7010a6ed"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\RedDotSight.cs",
+          "bytes": 833,
+          "sha256": "5cae9bc5b5002f7de1ef1e05b3994990b02fd5009237e1ef772a3f556bc7c7bb"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+          "bytes": 29624,
+          "sha256": "e06f7f73bdf42d680255e463dbec571f14e0eab1539a49879918836d9240a53b"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\Sight.cs",
+          "bytes": 1158,
+          "sha256": "2c29b85d86365c3ed53fbca33ad61485834720a9c621555cf6cc364027ca6604"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\SkinPreset.cs",
+          "bytes": 1474,
+          "sha256": "1bdc0f8ab6b7adc953747eb2f8789c075f03f7e2f0551bbe0886f8d77e39f313"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ThinkingUI.cs",
+          "bytes": 5429,
+          "sha256": "33a86145ca4ec1de0f0ba703e126c24fae68d459bc3e3e017e4a1426e4b7eaf6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\TutorialBox.cs",
+          "bytes": 3766,
+          "sha256": "9bd130408254bf7a814c860567b1c544e784cb4523b86e05f3ac0d3d5b9cee8e"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\UIButton.cs",
+          "bytes": 2860,
+          "sha256": "9843452846fd03e848438e57dc67ef58f0bd92811b950c7982da182067b1c930"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\VitalsUI.cs",
+          "bytes": 5256,
+          "sha256": "2f1b2ad433ad844a28bd4b72d25dd9101bf47e74a1f5d29bd8952bdcb26956ee"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\VoiceUI.cs",
+          "bytes": 1127,
+          "sha256": "58c07a117361958c3472722252754d9bb84a4c325f51b904f120605a15086fae"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\Weapon.cs",
+          "bytes": 21665,
+          "sha256": "6adedb3b2c382d6824e9283a8485b86ecd6984aa457f4e96e68e5723bdafeb46"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\WeaponUI.cs",
+          "bytes": 5998,
+          "sha256": "501bff9cc936e7836ef4d5684b568bdf33025b33b76496952f38dda0e86b9c4c"
+        },
+        {
+          "path": "Shader\\Shader Graphs_CharacterShader.shader",
+          "bytes": 1893,
+          "sha256": "5926143473e76467cce9698d011a803f473ea9660280caacdde4926458220262"
+        },
+        {
+          "path": "Shader\\Shader Graphs_DefaultShader.shader",
+          "bytes": 2795,
+          "sha256": "cf8db10859db14027dee9e8e42d4b6b8e07a87c7b3f27ee29c008f619c95aeeb"
+        },
+        {
+          "path": "Shader\\Shader Graphs_LaserSight.shader",
+          "bytes": 1511,
+          "sha256": "1a2477eace341bad360e2c86d9a4937af52b70bf2d14413cfac89b534f3fb159"
+        },
+        {
+          "path": "Shader\\Shader Graphs_LineShader.shader",
+          "bytes": 1257,
+          "sha256": "ad1a241d37525093676faa35615728a0929576f2be22c3a976f0a77c3408dbe0"
+        },
+        {
+          "path": "Shader\\Shader Graphs_RedDot.shader",
+          "bytes": 2272,
+          "sha256": "39c3a6dfef720bd351ffa4d7c3e0f600f198c63e6407d4ea743eea499b1d894c"
+        },
+        {
+          "path": "Shader\\Shader Graphs_SniperAim.shader",
+          "bytes": 2228,
+          "sha256": "f548b5252bea37a3561d899ab10da525c65ef33e08584ed2cb65786b4a48ce6f"
+        },
+        {
+          "path": "Shader\\Shader Graphs_ThinkingShader.shader",
+          "bytes": 2663,
+          "sha256": "a0b91e4d20b9ca068a74c755e9451eb73504c6e7329b05b61e5b037343d6f7cc"
+        },
+        {
+          "path": "Shader\\Shader Graphs_UI.shader",
+          "bytes": 2486,
+          "sha256": "254573e824071e0408060d7aafa9a969f0b05c9ec4daa69c88d634140e6a5b42"
+        },
+        {
+          "path": "Shader\\Shader Graphs_UIBlur.shader",
+          "bytes": 2600,
+          "sha256": "532c3cd94057818fc22c4a13a6e5159d90e88699fb368af32839af79ce9f03f7"
+        },
+        {
+          "path": "Shader\\Shader Graphs_VignetteShader.shader",
+          "bytes": 2355,
+          "sha256": "b7f18ec37f3767b00f5d1145ecc5ac061e5a5753d46b6a691436e3b41441cd24"
+        },
+        {
+          "path": "Shader\\Shader Graphs_WindyDefault.shader",
+          "bytes": 1969,
+          "sha256": "ad19a912b5a06279cbfa3a39a8541ddea2737b934b4bef7b0bf273aaca5d7bd4"
+        },
+        {
+          "path": "Shader\\TextMeshPro_Distance Field.shader",
+          "bytes": 4375,
+          "sha256": "27d1a0d6e7e727e2ec00c74b6cfbea15e7e998ea11c56c7590d7edd5aa8d68c3"
+        },
+        {
+          "path": "Shader\\Universal Render Pipeline_Lit.shader",
+          "bytes": 4007,
+          "sha256": "facb8551220c51bfb697981cb151ea7ca3a235c656bb4ea0d2f37da0aee38a97"
+        },
+        {
+          "path": "Shader\\Universal Render Pipeline_Unlit.shader",
+          "bytes": 2223,
+          "sha256": "3980a103a05d6a40e391d754e91aed58599cfda4a11f1d50da62b535c3482661"
+        },
+        {
+          "path": "Sprite\\Arrow.asset",
+          "bytes": 5368,
+          "sha256": "fb1c17e7c609a04e7447835dce71bdd1dabb018e6717d4df378be7a2f4790a69"
+        },
+        {
+          "path": "Sprite\\Circle.asset",
+          "bytes": 6426,
+          "sha256": "ccf5f37ddc2ffe460d85ad21e1099069ea97dd08808f855051cf0bb2f3ad3587"
+        },
+        {
+          "path": "Sprite\\Fire.asset",
+          "bytes": 14120,
+          "sha256": "71857c114bc17597fdc26b4e6504e060cecd26c7bf39abc7b2df8a4466a6f8ef"
+        },
+        {
+          "path": "Sprite\\Food.asset",
+          "bytes": 5233,
+          "sha256": "f3890f5bbc6c5ea1fef71b1f798d66c240da4708b2ba66ef86fc63c21c8ddb23"
+        },
+        {
+          "path": "Sprite\\Heart.asset",
+          "bytes": 5633,
+          "sha256": "457d45f2bb3cae771ed5bc838e09bc2263e393721b8908fe8de78d940235367d"
+        },
+        {
+          "path": "Sprite\\Hitmarker2.asset",
+          "bytes": 5689,
+          "sha256": "183b0b16775c7f35852945d7b4673e717b60663461ae0ae18a6317e769b7f965"
+        },
+        {
+          "path": "Sprite\\Pixel.asset",
+          "bytes": 3289,
+          "sha256": "9ecd528b4aa3dce4362676a566c914e22e5bd0771b8970fe205024c77af65eed"
+        },
+        {
+          "path": "Sprite\\ScopeMask.asset",
+          "bytes": 74922,
+          "sha256": "94e73e148f6fd2d2becf1aa02e85a88065067ce72b1822843949b250012e77c6"
+        },
+        {
+          "path": "Sprite\\Skull.asset",
+          "bytes": 21691,
+          "sha256": "eb8597964a169f76e4a89dda269c7b858367634a0606aaf10abf84fc73d66fe9"
+        },
+        {
+          "path": "Sprite\\Ui.asset",
+          "bytes": 5009,
+          "sha256": "c4ee9e6a9d207c5b9303137610ecad5aac75a3ee478290b7a878e7d7b0feb6a5"
+        },
+        {
+          "path": "Sprite\\Ui_outline.asset",
+          "bytes": 4549,
+          "sha256": "ffbe7e335404b001da6586a2cc9241f3d8c91444d975155f8561d2d662dbaf1b"
+        },
+        {
+          "path": "Sprite\\UICircle.asset",
+          "bytes": 3982,
+          "sha256": "6ee7e7b62c4f18c24a468993fa68947045d3383e353895d49aa13576ab44371f"
+        },
+        {
+          "path": "Sprite\\UICircle_outline.asset",
+          "bytes": 6241,
+          "sha256": "38c959358ca2690b838ffcb8b256589ddffcf1e00d67fb1131c26e8e1a6abed7"
+        },
+        {
+          "path": "Sprite\\Volume.asset",
+          "bytes": 6652,
+          "sha256": "29e1e77f8314dbdd5a7a995e57a60ac2e38c6816efcab884d70012e1d1e0f60a"
+        },
+        {
+          "path": "Texture2D\\Arrow.png",
+          "bytes": 6552,
+          "sha256": "91f949ed059f92e38458268c9277b4a8eff6ef338785f258355d9fe798444893"
+        },
+        {
+          "path": "Texture2D\\BlackWhiteNoise.png",
+          "bytes": 193768,
+          "sha256": "990e8fb53a98bf2556c5afc4182c9f488903fb28d4dce8365f428465ffc09be2"
+        },
+        {
+          "path": "Texture2D\\Circle.png",
+          "bytes": 8692,
+          "sha256": "795be21e4b7d68a9de6de38b43b87672a8180610f680116ae6d063c83f3c6534"
+        },
+        {
+          "path": "Texture2D\\Colors.png",
+          "bytes": 3179,
+          "sha256": "a7a02d71850e03c97f0b7eb1f2804fb7eaa548129cb92bfbd003f88cf2d5606a"
+        },
+        {
+          "path": "Texture2D\\DefaultNormal.png",
+          "bytes": 225733,
+          "sha256": "f661aecda7ff26e8bc777570a8fb3329415f000bc2fdc735846fbd68ecffa3dc"
+        },
+        {
+          "path": "Texture2D\\DustParticle.png",
+          "bytes": 235,
+          "sha256": "97f1cf64cb699c105a284ff7b99c9c21fb595f013a5b51c367bf19063d9381fc"
+        },
+        {
+          "path": "Texture2D\\Fire.png",
+          "bytes": 42253,
+          "sha256": "f3fcad8016cf49a58363cd2705dfbea314c4b9f1f69eeb01d3b5ad499fc2cfb2"
+        },
+        {
+          "path": "Texture2D\\Food.png",
+          "bytes": 6007,
+          "sha256": "3eedffb684866be381dd0f600b09ff08e6e522d520e7cf9a327adb95d98ce0f4"
+        },
+        {
+          "path": "Texture2D\\Heart.png",
+          "bytes": 6766,
+          "sha256": "f32a164d6c1e0c49006265abc109cc659ef124f36a3e85c0b73d94a7c4f7a612"
+        },
+        {
+          "path": "Texture2D\\Hitmarker2.png",
+          "bytes": 4223,
+          "sha256": "113eb17fef9eb851ea5298f776143166bac79ccd724c6ceb77459e7a327e09c8"
+        },
+        {
+          "path": "Texture2D\\JP_NotoSans Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\JP_NotoSans Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansKR Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansKR Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansSC-VariableFont_wght Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansSC-VariableFont_wght Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansTC-VariableFont_wght Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansTC-VariableFont_wght Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Pixel.png",
+          "bytes": 90,
+          "sha256": "c5aa5cc477d0a81ecfacd1656fe8417e0676dd178a02d001c5ec1919455fadfb"
+        },
+        {
+          "path": "Texture2D\\ScopeMask.png",
+          "bytes": 124129,
+          "sha256": "52e5cd4b116838fd0157380f1840eefd33876802e386215bfdb5944b486e4b90"
+        },
+        {
+          "path": "Texture2D\\Skull.png",
+          "bytes": 42408,
+          "sha256": "5567da423264d5892067fb792b9f3314796d88a06abd4b02efc05423d0ca75e9"
+        },
+        {
+          "path": "Texture2D\\Ui.png",
+          "bytes": 8326,
+          "sha256": "1436bfd1d5d3b7028ae7b0ee2169e914afee6e3ad0063fc722757f70080d764a"
+        },
+        {
+          "path": "Texture2D\\Ui_outline.png",
+          "bytes": 8952,
+          "sha256": "81e586f296e8088691f740a38746bafb5d1efc14cd77d36b784a10794d6ee4eb"
+        },
+        {
+          "path": "Texture2D\\UICircle.png",
+          "bytes": 2515,
+          "sha256": "9cbae3cc64e4635250d1c7cb5c0746fdb9a9311c3e25f2a67461084aab464a6d"
+        },
+        {
+          "path": "Texture2D\\UICircle_outline.png",
+          "bytes": 4122,
+          "sha256": "2294aa5161b710a84928a23f8e01388bc36ad477a5a687232723c10ad177f153"
+        },
+        {
+          "path": "Texture2D\\Underdog-Regular Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Underdog-Regular Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Volume.png",
+          "bytes": 8673,
+          "sha256": "8266531bfefabeb4f210df1be6ded77040ea3203c944b760374e476371946b1f"
+        }
+      ],
+      "character_materials": [
+        {
+          "renderer": "Hat",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "Accessory",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "Outfit",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "CharacterHead",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "LeftHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "RightHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Resources\\other\\PlayerHolderBackup.prefab",
+      "sha256": "f5a8e560e824d45aa669f8de1947b87297fbb5f919de8bf58d70d33ccd31815c",
+      "skinned_renderers": [
+        {
+          "fileID": "137047721149020765",
+          "line": 26513,
+          "name": "CharacterHead",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "16e8099a86052e34890f4928cc166ffc",
+              "path": "Mesh\\CharacterHead.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4075752575408686",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4075752575408686",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4129761265300667",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4292371788231788",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4147432533205591",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4580809795275013",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4118718119338073",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4288010057895889",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4502220180702768",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4063874084108333",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4580788898791827",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4073286884431169",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4966123490358347",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4400816257586058",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4506113385339371",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4124202975861265",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4611810690272239",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4796249050398803",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4285812177196730",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "84da58ac1fecf8c4cabda0406a013045",
+              "path": "Material\\Material.001_10.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137272845361026958",
+          "line": 26934,
+          "name": "LeftHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "1f1758b81df6a8a4c99aab7a42090977",
+              "path": "Mesh\\LeftHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4011592616995453",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4011592616995453",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4731728474376346",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4748432464727103",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4277411878718634",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4277182090088679",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4547471951492601",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4382536759991509",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4219131114696041",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4789453016421937",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4505129024980056",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4826994549629639",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4888194220121470",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4313446946942033",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4472585690638836",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4557543343976191",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4695280048154070",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137243052150384662",
+          "line": 27393,
+          "name": "RightHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "9cf79c42a3f069e4391e584bebbbf911",
+              "path": "Mesh\\RightHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4516515813281602",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4516515813281602",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4042926872356081",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4092294720781812",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4158804104143280",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4674236167867947",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4711460201648919",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4629246009138188",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4219863644564498",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4992608618403265",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4651253047634019",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4616023844215159",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4416721661847891",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4024845791033374",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4466628476471728",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4727026142793270",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4938176834909226",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        }
+      ],
+      "animators": [],
+      "missing_local_refs": [],
+      "missing_external_refs": [],
+      "invalid_external_fileIDs": [],
+      "reachable_assets": [
+        {
+          "path": "AudioMixerController\\Main Audio Mixer.mixer",
+          "bytes": 6477,
+          "sha256": "268bb98eceeaad0f86fe90b3b1db74b2a921e59c2d13481dd7012ec5e671a3f0"
+        },
+        {
+          "path": "Cubemap\\Sky.png",
+          "bytes": 46624,
+          "sha256": "dd5da53ac49617d5c29b65fd3e840fe1e8cd62cb5c0e82ce07058e27248df79b"
+        },
+        {
+          "path": "Font\\JP_NotoSans.ttf",
+          "bytes": 9135128,
+          "sha256": "04b2ac921347b12c63bc35adda5722dd2b1860d900f668dc5050a44202464fa5"
+        },
+        {
+          "path": "Font\\NotoSansKR.ttf",
+          "bytes": 10400436,
+          "sha256": "84f383e0a0fda713f329013e397fec854f53bea59a448451d7d72f2f707309a2"
+        },
+        {
+          "path": "Font\\NotoSansSC-VariableFont_wght.ttf",
+          "bytes": 17804708,
+          "sha256": "82387b972ce226190d722d731b1ba5b103106f868b5b266be4f6857b212a856d"
+        },
+        {
+          "path": "Font\\NotoSansTC.ttf",
+          "bytes": 11937564,
+          "sha256": "6ce0f80c4d3e5b8ff32174239fc4c7efc1fdc3251b21f45702e206b59ee45ac6"
+        },
+        {
+          "path": "Font\\Underdog-Regular.ttf",
+          "bytes": 75836,
+          "sha256": "4d16f6d98143708fc8af05e96f6fa58fa982e5d7ca89259dc5f355e8117a6944"
+        },
+        {
+          "path": "Material\\Bean.mat",
+          "bytes": 3479,
+          "sha256": "1fb093a8359cdb16241bf667b7c3309bd61135db3954150864bc1e982d388bbc"
+        },
+        {
+          "path": "Material\\Character.mat",
+          "bytes": 1902,
+          "sha256": "35f540dbe6dd4f934c2f21341035cc5b6b5e640e8ee9d37e394282a1e0e74ce4"
+        },
+        {
+          "path": "Material\\Default.mat",
+          "bytes": 7204,
+          "sha256": "0c234aad637cedb9d3b5fe38edbbf130363c8c5c4d187735f7db19ddb23e23ab"
+        },
+        {
+          "path": "Material\\DefaultMoving.mat",
+          "bytes": 6646,
+          "sha256": "06730f3fd12024f23089367ede10fa75e1bb2a476f7ce57e61e0a27e38e6bccc"
+        },
+        {
+          "path": "Material\\DefaultUI.mat",
+          "bytes": 2088,
+          "sha256": "3edda35e0f2cf573cb05157cf4a1b2ff9e5558b7209c0b63a0336cfaa25bb503"
+        },
+        {
+          "path": "Material\\FishingLine.mat",
+          "bytes": 5752,
+          "sha256": "859a5a0d3377211c08213ab30b28304505a92c3affece3723705c7d597de49c5"
+        },
+        {
+          "path": "Material\\JP_NotoSans Atlas Material.mat",
+          "bytes": 3027,
+          "sha256": "b0737b4739b0abf12d45b5b7a85aaf9a4759ffdd845bad202e89a4043caaccfd"
+        },
+        {
+          "path": "Material\\JP_NotoSans Atlas Material_0.mat",
+          "bytes": 3027,
+          "sha256": "7e6bb6bb076ff7a341bb05d388adb98cceca37a5f4e2a015082e3165123ce492"
+        },
+        {
+          "path": "Material\\Material.001_10.mat",
+          "bytes": 3413,
+          "sha256": "71978291ec352dcd388d0b0de87f26ba840c595a49218ce487cf384991773114"
+        },
+        {
+          "path": "Material\\NotoSansKR Atlas Material.mat",
+          "bytes": 3026,
+          "sha256": "16a2f61a0b944451a76a5eac22608a22d66dc68c676440d5a562362e96a4c040"
+        },
+        {
+          "path": "Material\\NotoSansKR Atlas Material_0.mat",
+          "bytes": 3040,
+          "sha256": "d8fbbdd1acc4fdccf8e40df48a9276ad365e8017425c04992b9d1d5bf3945018"
+        },
+        {
+          "path": "Material\\NotoSansSC-VariableFont_wght Atlas Material.mat",
+          "bytes": 3058,
+          "sha256": "b0d03f30dcb46fe20fe36f1a9f157fcf957a3ca39110c6703029dfd620941cf5"
+        },
+        {
+          "path": "Material\\NotoSansSC-VariableFont_wght Atlas Material_0.mat",
+          "bytes": 3058,
+          "sha256": "02627dc398e8033e6a9e89c2fce674e6639d7c2d4a657185977ddf65779bde7b"
+        },
+        {
+          "path": "Material\\NotoSansTC-VariableFont_wght Atlas Material.mat",
+          "bytes": 3058,
+          "sha256": "d528e7be68bd4173372fd75d26b11f6ac0ecc0e7a058370d307c1c1a7721250b"
+        },
+        {
+          "path": "Material\\NotoSansTC-VariableFont_wght Atlas Material_0.mat",
+          "bytes": 3058,
+          "sha256": "4615a3b1257c295c848456cf899c48d642db80d2281feee15d696c1d79278370"
+        },
+        {
+          "path": "Material\\SnowParticles.mat",
+          "bytes": 2193,
+          "sha256": "638a36f8da3a802e25f55b620112f02f9dfbc6002a951f4046355936aa2a5303"
+        },
+        {
+          "path": "Material\\UIBlur.mat",
+          "bytes": 2679,
+          "sha256": "3db6236b6fca231da4c8b521ab1c0e41dc99d1c41364132119d7fb28663a4f2a"
+        },
+        {
+          "path": "Material\\UIMask.mat",
+          "bytes": 2024,
+          "sha256": "82632dc23df1080d1575ccc83d73950bc8e440f549e3643f581b455d591eb097"
+        },
+        {
+          "path": "Material\\UIMasked.mat",
+          "bytes": 2003,
+          "sha256": "40213b447747af74fd111a626a8d59da4bf343b5c38fe9ae2d2ab9c451cf4545"
+        },
+        {
+          "path": "Material\\UIVitals.mat",
+          "bytes": 2550,
+          "sha256": "cf1396d132d3b24ab5e7057c0711b9938923439c3448f4a44f6a1e712881d4df"
+        },
+        {
+          "path": "Material\\Underdog-Regular Atlas Material.mat",
+          "bytes": 3076,
+          "sha256": "163968351eb8c1e327cd70a00bdc2b9bd2f3227b26517111a3f8b0015a645ea4"
+        },
+        {
+          "path": "Material\\Underdog-Regular Atlas Material_0.mat",
+          "bytes": 3046,
+          "sha256": "6409b7f67a7b8741a71c0718df38e296da47a5b805a6f841d87622fe9c545005"
+        },
+        {
+          "path": "Mesh\\CharacterHead.asset",
+          "bytes": 265732,
+          "sha256": "eabf7f34664bd701b442493c93c55a50c7a679a54ce2103e895ae07f5ab3971c"
+        },
+        {
+          "path": "Mesh\\Cube_3.asset",
+          "bytes": 14625,
+          "sha256": "5a32c5f8cb0b39daabf626fba8db78289588b96d2d059d63554dbe02d178034f"
+        },
+        {
+          "path": "Mesh\\Icosphere_3.asset",
+          "bytes": 19693,
+          "sha256": "2c504f3f9d4ccaccf6ecccae2fb83cbf1417c1334f7445c097e4b58bf114245b"
+        },
+        {
+          "path": "Mesh\\LeftHand.asset",
+          "bytes": 217028,
+          "sha256": "4fbe2dca3c87250ad6993bd6c1c8ca45d15e2294fad84fc112bf6f273ad521a9"
+        },
+        {
+          "path": "Mesh\\RightHand.asset",
+          "bytes": 217083,
+          "sha256": "923f228feeae3c4a3a8e2f3f4b7369b806d9c354688c858860cec19dbd3af8cb"
+        },
+        {
+          "path": "MonoBehaviour\\Bloom.asset",
+          "bytes": 1090,
+          "sha256": "d3eb540e3eb3effef1095ef634862157e1d419323031adb89252246eaccda221"
+        },
+        {
+          "path": "MonoBehaviour\\ColorAdjustments_0.asset",
+          "bytes": 733,
+          "sha256": "1bd30b13ae5f1a81d65d0113f966130bcee235b8a713ccd699cd6dba9699b2bb"
+        },
+        {
+          "path": "MonoBehaviour\\InputActions.asset",
+          "bytes": 18681,
+          "sha256": "3f74a1144d040a83a5ff2e7c47e2a898c128ccd9c09f013a82d7a8cfcc910577"
+        },
+        {
+          "path": "MonoBehaviour\\JP_BD_NotoSans.asset",
+          "bytes": 60433,
+          "sha256": "67dfa4e46689666f43bfa5cc7177597043dd834c6d57760d192649f0798969e8"
+        },
+        {
+          "path": "MonoBehaviour\\JP_NotoSans.asset",
+          "bytes": 4029,
+          "sha256": "6d48a87f12949e5a07984e653ddc4c7abc64a7c957c534e6e8628f35441d371e"
+        },
+        {
+          "path": "MonoBehaviour\\KR_BD_NotoSans.asset",
+          "bytes": 4032,
+          "sha256": "1bfd52d077beb4101a425e122aefec36318a20ea75f06b16e0907e9852d75e40"
+        },
+        {
+          "path": "MonoBehaviour\\KR_NotoSans.asset",
+          "bytes": 11469,
+          "sha256": "74e8ad3e5cd804187a81a5c484c6df32ff4cbae4f823f5a525ec873f587812d4"
+        },
+        {
+          "path": "MonoBehaviour\\Latin_BD_Underdog.asset",
+          "bytes": 916401,
+          "sha256": "3f2551b4b5145b68b74fc5af488c54e1e4c8a130ff6ba39a68aa13ed7810e10d"
+        },
+        {
+          "path": "MonoBehaviour\\Latin_Underdog.asset",
+          "bytes": 785526,
+          "sha256": "20444e44ac9f7c000b20557488d35e7c29b6cbdf7468121faeb11fc51fa92625"
+        },
+        {
+          "path": "MonoBehaviour\\LiftGammaGain_0.asset",
+          "bytes": 683,
+          "sha256": "84cc06893834f6ed0d121283741e53360a3193f904a87a4936ccd81973446829"
+        },
+        {
+          "path": "MonoBehaviour\\ProbeVolumesOptions_0.asset",
+          "bytes": 1126,
+          "sha256": "ccd447c39ecf7d5ddeef178143c14263bed7a7aba7f2b0fc57901a0638a95209"
+        },
+        {
+          "path": "MonoBehaviour\\SC_BD_NotoSans.asset",
+          "bytes": 157797,
+          "sha256": "22a83524b80e054bc8b2be7b0b21e0b335fa897967f9733fe1924978715a2979"
+        },
+        {
+          "path": "MonoBehaviour\\SC_NotoSans.asset",
+          "bytes": 74187,
+          "sha256": "acc452951ada19fd8dbfee24348bc7927f92ab2cd3dd7d3f7ebe604ecaee9c6a"
+        },
+        {
+          "path": "MonoBehaviour\\SplitToning.asset",
+          "bytes": 661,
+          "sha256": "008f6a207a70e4ce8b754a0249d89a615f1ee0e05ad00366684a20669e96e87c"
+        },
+        {
+          "path": "MonoBehaviour\\TC_BD_NotoSans.asset",
+          "bytes": 4032,
+          "sha256": "8a5eddda13c1ee61981e1f27e2992b602161ed84199139b998e06051affbedd4"
+        },
+        {
+          "path": "MonoBehaviour\\TC_NotoSans.asset",
+          "bytes": 4029,
+          "sha256": "4a7c6a1aba331d6944cdb90fd275f9c33a8922f5b295949398e0512fab0f2ae1"
+        },
+        {
+          "path": "MonoBehaviour\\Tonemapping.asset",
+          "bytes": 917,
+          "sha256": "6b5df4b82d40fbf3fba58bec004b9aa5a3d97dd9a97506faeac92b1eebc7b3df"
+        },
+        {
+          "path": "MonoBehaviour\\Vignette_0.asset",
+          "bytes": 696,
+          "sha256": "3381c8a098a3eecb7b4d692fd8dce0b48a39fbf71554010f09aac4d62ed49e03"
+        },
+        {
+          "path": "MonoBehaviour\\Volume.asset",
+          "bytes": 913,
+          "sha256": "f053d006b409812124e8d1f945f3aaeeed6b995a32f8dbe057a4f12819308229"
+        },
+        {
+          "path": "PhysicsMaterial\\PlayerBody.physicMaterial",
+          "bytes": 357,
+          "sha256": "2d4d94226762323e89540239c59e50a3d52ac5502b1fbddf37683beaaa58203a"
+        },
+        {
+          "path": "PhysicsMaterial\\PlayerFeet.physicMaterial",
+          "bytes": 357,
+          "sha256": "93d8b38327756d383d9e0bea18f6a290e39ed5576f97c8c0faecd0db7362410f"
+        },
+        {
+          "path": "Plugins\\FishNet.Runtime.dll",
+          "bytes": 803328,
+          "sha256": "ed015f36733d803e2c2062c2917c676ccbc373a637eee862c9c45992e60aa5a0"
+        },
+        {
+          "path": "Plugins\\Unity.InputSystem.dll",
+          "bytes": 1137152,
+          "sha256": "d2edbbde7302e1be39931cb80e1fc8d5578dbc62ab8409797a94615a9e6d9e12"
+        },
+        {
+          "path": "Plugins\\Unity.Localization.dll",
+          "bytes": 324096,
+          "sha256": "4e24605d1395340056b8c2c3c419be8b10eb8c138773f0cef0068d83224cc993"
+        },
+        {
+          "path": "Plugins\\Unity.RenderPipelines.Core.Runtime.dll",
+          "bytes": 1207296,
+          "sha256": "c16131ffdfdbfe1c09dd2f7d753953352056eaf7e65310c5f0513fd9c90d5d0d"
+        },
+        {
+          "path": "Plugins\\Unity.RenderPipelines.Universal.Runtime.dll",
+          "bytes": 770560,
+          "sha256": "550c755e489d13a1d5821d642ede66b0361cc63adf03f46b23471996ab7f9b4d"
+        },
+        {
+          "path": "Plugins\\Unity.TextMeshPro.dll",
+          "bytes": 447488,
+          "sha256": "11ac7641bd0dbbe8d04dc50b29f28d9c6647f52d730e2f856381f717ebb9ab05"
+        },
+        {
+          "path": "Plugins\\UnityEngine.UI.dll",
+          "bytes": 276480,
+          "sha256": "0b10c409727401a50a8bbd99a19153923adafbbb69a1b29a0f943633d69c78f3"
+        },
+        {
+          "path": "RenderTexture\\InventoryTexture.renderTexture",
+          "bytes": 862,
+          "sha256": "aaae2d86fcb5f5a94e302f66abbfb6bd619d97db2e60d0beac6417eedd58b293"
+        },
+        {
+          "path": "Resources\\other\\PlayerHolderBackup.prefab",
+          "bytes": 801308,
+          "sha256": "f5a8e560e824d45aa669f8de1947b87297fbb5f919de8bf58d70d33ccd31815c"
+        },
+        {
+          "path": "Resources\\other\\TutorialBox.prefab",
+          "bytes": 16572,
+          "sha256": "e9dcd649dd972f94b9a970d38f873d7909bf629b7bbd0cfc09295ac9cd911970"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\AudioGainFilter.cs",
+          "bytes": 365,
+          "sha256": "2f42238444c7d9aae9dd04807c3f9560ef5c89fd267af8eaa618f3cb5a25feb9"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\AudioInputTypeFilter.cs",
+          "bytes": 636,
+          "sha256": "b249812cf53691294b1ce9214f58a48649f585efd04f7dc98863e3146e780f0f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BaitSlot.cs",
+          "bytes": 1961,
+          "sha256": "22fb4c89edad857bef436970807416bf9575e4fe8a0f1e873de06e99b8a6b556"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\BonusScoreRow.cs",
+          "bytes": 2865,
+          "sha256": "2658d78db3bea4580dc2da10d8f76a784163f2d4131de7ab06ca1eec3682fed2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\IK.cs",
+          "bytes": 7176,
+          "sha256": "42433687d9584c94939da622ab4958ddf724d0f7926b2a2e81018a5cdef75130"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\InventorySlot.cs",
+          "bytes": 2436,
+          "sha256": "3abd74ce393df8aa9d77085f4b7c5e770663e3fa2a27ad91ec3bf77f3bda3a14"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Input\\Mic\\VcMicAudioInput.cs",
+          "bytes": 2404,
+          "sha256": "287476433d07b0c1f987302804f7aa7413ab16cb4ff3367e693802e20cbf81a5"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\MetaVc.cs",
+          "bytes": 6318,
+          "sha256": "a91a41f9265084b671623fd27282cf0d6a1bc49539bca74d9e91a2ee0d09952f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\NetProviders\\FishNet\\FishNetNetProvider.cs",
+          "bytes": 7302,
+          "sha256": "d51e0b29c067ddaeb9a02cf51a364811a2529ae56225ae859e422a1ea12e77a9"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Output\\AudioSource\\VcAudioSourceOutput.cs",
+          "bytes": 4284,
+          "sha256": "e044fd11f436c01506ba1f6474d4cb435306a0e0751b0b9812d46bf3a966e663"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\MetaVoiceChat\\Rnnoise\\RnnoiseVcInputFilter.cs",
+          "bytes": 1546,
+          "sha256": "27e780e47a6d2b86557109fc1ee7702f0dd3ba9f8446d8b8658e0e0c74cb1e03"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\OtherPlayer.cs",
+          "bytes": 9379,
+          "sha256": "b94a1565096ff661ada9f119853ffb8d0956afb45506ea4b754c10e2730f75a2"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\Player.cs",
+          "bytes": 16537,
+          "sha256": "c740fef7b64aec51bede815a07b6cc1c1954d3b41adfecc83cb7ff7ad7cefb78"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerArms.cs",
+          "bytes": 386,
+          "sha256": "f79fdbd5383e7364f0e39402b3f10d75f40858e3a1517d236637269b6264fe34"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerBody.cs",
+          "bytes": 4456,
+          "sha256": "b92f509c79589692218a269a9fd73a518ca2530a452b964ef8a33e8b40cbb2ab"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerCamera.cs",
+          "bytes": 13037,
+          "sha256": "5d935076ce6b30b9e6fea65f54fa69d835e29a9b9be411e2a4bfadba1a452374"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerHands.cs",
+          "bytes": 24887,
+          "sha256": "65f4289b7eb3abe9b858d5194d96d25bc6155eba9e34f27f95396b7cee27247a"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+          "bytes": 20158,
+          "sha256": "eec81d58dd487780168b31a2f0028b4b4598000c5a3e363cf4d6cbd3d277f43f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+          "bytes": 24913,
+          "sha256": "d49a794754173ab6ff89e309a2c652cfed2f376577ab8fe172896ebdb0983133"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerKillScore.cs",
+          "bytes": 3372,
+          "sha256": "26036d5dc6d3343baea4a1206f843e8f02a6048ad0846781e7ba7ab1eb65cac6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerLegs.cs",
+          "bytes": 13663,
+          "sha256": "dd58bb4d3a31c9ed059f7ef81b2457f3059d01173aad146f72609faa526c7194"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerMouth.cs",
+          "bytes": 4810,
+          "sha256": "a04546bee2c95d3214ad0f31c9a77d36ebcba3063682168ffe635720ef5ed1e3"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerMovement.cs",
+          "bytes": 20903,
+          "sha256": "9f1070f8484c3ce4e4d13cbd1c9fd06ee32dd9eba456f9eeeb853bf7171a364f"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+          "bytes": 15576,
+          "sha256": "2a0c35cb64af87a5d5a0c7c90a2716422953e17dd6e39f76d720ecd86757b4ef"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerScreenShake.cs",
+          "bytes": 2508,
+          "sha256": "e593ed49fd399b1b66a6de3e39ad73c3e7cda3729aab9045b6a23021646cd6d6"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerSkills.cs",
+          "bytes": 3698,
+          "sha256": "a66e2768c18602f9f0403ab3393b4a9a86a722e91c123f38aab33a1b89078b1a"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+          "bytes": 7400,
+          "sha256": "fa57ccfcc8edb8d73d6f3b82897c46e7a0669dff3ec3bde072b88315f3261869"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerToolMovement.cs",
+          "bytes": 13357,
+          "sha256": "32d8771c791a5821c2a1d7ddef3b18f1e34bdde6ff32bea3dd4e7d3fe999aca1"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerTutorial.cs",
+          "bytes": 2092,
+          "sha256": "930a10f7d755a86c07cda0a18c4850ea71337318d3c47050131d9b8e1d865566"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerUI.cs",
+          "bytes": 8611,
+          "sha256": "77d3148e463b7de806ce05e4d77e92c27a55f3007db68efee24b81571e603b1c"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+          "bytes": 16621,
+          "sha256": "fecbbca99b35754d0d33c9d530349c30d2705763669cd25cbc2b001e7010a6ed"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\TutorialBox.cs",
+          "bytes": 3766,
+          "sha256": "9bd130408254bf7a814c860567b1c544e784cb4523b86e05f3ac0d3d5b9cee8e"
+        },
+        {
+          "path": "Shader\\Shader Graphs_CharacterShader.shader",
+          "bytes": 1893,
+          "sha256": "5926143473e76467cce9698d011a803f473ea9660280caacdde4926458220262"
+        },
+        {
+          "path": "Shader\\Shader Graphs_DefaultMoving.shader",
+          "bytes": 2741,
+          "sha256": "c4e1fc44e17a6f6f1b4fa521a08d89d6253a5d612bbf4c44e172dc725a3cca99"
+        },
+        {
+          "path": "Shader\\Shader Graphs_DefaultShader.shader",
+          "bytes": 2795,
+          "sha256": "cf8db10859db14027dee9e8e42d4b6b8e07a87c7b3f27ee29c008f619c95aeeb"
+        },
+        {
+          "path": "Shader\\Shader Graphs_LineShader.shader",
+          "bytes": 1257,
+          "sha256": "ad1a241d37525093676faa35615728a0929576f2be22c3a976f0a77c3408dbe0"
+        },
+        {
+          "path": "Shader\\Shader Graphs_UI.shader",
+          "bytes": 2486,
+          "sha256": "254573e824071e0408060d7aafa9a969f0b05c9ec4daa69c88d634140e6a5b42"
+        },
+        {
+          "path": "Shader\\Shader Graphs_UIBlur.shader",
+          "bytes": 2600,
+          "sha256": "532c3cd94057818fc22c4a13a6e5159d90e88699fb368af32839af79ce9f03f7"
+        },
+        {
+          "path": "Shader\\TextMeshPro_Distance Field.shader",
+          "bytes": 4375,
+          "sha256": "27d1a0d6e7e727e2ec00c74b6cfbea15e7e998ea11c56c7590d7edd5aa8d68c3"
+        },
+        {
+          "path": "Shader\\Universal Render Pipeline_Lit.shader",
+          "bytes": 4007,
+          "sha256": "facb8551220c51bfb697981cb151ea7ca3a235c656bb4ea0d2f37da0aee38a97"
+        },
+        {
+          "path": "Shader\\Universal Render Pipeline_Unlit.shader",
+          "bytes": 2223,
+          "sha256": "3980a103a05d6a40e391d754e91aed58599cfda4a11f1d50da62b535c3482661"
+        },
+        {
+          "path": "Sprite\\Circle.asset",
+          "bytes": 6426,
+          "sha256": "ccf5f37ddc2ffe460d85ad21e1099069ea97dd08808f855051cf0bb2f3ad3587"
+        },
+        {
+          "path": "Sprite\\Food.asset",
+          "bytes": 5233,
+          "sha256": "f3890f5bbc6c5ea1fef71b1f798d66c240da4708b2ba66ef86fc63c21c8ddb23"
+        },
+        {
+          "path": "Sprite\\Heart.asset",
+          "bytes": 5633,
+          "sha256": "457d45f2bb3cae771ed5bc838e09bc2263e393721b8908fe8de78d940235367d"
+        },
+        {
+          "path": "Sprite\\Pixel.asset",
+          "bytes": 3289,
+          "sha256": "9ecd528b4aa3dce4362676a566c914e22e5bd0771b8970fe205024c77af65eed"
+        },
+        {
+          "path": "Sprite\\ScopeMask.asset",
+          "bytes": 74922,
+          "sha256": "94e73e148f6fd2d2becf1aa02e85a88065067ce72b1822843949b250012e77c6"
+        },
+        {
+          "path": "Sprite\\Skull.asset",
+          "bytes": 21691,
+          "sha256": "eb8597964a169f76e4a89dda269c7b858367634a0606aaf10abf84fc73d66fe9"
+        },
+        {
+          "path": "Sprite\\Ui.asset",
+          "bytes": 5009,
+          "sha256": "c4ee9e6a9d207c5b9303137610ecad5aac75a3ee478290b7a878e7d7b0feb6a5"
+        },
+        {
+          "path": "Sprite\\Ui_outline.asset",
+          "bytes": 4549,
+          "sha256": "ffbe7e335404b001da6586a2cc9241f3d8c91444d975155f8561d2d662dbaf1b"
+        },
+        {
+          "path": "Sprite\\UICircle.asset",
+          "bytes": 3982,
+          "sha256": "6ee7e7b62c4f18c24a468993fa68947045d3383e353895d49aa13576ab44371f"
+        },
+        {
+          "path": "Sprite\\UICircle_outline.asset",
+          "bytes": 6241,
+          "sha256": "38c959358ca2690b838ffcb8b256589ddffcf1e00d67fb1131c26e8e1a6abed7"
+        },
+        {
+          "path": "Sprite\\Volume.asset",
+          "bytes": 6652,
+          "sha256": "29e1e77f8314dbdd5a7a995e57a60ac2e38c6816efcab884d70012e1d1e0f60a"
+        },
+        {
+          "path": "Texture2D\\BlackWhiteNoise.png",
+          "bytes": 193768,
+          "sha256": "990e8fb53a98bf2556c5afc4182c9f488903fb28d4dce8365f428465ffc09be2"
+        },
+        {
+          "path": "Texture2D\\Circle.png",
+          "bytes": 8692,
+          "sha256": "795be21e4b7d68a9de6de38b43b87672a8180610f680116ae6d063c83f3c6534"
+        },
+        {
+          "path": "Texture2D\\Colors.png",
+          "bytes": 3179,
+          "sha256": "a7a02d71850e03c97f0b7eb1f2804fb7eaa548129cb92bfbd003f88cf2d5606a"
+        },
+        {
+          "path": "Texture2D\\DefaultNormal.png",
+          "bytes": 225733,
+          "sha256": "f661aecda7ff26e8bc777570a8fb3329415f000bc2fdc735846fbd68ecffa3dc"
+        },
+        {
+          "path": "Texture2D\\DustParticle.png",
+          "bytes": 235,
+          "sha256": "97f1cf64cb699c105a284ff7b99c9c21fb595f013a5b51c367bf19063d9381fc"
+        },
+        {
+          "path": "Texture2D\\Food.png",
+          "bytes": 6007,
+          "sha256": "3eedffb684866be381dd0f600b09ff08e6e522d520e7cf9a327adb95d98ce0f4"
+        },
+        {
+          "path": "Texture2D\\Heart.png",
+          "bytes": 6766,
+          "sha256": "f32a164d6c1e0c49006265abc109cc659ef124f36a3e85c0b73d94a7c4f7a612"
+        },
+        {
+          "path": "Texture2D\\JP_NotoSans Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\JP_NotoSans Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansKR Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansKR Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansSC-VariableFont_wght Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansSC-VariableFont_wght Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansTC-VariableFont_wght Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\NotoSansTC-VariableFont_wght Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Pixel.png",
+          "bytes": 90,
+          "sha256": "c5aa5cc477d0a81ecfacd1656fe8417e0676dd178a02d001c5ec1919455fadfb"
+        },
+        {
+          "path": "Texture2D\\ScopeMask.png",
+          "bytes": 124129,
+          "sha256": "52e5cd4b116838fd0157380f1840eefd33876802e386215bfdb5944b486e4b90"
+        },
+        {
+          "path": "Texture2D\\Skull.png",
+          "bytes": 42408,
+          "sha256": "5567da423264d5892067fb792b9f3314796d88a06abd4b02efc05423d0ca75e9"
+        },
+        {
+          "path": "Texture2D\\Ui.png",
+          "bytes": 8326,
+          "sha256": "1436bfd1d5d3b7028ae7b0ee2169e914afee6e3ad0063fc722757f70080d764a"
+        },
+        {
+          "path": "Texture2D\\Ui_outline.png",
+          "bytes": 8952,
+          "sha256": "81e586f296e8088691f740a38746bafb5d1efc14cd77d36b784a10794d6ee4eb"
+        },
+        {
+          "path": "Texture2D\\UICircle.png",
+          "bytes": 2515,
+          "sha256": "9cbae3cc64e4635250d1c7cb5c0746fdb9a9311c3e25f2a67461084aab464a6d"
+        },
+        {
+          "path": "Texture2D\\UICircle_outline.png",
+          "bytes": 4122,
+          "sha256": "2294aa5161b710a84928a23f8e01388bc36ad477a5a687232723c10ad177f153"
+        },
+        {
+          "path": "Texture2D\\Underdog-Regular Atlas.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Underdog-Regular Atlas_0.png",
+          "bytes": 90,
+          "sha256": "44cf8f7b2968cdbfa7a051b398c9930df4be8d961d79a5520337d67941d9ea3b"
+        },
+        {
+          "path": "Texture2D\\Volume.png",
+          "bytes": 8673,
+          "sha256": "8266531bfefabeb4f210df1be6ded77040ea3203c944b760374e476371946b1f"
+        }
+      ],
+      "character_materials": [
+        {
+          "renderer": "CharacterHead",
+          "material": {
+            "fileID": "2100000",
+            "guid": "84da58ac1fecf8c4cabda0406a013045",
+            "path": "Material\\Material.001_10.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "7b9dc796822bd6540828c0e99f1eee6a",
+            "path": "Shader\\Universal Render Pipeline_Lit.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "LeftHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "RightHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Resources\\items\\other\\DeadPlayer.prefab",
+      "sha256": "0703f7c8df9d5dc2208024167d4996fcd266b783d866aafb7ef6bba1dbd522a4",
+      "skinned_renderers": [
+        {
+          "fileID": "137150646884989824",
+          "line": 2254,
+          "name": "LeftHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "1f1758b81df6a8a4c99aab7a42090977",
+              "path": "Mesh\\LeftHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4167524263268962",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4167524263268962",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4295428814336086",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4450391854282655",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4386943702330414",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4007513189690300",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4690175861776792",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4969505138979683",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4611579644537198",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4328299215684997",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4633296557590524",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4641631609468814",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4533803739292891",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4601984538237284",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4240571728440943",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4617365563186364",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4998874197659892",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137649986673806370",
+          "line": 3067,
+          "name": "RightHand",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "9cf79c42a3f069e4391e584bebbbf911",
+              "path": "Mesh\\RightHand.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4038333544927157",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4038333544927157",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4948132087033897",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4320592835458227",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4911997548769506",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4017892387517381",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4709890794832471",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4092105871539913",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4177930474251431",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4294885792020211",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4271925019662038",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4146109142143575",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4168775426067361",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4896002537488308",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4589652054545887",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4220697728379336",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4817325062191328",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137521597976012101",
+          "line": 4775,
+          "name": "Hat",
+          "references": {
+            "m_Mesh": {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            "m_RootBone": {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4901155395665742",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4784622213810434",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4325787665662832",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4016852445014956",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4407886329842316",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4499726237547504",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4704330047573733",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4770005084341472",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4528911807818478",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4771092198208730",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4695600491528212",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4832474124979885",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4416529295595857",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4527248355756736",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4484755779879834",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4696919880513765",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4133854062310043",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137329075794784248",
+          "line": 4868,
+          "name": "Accessory",
+          "references": {
+            "m_Mesh": {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            "m_RootBone": {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4901155395665742",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4784622213810434",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4325787665662832",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4016852445014956",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4407886329842316",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4499726237547504",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4704330047573733",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4770005084341472",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4528911807818478",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4771092198208730",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4695600491528212",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4832474124979885",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4416529295595857",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4527248355756736",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4484755779879834",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4696919880513765",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4133854062310043",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137067212629291419",
+          "line": 4961,
+          "name": "Outfit",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "841c41f05adbcc144ac655a79c444f29",
+              "path": "Mesh\\FishingClothes1.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4901155395665742",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4784622213810434",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4325787665662832",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4016852445014956",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4407886329842316",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4499726237547504",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4704330047573733",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4770005084341472",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4528911807818478",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4771092198208730",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4695600491528212",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4832474124979885",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4416529295595857",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4527248355756736",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4484755779879834",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4696919880513765",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4133854062310043",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        },
+        {
+          "fileID": "137562080017223558",
+          "line": 5054,
+          "name": "CharacterHead",
+          "references": {
+            "m_Mesh": {
+              "fileID": "4300000",
+              "guid": "16e8099a86052e34890f4928cc166ffc",
+              "path": "Mesh\\CharacterHead.asset",
+              "status": "asset exists",
+              "fileID_exists": true
+            },
+            "m_RootBone": {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            }
+          },
+          "m_Bones": [
+            {
+              "fileID": "4699617135816954",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4901155395665742",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4784622213810434",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4325787665662832",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4016852445014956",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4407886329842316",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4499726237547504",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4704330047573733",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4770005084341472",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4528911807818478",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4771092198208730",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4695600491528212",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4832474124979885",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4416529295595857",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4527248355756736",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4484755779879834",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4696919880513765",
+              "guid": null,
+              "status": "local"
+            },
+            {
+              "fileID": "4133854062310043",
+              "guid": null,
+              "status": "local"
+            }
+          ],
+          "m_Materials": [
+            {
+              "fileID": "2100000",
+              "guid": "981f0cb0cf5479241a086e221b599549",
+              "path": "Material\\Character.mat",
+              "status": "asset exists",
+              "fileID_exists": true
+            }
+          ]
+        }
+      ],
+      "animators": [],
+      "missing_local_refs": [],
+      "missing_external_refs": [],
+      "invalid_external_fileIDs": [],
+      "reachable_assets": [
+        {
+          "path": "AnimationClip\\DeadPlayerSlap.anim",
+          "bytes": 36600,
+          "sha256": "220f39da2973c1e29d49b39e5c27f731e3cea6db53bbdca95f992cba988b1d3a"
+        },
+        {
+          "path": "Material\\Bean.mat",
+          "bytes": 3479,
+          "sha256": "1fb093a8359cdb16241bf667b7c3309bd61135db3954150864bc1e982d388bbc"
+        },
+        {
+          "path": "Material\\Character.mat",
+          "bytes": 1902,
+          "sha256": "35f540dbe6dd4f934c2f21341035cc5b6b5e640e8ee9d37e394282a1e0e74ce4"
+        },
+        {
+          "path": "Material\\DefaultMoving.mat",
+          "bytes": 6646,
+          "sha256": "06730f3fd12024f23089367ede10fa75e1bb2a476f7ce57e61e0a27e38e6bccc"
+        },
+        {
+          "path": "Material\\FishingLine.mat",
+          "bytes": 5752,
+          "sha256": "859a5a0d3377211c08213ab30b28304505a92c3affece3723705c7d597de49c5"
+        },
+        {
+          "path": "Mesh\\Character.asset",
+          "bytes": 652567,
+          "sha256": "37b20d3e7faf9cdf40df5b121fd11000b3279234e1295760d7daa6e1270e4d71"
+        },
+        {
+          "path": "Mesh\\CharacterHead.asset",
+          "bytes": 265732,
+          "sha256": "eabf7f34664bd701b442493c93c55a50c7a679a54ce2103e895ae07f5ab3971c"
+        },
+        {
+          "path": "Mesh\\FishingClothes1.asset",
+          "bytes": 445493,
+          "sha256": "088b228261b88096ab4356bad1dea6eae2130a5ae94f993dcea0c0266bb2eb31"
+        },
+        {
+          "path": "Mesh\\Icosphere_3.asset",
+          "bytes": 19693,
+          "sha256": "2c504f3f9d4ccaccf6ecccae2fb83cbf1417c1334f7445c097e4b58bf114245b"
+        },
+        {
+          "path": "Mesh\\LeftHand.asset",
+          "bytes": 217028,
+          "sha256": "4fbe2dca3c87250ad6993bd6c1c8ca45d15e2294fad84fc112bf6f273ad521a9"
+        },
+        {
+          "path": "Mesh\\RightHand.asset",
+          "bytes": 217083,
+          "sha256": "923f228feeae3c4a3a8e2f3f4b7369b806d9c354688c858860cec19dbd3af8cb"
+        },
+        {
+          "path": "MonoBehaviour\\DeadPlayerImpact.asset",
+          "bytes": 737,
+          "sha256": "65da38eff7491f4fef43c9b62acc98898c1127944a4eb35cc46e146a7db81370"
+        },
+        {
+          "path": "Plugins\\FishNet.Runtime.dll",
+          "bytes": 803328,
+          "sha256": "ed015f36733d803e2c2062c2917c676ccbc373a637eee862c9c45992e60aa5a0"
+        },
+        {
+          "path": "Resources\\audio\\items\\impacts\\deadplayer\\DeadPlayerImpactHard.ogg",
+          "bytes": 51270,
+          "sha256": "6a4a9583492b792e986b855984167f4fe2e14dab82dd3d36a81d23b2625c3a44"
+        },
+        {
+          "path": "Resources\\audio\\items\\impacts\\deadplayer\\DeadPlayerImpactMedium.ogg",
+          "bytes": 56478,
+          "sha256": "ff110a8586eb18b03cc07a04be5efcce4a2fe45584f06f8972491972de997354"
+        },
+        {
+          "path": "Resources\\audio\\items\\impacts\\deadplayer\\DeadPlayerImpactSoft.ogg",
+          "bytes": 37507,
+          "sha256": "c53f7032714abd6742f860e7b7adf32740dbbc0f68d1e89f2e305018f4a1f1fb"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\player\\slap\\Slap_01.ogg",
+          "bytes": 11469,
+          "sha256": "0026eb75dd000861d7162a48c1acbf3172da16c2b08e43ab370cedf6491800b4"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\player\\slap\\Slap_02.ogg",
+          "bytes": 12008,
+          "sha256": "e1bbf664daed8371d324fe2b14533e072380aed888e4e55faa75d3202082eaa2"
+        },
+        {
+          "path": "Resources\\audio\\patrik ljud\\player\\slap\\Slap_03.ogg",
+          "bytes": 11301,
+          "sha256": "c404d83eb2fb98826d91fe13a00d824304b3f407128cef1d6c7edf4dde7b5f9d"
+        },
+        {
+          "path": "Resources\\items\\other\\DeadPlayer.prefab",
+          "bytes": 151427,
+          "sha256": "0703f7c8df9d5dc2208024167d4996fcd266b783d866aafb7ef6bba1dbd522a4"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+          "bytes": 15526,
+          "sha256": "1a480cb2d07dc24fba637488ef4084b1858962652c7a2b1d071f6eb85dd756ea"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ImpactSoundType.cs",
+          "bytes": 785,
+          "sha256": "888c47a98d19ba7941f9d1e191f8c7151edb99ba2532d37eb64ef8c873cf7c54"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\ItemExtraRigidbody.cs",
+          "bytes": 4555,
+          "sha256": "c7002112660078732e6a01e25c49678cc4b67b31deae8a0f21a90d822180fc85"
+        },
+        {
+          "path": "Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+          "bytes": 29624,
+          "sha256": "e06f7f73bdf42d680255e463dbec571f14e0eab1539a49879918836d9240a53b"
+        },
+        {
+          "path": "Shader\\Shader Graphs_CharacterShader.shader",
+          "bytes": 1893,
+          "sha256": "5926143473e76467cce9698d011a803f473ea9660280caacdde4926458220262"
+        },
+        {
+          "path": "Shader\\Shader Graphs_DefaultMoving.shader",
+          "bytes": 2741,
+          "sha256": "c4e1fc44e17a6f6f1b4fa521a08d89d6253a5d612bbf4c44e172dc725a3cca99"
+        },
+        {
+          "path": "Shader\\Shader Graphs_LineShader.shader",
+          "bytes": 1257,
+          "sha256": "ad1a241d37525093676faa35615728a0929576f2be22c3a976f0a77c3408dbe0"
+        },
+        {
+          "path": "Shader\\Universal Render Pipeline_Lit.shader",
+          "bytes": 4007,
+          "sha256": "facb8551220c51bfb697981cb151ea7ca3a235c656bb4ea0d2f37da0aee38a97"
+        },
+        {
+          "path": "Texture2D\\BlackWhiteNoise.png",
+          "bytes": 193768,
+          "sha256": "990e8fb53a98bf2556c5afc4182c9f488903fb28d4dce8365f428465ffc09be2"
+        },
+        {
+          "path": "Texture2D\\Colors.png",
+          "bytes": 3179,
+          "sha256": "a7a02d71850e03c97f0b7eb1f2804fb7eaa548129cb92bfbd003f88cf2d5606a"
+        },
+        {
+          "path": "Texture2D\\DefaultNormal.png",
+          "bytes": 225733,
+          "sha256": "f661aecda7ff26e8bc777570a8fb3329415f000bc2fdc735846fbd68ecffa3dc"
+        }
+      ],
+      "character_materials": [
+        {
+          "renderer": "LeftHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "RightHand",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "Hat",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "Accessory",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "Outfit",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        },
+        {
+          "renderer": "CharacterHead",
+          "material": {
+            "fileID": "2100000",
+            "guid": "981f0cb0cf5479241a086e221b599549",
+            "path": "Material\\Character.mat",
+            "status": "asset exists",
+            "fileID_exists": true
+          },
+          "shader": {
+            "fileID": "4800000",
+            "guid": "ec8aa79a33fe5ba42be6741649153b1d",
+            "path": "Shader\\Shader Graphs_CharacterShader.shader",
+            "status": "asset exists"
+          },
+          "shader_stub_markers": [
+            "Dummy",
+            "Fallback"
+          ],
+          "textures": [
+            {
+              "fileID": "2800000",
+              "guid": "8005461dfd7b9cc4baa19e76981e3f0a",
+              "path": "Texture2D\\Colors.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "2800000",
+              "guid": "f35a8108328f8ea46a54bc6443bb868c",
+              "path": "Texture2D\\DefaultNormal.png",
+              "status": "asset exists"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            },
+            {
+              "fileID": "0",
+              "guid": null,
+              "status": "null"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

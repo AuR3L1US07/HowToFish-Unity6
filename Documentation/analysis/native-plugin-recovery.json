@@ -1,0 +1,32 @@
+[
+  {
+    "name": "lib_burst_generated.dll",
+    "sourceSha256": "F95223CA2A74B9F50904E41269D8536783C6B1CAA0ABCD48BA9D75555232960E",
+    "destinationSha256": "F95223CA2A74B9F50904E41269D8536783C6B1CAA0ABCD48BA9D75555232960E",
+    "importerValidation": "requires Unity Editor"
+  },
+  {
+    "name": "libonigwrap.dll",
+    "sourceSha256": "6D539F2AD6E1B58D3C8836B9C3A1D50C97CBD7A6CA0C5DE25D994A7C4B1ECF42",
+    "destinationSha256": "6D539F2AD6E1B58D3C8836B9C3A1D50C97CBD7A6CA0C5DE25D994A7C4B1ECF42",
+    "importerValidation": "requires Unity Editor"
+  },
+  {
+    "name": "meta_voice_chat_neteq.dll",
+    "sourceSha256": "2881159D2359DE92F2EDAC78DF0ADAF19AF57148E2575A1BF31628700C77F54F",
+    "destinationSha256": "2881159D2359DE92F2EDAC78DF0ADAF19AF57148E2575A1BF31628700C77F54F",
+    "importerValidation": "requires Unity Editor"
+  },
+  {
+    "name": "rnnoise.dll",
+    "sourceSha256": "D9D45F82DE54AA10CD3499DB8CAE636A96015E185824DBBF6021D2044360F466",
+    "destinationSha256": "D9D45F82DE54AA10CD3499DB8CAE636A96015E185824DBBF6021D2044360F466",
+    "importerValidation": "requires Unity Editor"
+  },
+  {
+    "name": "steam_api64.dll",
+    "sourceSha256": "670D654AA3255C5061CF0236A1CDBB2F5076CBD5AE44F613B6F4921558E83E2D",
+    "destinationSha256": "670D654AA3255C5061CF0236A1CDBB2F5076CBD5AE44F613B6F4921558E83E2D",
+    "importerValidation": "requires Unity Editor"
+  }
+]

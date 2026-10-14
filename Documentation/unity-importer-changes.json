@@ -1,0 +1,476 @@
+[
+  {
+    "file": "UnityEngine.AdaptivePerformanceModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.HierarchyModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.InsightsModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.PhysicsBackendPhysXModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.RenderAs2DModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.ScriptingModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.UnityConsentModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "UnityEngine.VectorGraphicsModule.dll",
+    "action": "preserved outside Assets; editor supplies engine module"
+  },
+  {
+    "file": "lib_burst_generated.dll",
+    "action": "preserved outside Assets; original player AOT cache not imported into Editor"
+  },
+  {
+    "file": "Assets\\Plugins\\Adrenak.RNNoise4Unity.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ce89801e45e8bcd127afca6067814412",
+    "sha256": "a0ffc3b97878d39a9e7c8bccd414e2e876dfeca92bc85780ceb85edadd1f3a8e"
+  },
+  {
+    "file": "Assets\\Plugins\\com.rlabrecque.steamworks.net.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "36210fec9108ab21ed73dec2ced14ec9",
+    "sha256": "1b2aeadde83917b8df08d8c3d06bcf2c3169f48dca08e2b220a4141587e86b6b"
+  },
+  {
+    "file": "Assets\\Plugins\\Concentus.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "7640311bdf6297050b0d0cfaa5fe4bf3",
+    "sha256": "63210ed1e18513610c78ae07193c7814de7ef2b8ef717618c73ff61ee1a1445d"
+  },
+  {
+    "file": "Assets\\Plugins\\FishNet.CodeAnalysis.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "83aaffa981de19e17d06e6a0fb225725",
+    "sha256": "8677c99df624959d42283a9f7776f38bf1e4d4ebc6b93c37b518f75a5aaab322"
+  },
+  {
+    "file": "Assets\\Plugins\\FishNet.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "1f191796bb5acf747b48ef6cf55d4ccf",
+    "sha256": "ed015f36733d803e2c2062c2917c676ccbc373a637eee862c9c45992e60aa5a0"
+  },
+  {
+    "file": "Assets\\Plugins\\FishyUnityTransport.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "d8db7e6e61692c478fb9733936ad93bb",
+    "sha256": "acaaad93ff8bdf3cd28a071b53d27440b8e0497e006e8103a72de1de14a3675e"
+  },
+  {
+    "file": "Assets\\Plugins\\GameKit.Dependencies.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "2c7dbe087f51370cff944bbda964d321",
+    "sha256": "7b8e9bc52f13fc730805802201717ea173851f9b9aea2ce0a860c974d716cbd2"
+  },
+  {
+    "file": "Assets\\Plugins\\Heathen.Core.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "729149e673c342c18cf753d72c9ddd61",
+    "sha256": "61f32a6ab26a4c73ac90224fd03b82b446bc7846ac1967efd15f30505c43de33"
+  },
+  {
+    "file": "Assets\\Plugins\\Heathen.Steamworks.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "091d896224f6e9a855fbff0c8bcf0706",
+    "sha256": "0cc04b07a70c34f170190cb71c614f77ff95b82828249e37a4d709374efbb7a8"
+  },
+  {
+    "file": "Assets\\Plugins\\Newtonsoft.Json.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "e63744a55a356f07c2753641296e1f92",
+    "sha256": "3834f29263bceee22dee27b038e809cd5810085ec7e3f9795763bdf3988ea2bf"
+  },
+  {
+    "file": "Assets\\Plugins\\System.IO.Hashing.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ccc3e3f2e960cc0416c9a552e1e61949",
+    "sha256": "e5d04934fe45c41d8e8e570d4fe7a6f113c0960649e31a0f636a4f5c5dffba14"
+  },
+  {
+    "file": "Assets\\Plugins\\System.Runtime.CompilerServices.Unsafe.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "8f5abbffcf2903ce2a87297afbb7b1fc",
+    "sha256": "e36fb9f85dfd15c1bd7bc4f264bc9a259c2494446b6da63025ade521c4111511"
+  },
+  {
+    "file": "Assets\\Plugins\\Unified.Universal.Blur.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "490754a642a66baec2900e84ab6bdd67",
+    "sha256": "260bfae0c7c3a532fee6669ce5364168a40a8a97e6ffa0de766e338a6c97d124"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Addressables.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "2f0ac8a74317369c34d2cf8cd7a87ad3",
+    "sha256": "770b2abaec0922442010506df20c4fa578840b1f46744d390db9f7079311a1fa"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.AI.Navigation.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "2fa277733cf6e1533c5b7283121f7261",
+    "sha256": "27f57e99d120805ed0c63dc7a868d568556b860714b85dd1eb962ed9704088b0"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Animation.Rigging.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "7108fe287d6073ca4a1bd68a4ff06c1b",
+    "sha256": "2144077cb6699882d126c6794071aff6525b68cf5d91179587c07ebf6fe28254"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Animation.Rigging.DocCodeExamples.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "e0e24b4eb18afb4d95d4cf78a1d31e6c",
+    "sha256": "337bc248f3911f7c3c938981746caf174378a318ab26c87811f9f3d40821d295"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Burst.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "f9e6ab31de7e28f8ee6d8bccbf68c30b",
+    "sha256": "09a183b8330a9d328bede66cb75e55e3268ce9be010e532260591c45e7d3b05b"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Burst.Unsafe.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "f3e57126236932925e5621371b4cd0c2",
+    "sha256": "bc9888e8b37a134cbe79aca9541e353fc99fde90c025052f1244083392eaaf03"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Collections.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "1e2cd6865d5432b3da74f10a8513ff92",
+    "sha256": "f0c79ce25f9b22596530e8b528e349e2c918b769ad588e6c6188727f1b0dcc3d"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Collections.LowLevel.ILSupport.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "c88e9feb8b93381fbd709693297e0021",
+    "sha256": "613fffb0e3caa24ff591e9592247da7b86a0654a9461425ab3fd7754b24b6657"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.InputSystem.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "a7c8ed169960a6d09f38393641221f85",
+    "sha256": "d2edbbde7302e1be39931cb80e1fc8d5578dbc62ab8409797a94615a9e6d9e12"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.InputSystem.ForUI.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "c445df69fc7778a003d6dd4a335bd0d4",
+    "sha256": "811107115d22535107880e551908e7d81fd2e67a366d89903cc807f9466ce2af"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.InternalAPIEngineBridge.004.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "54cdc67f802ffd618c1f5de42deeae6d",
+    "sha256": "8d47555537ae17e7976dbaba8e6a885cb1a9db8704c707446f75331730f54339"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.InternalAPIEngineBridge.013.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "06685bc42a394f8794ff8d7e34ef9ea9",
+    "sha256": "a60088078e8113e24b70a6daaaa0381bb9a0a46b9fd36916835ddf3cf300e49a"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ef4b5ee9b8e5fe27c3e2377e61df1b18",
+    "sha256": "cc6360757d43133d5620edd1034ee2b291056c5a7c01dabff1c4c9437c5c147f"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Localization.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "76ad3cbe9d98d83f7de53e0a92768023",
+    "sha256": "4e24605d1395340056b8c2c3c419be8b10eb8c138773f0cef0068d83224cc993"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Mathematics.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "602fd9348eb91a11ff8b03dba11afd47",
+    "sha256": "4483e4163913df9e3ff7de4f76bc4531b3945868db157f76c686b3b24e1c5f12"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Multiplayer.Center.Common.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ffda224a71e2dfc599f43b043746e94e",
+    "sha256": "fa191409bb5cf4b2cc2d2dc369d858083b127747ea9a2ca53d0205ca33c10095"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Multiplayer.Playmode.Common.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "18e801c6382052b7a03c958499d7d6be",
+    "sha256": "e2cfb97e7f42f5125d3dfd4483cb2b8a1cb672ab8c848ebfedb7d45844b3d769"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Multiplayer.Playmode.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "e4fa821b07cd9484db8ddbed89ba4633",
+    "sha256": "f1551f39f002bf0e7dbb4dce8d97b373bd9bd193b253b2bdf2a3686e5ab37a13"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Networking.Transport.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "c5251d633e79038b751394398b485800",
+    "sha256": "85f0868cc292fdc767d31991593736765457d53568322d83e4b894f79274020b"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.PathTracing.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "666b45213da3baae9d2d9b4ccc0852b7",
+    "sha256": "25278c198e2c671fd10c252f1d80e5fe75f48604d62640d77d11ee641d8ef5ae"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Profiling.Core.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "31b89ee76929058233c695fd02aa0e08",
+    "sha256": "ba86e74854ffe653ceb5b94a50d23ecde013448411398af95b32ebcc94728e69"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Rendering.LightTransport.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "d76f05b618cf1086335ac835dde6ba07",
+    "sha256": "3e879ec5378cc9af2cb7aa7b2b7af8b14239c35fec830a55ddb9f4be2e50b5d9"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "63b56368cfda4a6094baf9123f30bd22",
+    "sha256": "d3417f03deb9b86d10e7a0144a07626f50393df2aa725b5a248f96dc05bc0582"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Core.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "57c9a3e5193e26c4b968cc86e528416d",
+    "sha256": "c16131ffdfdbfe1c09dd2f7d753953352056eaf7e65310c5f0513fd9c90d5d0d"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "c30d19b0196f9d14d49f7f9ec4cc25a0",
+    "sha256": "2b432e841563949931402576f58f7c9ba4fc2797af4d15db7a4b86aae26de03c"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Core.ShaderLibrary.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "e41a77bf8f26206001242b871055fcd5",
+    "sha256": "c7d8468ed9ee9fac09ed115005c1c254351d08f461f3510a01d8704fa9a0cf66"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ccf74b6c97a7d75659a966dc3e4add10",
+    "sha256": "dcc983275332af0b7faeec2da8ed514160ab1e34babecdd6747cc77362affaca"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "d2363b1531aa08d22a23432cb68423e3",
+    "sha256": "a231b84342be9633b39f0b93a4b5f677d6de94ff13b127586198d56f77142a22"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Universal.2D.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "841024f847a9ee126ccc5cbf660ee0d4",
+    "sha256": "64d9210cc2c9aba56232bc630d4e95e4cdb58844e6149fe837946ae3689fca95"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Universal.Config.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "669453fb8924da93f42bd2040a6b3f2d",
+    "sha256": "9de015e18502784d25d2d4bbee62dd33d225ae49a0a26c0211687c1eac8d44cd"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "c88ab7b37c4f350242674d2efd621c19",
+    "sha256": "550c755e489d13a1d5821d642ede66b0361cc63adf03f46b23471996ab7f9b4d"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.RenderPipelines.Universal.Shaders.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "5fc41f5af4260e5ea4000d44e30d7315",
+    "sha256": "52c2a3176d4623289b3aacb4d947d9660bf573cb66eac1c3fc223b53244e74b4"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.ResourceManager.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "8c4cbb421ce28a8fffaeb3d5ca7d6e29",
+    "sha256": "a76ece09dc81e4a3401fa39a1633d650f2a49b68a52bdb5a4e6e36a5da0457eb"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.ScriptableBuildPipeline.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "76fd6b04a9e3019a3d1a0d296adfd0b7",
+    "sha256": "e042b4814e9ce01e37e3a5202025294f5be16ccd2e4e32e1bd9192cad626ff7f"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Scripting.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "3326c4d3a400746f0cdafe201bbb72c2",
+    "sha256": "e032c4e8546232dda4f05d98c8cc4a44c864e85272391b417c54c21d25621c66"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Analytics.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "8fb540c78efd510a34cec1d1f3da4643",
+    "sha256": "9c9fa4f50a20db66c3122bb9afc2e3a640cb9c547a4b66a527c805b8aa4adb85"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Authentication.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "7b44f839969541ba9ea611f7a6daae4c",
+    "sha256": "a815d84ff323b6ca222dc1cd33a005602d7b437f319c24463818c3b1072484fd"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Authentication.PlayerAccounts.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "6d1bca6b3ff3919009a1a15cd661018e",
+    "sha256": "5dba7b97f30182e7a3d478c961dad94fcd2564930e534f4637c0f9849b115aef"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Analytics.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "2c41de694ec14a10a912503407095d2b",
+    "sha256": "4653b4f4708f1dbb6d8460533bf225d29a9e414bba4e3bd757b8c4d8dff6a204"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Components.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "8c0dfb2771f08a5131de5413322f4cb1",
+    "sha256": "dff032369206abb3cbbb77e790a410c9e251f8864b47b2ad914066df0d6f4477"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Configuration.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "0fda931b190031279bdc1afb693740b8",
+    "sha256": "17fc7eb84703744e84099a2fe9e812344d35e8f6ce1c6432c12e2e2393003882"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Device.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ad0e8a24f8035c808192774fa3132b33",
+    "sha256": "82944d705cfc3a9c798a2b9b8c488b7e4b6c57e8aaed18dda4ddfd2b727a3d88"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "99177e2aae110c930088a702b90f889d",
+    "sha256": "34b864ea966ea4bd98909b0394cc38191b75be724dd75757b59feaf840af14d5"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Environments.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "58c3d451edd0704f75011c4343c7be3a",
+    "sha256": "c264c1fec586cfa48d12d91fc6a47c0eb87ae8ab8e09600305965d8e9cefd104"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Environments.Internal.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "ebcf87f0f33ec9179096aedfc187fdee",
+    "sha256": "aabfaa1d276ed690b32539e369ea2481575f6dd9986ff8087512ab471a8c29ff"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Internal.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "108a5e57b6a683d50c8a5d516ec60e24",
+    "sha256": "73229cd24daf564a221e5e853b642291927a337e8f1a0eebf107835880ddfb73"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Networking.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "42a9b672eb0687fdfcb82614c54194c6",
+    "sha256": "92037d0113b14bccb3afcb445ee95bf9df01c671ddcc83f4050a91ea2d788d1d"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Registration.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "0ba77da5ee06ad251e692077a7dbb29d",
+    "sha256": "7571acdc5319b69f772ca0bf2cdc720ddb1efe62e61a64602b239faa93a73a8a"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Scheduler.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "12a360dc79f5722fdd9b32fb1dc01b52",
+    "sha256": "07e3bc1d5c8736a3291dc5d2962e0030227b440d719384092e65e876f8c44dae"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Telemetry.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "f5fa08243f237fc4441829177bf9cfee",
+    "sha256": "1d121ff839a5d847da910acfd276e5f0645a10199d2f64c610cf7fad7a48ece6"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.Services.Core.Threading.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "54477369125ded002d28f9aa32982ca7",
+    "sha256": "dda1384e3bb6f426e784ca72293df3a37dbd729d79ab68e34bf72ac8d2ca0dea"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.SurfaceCache.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "d5eae62bf83f2b520d914e2f172610f2",
+    "sha256": "53a50822170ff05d34d6f2c23de5d030e74ad187ef4557030914be4c9c6d3c87"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.TextMeshPro.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "67dfb1fdfb2b407222eda8e23ac8b724",
+    "sha256": "11ac7641bd0dbbe8d04dc50b29f28d9c6647f52d730e2f856381f717ebb9ab05"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.UnifiedRayTracing.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "90959809d612ce3fddae0293aba2a291",
+    "sha256": "26c4b5243c1da98d6f246f4df54a20bde4c5c5667d4e5ec2e9d1b63e85b4f063"
+  },
+  {
+    "file": "Assets\\Plugins\\Unity.VisualEffectGraph.Runtime.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "8b25d78d443c80b6b3b8c89d3a3cdab7",
+    "sha256": "2f7e26e418491c19561ea64fed3c38b8c2b0e5445e2057c68fbeaef7ef20db5f"
+  },
+  {
+    "file": "Assets\\Plugins\\UnityEngine.UI.dll",
+    "action": "managed importer enabled for Editor and player",
+    "guid": "d3e719b59ab71ba3f6b398058c866280",
+    "sha256": "0b10c409727401a50a8bbd99a19153923adafbbb69a1b29a0f943633d69c78f3"
+  },
+  {
+    "file": "Assets\\Plugins\\x86_64\\libonigwrap.dll",
+    "action": "Windows x64 Editor and player importer",
+    "guid": "6d539f2ad6e1b58d3c8836b9c3a1d50c",
+    "sha256": "6d539f2ad6e1b58d3c8836b9c3a1d50c97cbd7a6ca0c5de25d994a7c4b1ecf42"
+  },
+  {
+    "file": "Assets\\Plugins\\x86_64\\meta_voice_chat_neteq.dll",
+    "action": "Windows x64 Editor and player importer",
+    "guid": "2881159d2359de92f2edac78df0adaf1",
+    "sha256": "2881159d2359de92f2edac78df0adaf19af57148e2575a1bf31628700c77f54f"
+  },
+  {
+    "file": "Assets\\Plugins\\x86_64\\rnnoise.dll",
+    "action": "Windows x64 Editor and player importer",
+    "guid": "d9d45f82de54aa10cd3499db8cae636a",
+    "sha256": "d9d45f82de54aa10cd3499db8cae636a96015e185824dbbf6021d2044360f466"
+  },
+  {
+    "file": "Assets\\Plugins\\x86_64\\steam_api64.dll",
+    "action": "Windows x64 Editor and player importer",
+    "guid": "670d654aa3255c5061cf0236a1cdbb2f",
+    "sha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d"
+  }
+]

@@ -1,0 +1,2847 @@
+[
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Localization.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\FishNet.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InputSystem.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.TextMeshPro.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\com.rlabrecque.steamworks.net.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\GameKit.Dependencies.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.ResourceManager.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Assembly-CSharp-firstpass.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Concentus.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Adrenak.RNNoise4Unity.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\FishyUnityTransport.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp\\Assembly-CSharp.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Heathen.Steamworks.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\FishNet.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\com.rlabrecque.steamworks.net.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\GameKit.Dependencies.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\com.rlabrecque.steamworks.net\\com.rlabrecque.steamworks.net.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Concentus\\Concentus.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\System.Memory.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Concentus\\Concentus.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\System.Numerics.Vectors.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\GameKit.Dependencies.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\FishNet.CodeAnalysis.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishNet.Runtime\\FishNet.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\FishNet.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Networking.Transport.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\FishyUnityTransport\\FishyUnityTransport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\GameKit.Dependencies.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\GameKit.Dependencies\\GameKit.Dependencies.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Core\\Heathen.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Core\\Heathen.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Core\\Heathen.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Core\\Heathen.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Core\\Heathen.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\com.rlabrecque.steamworks.net.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Heathen.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.TextMeshPro.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Heathen.Steamworks\\Heathen.Steamworks.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InputSystem.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\System\\System.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Mono.Security.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\System.IO.Hashing\\System.IO.Hashing.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\System.Memory.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\System.IO.Hashing\\System.IO.Hashing.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\System.Runtime.CompilerServices.Unsafe.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\System.Net.Http\\System.Net.Http.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Mono.Security.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\System.Runtime.Serialization\\System.Runtime.Serialization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\System.ServiceModel.Internals.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unified.Universal.Blur\\Unified.Universal.Blur.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unified.Universal.Blur\\Unified.Universal.Blur.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unified.Universal.Blur\\Unified.Universal.Blur.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.ResourceManager.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Addressables\\Unity.Addressables.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.AI.Navigation\\Unity.AI.Navigation.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.AI.Navigation\\Unity.AI.Navigation.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.AI.Navigation\\Unity.AI.Navigation.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Animation.Rigging\\Unity.Animation.Rigging.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Animation.Rigging\\Unity.Animation.Rigging.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Animation.Rigging\\Unity.Animation.Rigging.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Animation.Rigging.DocCodeExamples\\Unity.Animation.Rigging.DocCodeExamples.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Animation.Rigging.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Animation.Rigging.DocCodeExamples\\Unity.Animation.Rigging.DocCodeExamples.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Burst\\Unity.Burst.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Burst\\Unity.Burst.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.Unsafe.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Collections\\Unity.Collections.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Collections\\Unity.Collections.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Collections\\Unity.Collections.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Collections\\Unity.Collections.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Collections\\Unity.Collections.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.LowLevel.ILSupport.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.XRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem\\Unity.InputSystem.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem.ForUI\\Unity.InputSystem.ForUI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem.ForUI\\Unity.InputSystem.ForUI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InputSystem.ForUI\\Unity.InputSystem.ForUI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InputSystem.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InternalAPIEngineBridge.004\\Unity.InternalAPIEngineBridge.004.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.InternalAPIEngineBridge.013\\Unity.InternalAPIEngineBridge.013.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.ResourceManager.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Addressables.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.TextMeshPro.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Localization\\Unity.Localization.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Mathematics\\Unity.Mathematics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Multiplayer.Center.Common\\Unity.Multiplayer.Center.Common.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Multiplayer.Center.Common\\Unity.Multiplayer.Center.Common.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Multiplayer.Center.Common\\Unity.Multiplayer.Center.Common.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Multiplayer.Playmode\\Unity.Multiplayer.Playmode.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Multiplayer.Playmode.Common.Runtime\\Unity.Multiplayer.Playmode.Common.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Networking.Transport\\Unity.Networking.Transport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Networking.Transport\\Unity.Networking.Transport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Networking.Transport\\Unity.Networking.Transport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Networking.Transport\\Unity.Networking.Transport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TLSModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Networking.Transport\\Unity.Networking.Transport.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.UnifiedRayTracing.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.PathTracing.Runtime\\Unity.PathTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Profiling.Core\\Unity.Profiling.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Rendering.LightTransport.Runtime\\Unity.Rendering.LightTransport.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Rendering.LightTransport.Runtime\\Unity.Rendering.LightTransport.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Rendering.LightTransport.Runtime\\Unity.Rendering.LightTransport.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Rendering.LightTransport.Runtime\\Unity.Rendering.LightTransport.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Rendering.LightTransport.Runtime\\Unity.Rendering.LightTransport.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipeline.Universal.ShaderLibrary\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipeline.Universal.ShaderLibrary\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.XRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InputSystem.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime\\Unity.RenderPipelines.Core.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime.Shared\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Core.Runtime.Shared\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.GPUDriven.Runtime\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.RenderAs2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.2D.Runtime\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Config.Runtime\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.VisualEffectGraph.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.XRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AdaptivePerformanceModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.RenderPipelines.Universal.Runtime\\Unity.RenderPipelines.Universal.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ResourceManager\\Unity.ResourceManager.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ResourceManager\\Unity.ResourceManager.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ResourceManager\\Unity.ResourceManager.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ResourceManager\\Unity.ResourceManager.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ResourceManager\\Unity.ResourceManager.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.ScriptableBuildPipeline\\Unity.ScriptableBuildPipeline.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Analytics\\Unity.Services.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Analytics\\Unity.Services.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Analytics\\Unity.Services.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Analytics\\Unity.Services.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Analytics\\Unity.Services.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication\\Unity.Services.Authentication.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Components.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication.PlayerAccounts\\Unity.Services.Authentication.PlayerAccounts.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication.PlayerAccounts\\Unity.Services.Authentication.PlayerAccounts.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication.PlayerAccounts\\Unity.Services.Authentication.PlayerAccounts.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication.PlayerAccounts\\Unity.Services.Authentication.PlayerAccounts.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Authentication.PlayerAccounts\\Unity.Services.Authentication.PlayerAccounts.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core\\Unity.Services.Core.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Analytics\\Unity.Services.Core.Analytics.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Components\\Unity.Services.Core.Components.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Components\\Unity.Services.Core.Components.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Components\\Unity.Services.Core.Components.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Components\\Unity.Services.Core.Components.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Environments.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Configuration\\Unity.Services.Core.Configuration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Configuration\\Unity.Services.Core.Configuration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Configuration\\Unity.Services.Core.Configuration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Configuration\\Unity.Services.Core.Configuration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Device\\Unity.Services.Core.Device.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Device\\Unity.Services.Core.Device.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Device\\Unity.Services.Core.Device.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IdentifiersModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Environments\\Unity.Services.Core.Environments.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Environments.Internal\\Unity.Services.Core.Environments.Internal.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Internal\\Unity.Services.Core.Internal.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Internal\\Unity.Services.Core.Internal.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Internal\\Unity.Services.Core.Internal.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Internal\\Unity.Services.Core.Internal.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Networking\\Unity.Services.Core.Networking.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Networking\\Unity.Services.Core.Networking.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Networking\\Unity.Services.Core.Networking.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Scheduler.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Device.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Configuration.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Environments.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Threading.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Newtonsoft.Json.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Registration\\Unity.Services.Core.Registration.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Telemetry.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Scheduler\\Unity.Services.Core.Scheduler.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Scheduler\\Unity.Services.Core.Scheduler.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Telemetry\\Unity.Services.Core.Telemetry.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Threading\\Unity.Services.Core.Threading.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.Internal.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.Services.Core.Threading\\Unity.Services.Core.Threading.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Services.Core.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InternalAPIEngineBridge.004.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Mathematics.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Collections.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Burst.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.UnifiedRayTracing.Runtime\\Unity.UnifiedRayTracing.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.InputSystem.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UI.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\Unity.VisualEffectGraph.Runtime\\Unity.VisualEffectGraph.Runtime.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VectorGraphicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.DSPGraphModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityCurlModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.HierarchyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ContentLoadModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.MultiplayerModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TLSModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AndroidJNIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.MarshallingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AccessibilityModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AdaptivePerformanceModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityConnectModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AMDModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ClothModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ClusterInputModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ClusterRendererModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CrashReportingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TilemapModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VideoModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.GridModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IdentifiersModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.LocalizationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.NVIDIAModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.DirectorModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.RenderAs2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VirtualTexturingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.GameCenterModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.StreamingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityConsentModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.VehiclesModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.WindModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.XRModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ARModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine\\UnityEngine.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AccessibilityModule\\UnityEngine.AccessibilityModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AccessibilityModule\\UnityEngine.AccessibilityModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AdaptivePerformanceModule\\UnityEngine.AdaptivePerformanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AdaptivePerformanceModule\\UnityEngine.AdaptivePerformanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AdaptivePerformanceModule\\UnityEngine.AdaptivePerformanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AdaptivePerformanceModule\\UnityEngine.AdaptivePerformanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AIModule\\UnityEngine.AIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AIModule\\UnityEngine.AIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AMDModule\\UnityEngine.AMDModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AMDModule\\UnityEngine.AMDModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AndroidJNIModule\\UnityEngine.AndroidJNIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AndroidJNIModule\\UnityEngine.AndroidJNIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AnimationModule\\UnityEngine.AnimationModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AnimationModule\\UnityEngine.AnimationModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ARModule\\UnityEngine.ARModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ARModule\\UnityEngine.ARModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AssetBundleModule\\UnityEngine.AssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AssetBundleModule\\UnityEngine.AssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AudioModule\\UnityEngine.AudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.AudioModule\\UnityEngine.AudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClothModule\\UnityEngine.ClothModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClothModule\\UnityEngine.ClothModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClothModule\\UnityEngine.ClothModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClusterInputModule\\UnityEngine.ClusterInputModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClusterInputModule\\UnityEngine.ClusterInputModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClusterRendererModule\\UnityEngine.ClusterRendererModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ClusterRendererModule\\UnityEngine.ClusterRendererModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ContentLoadModule\\UnityEngine.ContentLoadModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ContentLoadModule\\UnityEngine.ContentLoadModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.CoreModule\\UnityEngine.CoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.CoreModule\\UnityEngine.CoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.CoreModule\\UnityEngine.CoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Scripting.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.CrashReportingModule\\UnityEngine.CrashReportingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.CrashReportingModule\\UnityEngine.CrashReportingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.DirectorModule\\UnityEngine.DirectorModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.DirectorModule\\UnityEngine.DirectorModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.DSPGraphModule\\UnityEngine.DSPGraphModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.DSPGraphModule\\UnityEngine.DSPGraphModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.DSPGraphModule\\UnityEngine.DSPGraphModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GameCenterModule\\UnityEngine.GameCenterModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GameCenterModule\\UnityEngine.GameCenterModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GIModule\\UnityEngine.GIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GraphicsStateCollectionSerializerModule\\UnityEngine.GraphicsStateCollectionSerializerModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GridModule\\UnityEngine.GridModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.GridModule\\UnityEngine.GridModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyCoreModule\\UnityEngine.HierarchyCoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyCoreModule\\UnityEngine.HierarchyCoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyCoreModule\\UnityEngine.HierarchyCoreModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Scripting.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyModule\\UnityEngine.HierarchyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyModule\\UnityEngine.HierarchyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyModule\\UnityEngine.HierarchyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyModule\\UnityEngine.HierarchyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HierarchyModule\\UnityEngine.HierarchyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\Unity.Scripting.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.HotReloadModule\\UnityEngine.HotReloadModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IdentifiersModule\\UnityEngine.IdentifiersModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IdentifiersModule\\UnityEngine.IdentifiersModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ImageConversionModule\\UnityEngine.ImageConversionModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ImageConversionModule\\UnityEngine.ImageConversionModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IMGUIModule\\UnityEngine.IMGUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IMGUIModule\\UnityEngine.IMGUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IMGUIModule\\UnityEngine.IMGUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IMGUIModule\\UnityEngine.IMGUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.IMGUIModule\\UnityEngine.IMGUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputForUIModule\\UnityEngine.InputForUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputForUIModule\\UnityEngine.InputForUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputForUIModule\\UnityEngine.InputForUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputForUIModule\\UnityEngine.InputForUIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputLegacyModule\\UnityEngine.InputLegacyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputLegacyModule\\UnityEngine.InputLegacyModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputModule\\UnityEngine.InputModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InputModule\\UnityEngine.InputModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.InsightsModule\\UnityEngine.InsightsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.JSONSerializeModule\\UnityEngine.JSONSerializeModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.JSONSerializeModule\\UnityEngine.JSONSerializeModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.LocalizationModule\\UnityEngine.LocalizationModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.LocalizationModule\\UnityEngine.LocalizationModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.MarshallingModule\\UnityEngine.MarshallingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.MarshallingModule\\UnityEngine.MarshallingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.MultiplayerModule\\UnityEngine.MultiplayerModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.MultiplayerModule\\UnityEngine.MultiplayerModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.NVIDIAModule\\UnityEngine.NVIDIAModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.NVIDIAModule\\UnityEngine.NVIDIAModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ParticleSystemModule\\UnityEngine.ParticleSystemModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ParticleSystemModule\\UnityEngine.ParticleSystemModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PerformanceReportingModule\\UnityEngine.PerformanceReportingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.Physics2DModule\\UnityEngine.Physics2DModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.Physics2DModule\\UnityEngine.Physics2DModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PhysicsBackendPhysXModule\\UnityEngine.PhysicsBackendPhysXModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PhysicsModule\\UnityEngine.PhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PhysicsModule\\UnityEngine.PhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PropertiesModule\\UnityEngine.PropertiesModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.PropertiesModule\\UnityEngine.PropertiesModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.RenderAs2DModule\\UnityEngine.RenderAs2DModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.RenderAs2DModule\\UnityEngine.RenderAs2DModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ScreenCaptureModule\\UnityEngine.ScreenCaptureModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ScreenCaptureModule\\UnityEngine.ScreenCaptureModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ScriptingModule\\UnityEngine.ScriptingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.ShaderVariantAnalyticsModule\\UnityEngine.ShaderVariantAnalyticsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SpriteMaskModule\\UnityEngine.SpriteMaskModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SpriteMaskModule\\UnityEngine.SpriteMaskModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SpriteShapeModule\\UnityEngine.SpriteShapeModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SpriteShapeModule\\UnityEngine.SpriteShapeModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.StreamingModule\\UnityEngine.StreamingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.StreamingModule\\UnityEngine.StreamingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SubstanceModule\\UnityEngine.SubstanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SubstanceModule\\UnityEngine.SubstanceModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SubsystemsModule\\UnityEngine.SubsystemsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.SubsystemsModule\\UnityEngine.SubsystemsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainModule\\UnityEngine.TerrainModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainModule\\UnityEngine.TerrainModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainPhysicsModule\\UnityEngine.TerrainPhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainPhysicsModule\\UnityEngine.TerrainPhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainPhysicsModule\\UnityEngine.TerrainPhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TerrainPhysicsModule\\UnityEngine.TerrainPhysicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreFontEngineModule\\UnityEngine.TextCoreFontEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreFontEngineModule\\UnityEngine.TextCoreFontEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreFontEngineModule\\UnityEngine.TextCoreFontEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreTextEngineModule\\UnityEngine.TextCoreTextEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreTextEngineModule\\UnityEngine.TextCoreTextEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreTextEngineModule\\UnityEngine.TextCoreTextEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreTextEngineModule\\UnityEngine.TextCoreTextEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextCoreTextEngineModule\\UnityEngine.TextCoreTextEngineModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextRenderingModule\\UnityEngine.TextRenderingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TextRenderingModule\\UnityEngine.TextRenderingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TilemapModule\\UnityEngine.TilemapModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TilemapModule\\UnityEngine.TilemapModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TilemapModule\\UnityEngine.TilemapModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.GridModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TilemapModule\\UnityEngine.TilemapModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.TLSModule\\UnityEngine.TLSModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TilemapModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UI\\UnityEngine.UI.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIElementsModule\\UnityEngine.UIElementsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIModule\\UnityEngine.UIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIModule\\UnityEngine.UIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UIModule\\UnityEngine.UIModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UmbraModule\\UnityEngine.UmbraModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityAnalyticsCommonModule\\UnityEngine.UnityAnalyticsCommonModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityAnalyticsCommonModule\\UnityEngine.UnityAnalyticsCommonModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityAnalyticsModule\\UnityEngine.UnityAnalyticsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityAnalyticsModule\\UnityEngine.UnityAnalyticsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityAnalyticsModule\\UnityEngine.UnityAnalyticsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityConnectModule\\UnityEngine.UnityConnectModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityConnectModule\\UnityEngine.UnityConnectModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityConsentModule\\UnityEngine.UnityConsentModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityCurlModule\\UnityEngine.UnityCurlModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityTestProtocolModule\\UnityEngine.UnityTestProtocolModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAssetBundleModule\\UnityEngine.UnityWebRequestAssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAssetBundleModule\\UnityEngine.UnityWebRequestAssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAssetBundleModule\\UnityEngine.UnityWebRequestAssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAssetBundleModule\\UnityEngine.UnityWebRequestAssetBundleModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAudioModule\\UnityEngine.UnityWebRequestAudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAudioModule\\UnityEngine.UnityWebRequestAudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAudioModule\\UnityEngine.UnityWebRequestAudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestAudioModule\\UnityEngine.UnityWebRequestAudioModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestModule\\UnityEngine.UnityWebRequestModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestModule\\UnityEngine.UnityWebRequestModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestTextureModule\\UnityEngine.UnityWebRequestTextureModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestTextureModule\\UnityEngine.UnityWebRequestTextureModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestTextureModule\\UnityEngine.UnityWebRequestTextureModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.UnityWebRequestWWWModule\\UnityEngine.UnityWebRequestWWWModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VectorGraphicsModule\\UnityEngine.VectorGraphicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VectorGraphicsModule\\UnityEngine.VectorGraphicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VectorGraphicsModule\\UnityEngine.VectorGraphicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VectorGraphicsModule\\UnityEngine.VectorGraphicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VectorGraphicsModule\\UnityEngine.VectorGraphicsModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VehiclesModule\\UnityEngine.VehiclesModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VehiclesModule\\UnityEngine.VehiclesModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VehiclesModule\\UnityEngine.VehiclesModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VFXModule\\UnityEngine.VFXModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VFXModule\\UnityEngine.VFXModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VideoModule\\UnityEngine.VideoModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VideoModule\\UnityEngine.VideoModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VideoModule\\UnityEngine.VideoModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VirtualTexturingModule\\UnityEngine.VirtualTexturingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VirtualTexturingModule\\UnityEngine.VirtualTexturingModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VRModule\\UnityEngine.VRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.VRModule\\UnityEngine.VRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.WindModule\\UnityEngine.WindModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.WindModule\\UnityEngine.WindModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.XRModule\\UnityEngine.XRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.XRModule\\UnityEngine.XRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.XRModule\\UnityEngine.XRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "exists": true
+  },
+  {
+    "project": "E:\\分析howtofish\\recovered-code\\UnityEngine.XRModule\\UnityEngine.XRModule.csproj",
+    "hintPath": "..\\..\\original-artifacts\\How to Fish_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "exists": true
+  }
+]

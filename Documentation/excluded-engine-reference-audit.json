@@ -1,0 +1,42 @@
+[
+  {
+    "module": "UnityEngine.AdaptivePerformanceModule.dll.meta",
+    "guid": "73e2845ca23d1f5228cff9754278c71f",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.HierarchyModule.dll.meta",
+    "guid": "37484924aa2aa2ad8d7ed73882f09f23",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.InsightsModule.dll.meta",
+    "guid": "bf769044a746d4d4e41b5836a03b0a73",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.PhysicsBackendPhysXModule.dll.meta",
+    "guid": "31698ec85098fc1f25b0bf5e05eb5516",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.RenderAs2DModule.dll.meta",
+    "guid": "25bdc18af89eba7338f782843459bda9",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.ScriptingModule.dll.meta",
+    "guid": "df061dc105f111661b4d90085697dae2",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.UnityConsentModule.dll.meta",
+    "guid": "9787c21d59084dd58641426c3f092241",
+    "references": []
+  },
+  {
+    "module": "UnityEngine.VectorGraphicsModule.dll.meta",
+    "guid": "6bebfe5c55eca091a73858795eba336b",
+    "references": []
+  }
+]
