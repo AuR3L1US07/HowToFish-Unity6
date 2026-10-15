@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">How to Fish</title>
+  <desc id="desc">Cast. Sail. Discover. A fishing and island adventure.</desc>
+  <defs>
+    <linearGradient id="sea" x2="1" y2="1"><stop stop-color="#0b2034"/><stop offset="1" stop-color="#103d51"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#52d1c7" stop-opacity=".18"/><stop offset="1" stop-color="#52d1c7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="380" rx="20" fill="url(#sea)"/>
+  <ellipse cx="1030" cy="120" rx="380" ry="270" fill="url(#light)"/>
+  <g fill="none" stroke="#72d8d0" stroke-opacity=".1">
+    <path d="M0 258 Q160 220 320 258 T640 258 T960 258 T1280 258"/>
+    <path d="M0 282 Q160 244 320 282 T640 282 T960 282 T1280 282"/>
+    <path d="M0 306 Q160 268 320 306 T640 306 T960 306 T1280 306"/>
+    <path d="M0 330 Q160 292 320 330 T640 330 T960 330 T1280 330"/>
+    <path d="M0 354 Q160 316 320 354 T640 354 T960 354 T1280 354"/>
+  </g>
+  <rect x="64" y="59" width="38" height="3" rx="1.5" fill="#68e0cd"/>
+  <text x="117" y="66" fill="#9ec4ce" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="4">AN ISLAND ADVENTURE</text>
+  <text x="59" y="171" fill="#f1f8fa" font-family="Segoe UI,Arial,sans-serif" font-size="82" font-weight="750" letter-spacing="-3">How to Fish</text>
+  <text x="65" y="216" fill="#75e1d0" font-family="Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="5">CAST. SAIL. DISCOVER.</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#d0e3e9">
+    <rect x="64" y="270" width="164" height="32" rx="16" fill="#ffffff" fill-opacity=".065" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="82" y="291">UNITY 6000.4.4f1</text>
+    <rect x="240" y="270" width="114" height="32" rx="16" fill="#ffffff" fill-opacity=".065" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="260" y="291">WINDOWS</text>
+    <rect x="366" y="270" width="92" height="32" rx="16" fill="#ffffff" fill-opacity=".065" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="391" y="291">MONO</text>
+    <rect x="470" y="270" width="106" height="32" rx="16" fill="#68e0cd" fill-opacity=".12" stroke="#68e0cd" stroke-opacity=".3"/>
+    <circle cx="489" cy="286" r="3" fill="#68e0cd"/><text x="500" y="291" fill="#95eddf">OFFLINE</text>
+  </g>
+  <g stroke="#8ce9d8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M916 212h174l-24 32H942z" fill="#8ce9d8" fill-opacity=".08"/>
+    <path d="M1000 212V80l-66 113h66m14-104 55 104h-55"/>
+    <path d="M905 259q21 12 42 0t42 0 42 0 42 0 42 0" stroke-opacity=".55"/>
+    <path d="M1113 115q23-28 55 0-32 28-55 0l-15-12v24z" stroke-opacity=".65"/>
+    <circle cx="1156" cy="113" r="2" fill="#8ce9d8" stroke="none"/>
+    <path d="M846 146h13m-6-6v12m269 46h13m-6-6v12" stroke-opacity=".35"/>
+  </g>
+  <text x="1184" y="342" fill="#7099aa" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end" letter-spacing="2">EXPLORE THE NEXT HORIZON</text>
+</svg>
