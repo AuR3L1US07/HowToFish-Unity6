@@ -1,117 +1,51 @@
-<p align="center">
-  <img src="Documentation/readme/hero.svg" width="100%" alt="How to Fish — Cast. Sail. Discover." />
-</p>
+# How to Fish · Unity 6 易读恢复版
 
-<h3 align="center">一根鱼竿，一片海，一段岛屿冒险。</h3>
+恢复游戏资源与 C# 实现，整理为可继续研究、修改的 Unity 工程，并提供 **Windows 64 位本地游玩版**。
 
-<p align="center">
-  抛竿收获，驾船远行。与岛民交易，挑战海洋生物，<br />
-  把每一次收获，变成探索下一座岛屿的底气。
-</p>
+**[下载可玩版本](https://github.com/AuR3L1US07/HowToFish-Unity6/releases/latest)** · [整理说明](Documentation/Readability/manual-changes.md) · [验收记录](Documentation/OfflineRecoveryAcceptance.md) · [分享说明](SHARING.md)
 
-<p align="center">
-  <a href="#玩法一览">探索玩法</a> &nbsp; · &nbsp;
-  <a href="#海面一瞥">游戏画面</a> &nbsp; · &nbsp;
-  <a href="#开始你的航程">开始游玩</a>
-</p>
+## 游戏画面
 
-<br />
+以下图片来自本仓库 Windows 构建的实际运行画面。
 
-## 关于游戏
+![主菜单](Documentation/screenshots/main-menu.png)
 
-**How to Fish** 将钓鱼、航海、岛屿探索与战斗串成一段海上旅程。你可以在岸边抛下第一竿，也可以驾驶自己的船出海，寻找新的鱼获、岛屿和挑战。
+![本地游戏](Documentation/screenshots/local-gameplay.png)
 
-把捕获的生物带回岸边，出售收获、完成委托、升级装备。旅程越深入，遇到的生物也越难对付；除了鱼竿，你还需要准备好武器，迎接岛屿 Boss 的挑战。
+## 下载与游玩
 
-## 玩法一览
+1. 在 [Releases](https://github.com/AuR3L1US07/HowToFish-Unity6/releases/latest) 下载 `HowToFish-Readable-v1.1.3-Windows-x64.zip`。
+2. 将压缩包**完整解压**到可写入的文件夹，保留 EXE 旁边的所有文件和目录。
+3. 运行 `HowToFish.exe`，通过“创建房间”进入本地世界。无需通过 Steam 启动。
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/fish.svg" width="28" height="28" alt="" />
-      <h3>抛竿与收获</h3>
-      <p>准备鱼饵，等待咬钩，收线并带回鱼获。探索不同的海洋生物，积累你的收获。</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/sail.svg" width="28" height="28" alt="" />
-      <h3>驾船去远方</h3>
-      <p>解锁自己的船，升级马达与雷达。穿过海面，把航线延伸到更远的岛屿。</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/compass.svg" width="28" height="28" alt="" />
-      <h3>岛屿与委托</h3>
-      <p>与岛民交谈，交付任务物品，领取奖励。沿着任务与挑战，逐步解锁新的区域。</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/coins.svg" width="28" height="28" alt="" />
-      <h3>交易与成长</h3>
-      <p>出售鱼获、赚取货币，购买装备与升级。让每次满载而归，都为下次出海做好准备。</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/swords.svg" width="28" height="28" alt="" />
-      <h3>武器与 Boss</h3>
-      <p>应对危险生物，使用武器作战，挑战岛屿 Boss。将奖杯带回，继续推进旅程。</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="Documentation/readme/shirt.svg" width="28" height="28" alt="" />
-      <h3>你的专属造型</h3>
-      <p>搭配帽子、服装和饰品，调整人物配色。带着自己的风格，开启下一次冒险。</p>
-    </td>
-  </tr>
-</table>
+当前发布范围为本地游玩；Steam 联机不在本版验收范围。更新前请备份自己的存档。
 
-<p align="center"><b>抛竿捕获 &nbsp; → &nbsp; 交易升级 &nbsp; → &nbsp; 驾船探索 &nbsp; → &nbsp; 挑战 Boss</b></p>
+## 用 Unity 打开
 
-<br />
+使用 **Unity 6000.4.4f1**（安装 Windows 构建支持）。克隆仓库，在 Unity Hub 中添加仓库根目录，等待首次导入与编译。打开 [Game 场景](Assets/Scenes/Game.unity)，进入 Play 模式。
 
-## 海面一瞥
+保留 Assets 下的 `.meta` 文件以及 Packages 中的本地依赖。缓存、构建产物和个人存档未提交到仓库。
 
-![How to Fish 海面渲染画面](Documentation/WaterValidation-2026-10-15/water-restored.png)
+## 阅读 C# 代码
 
-<p align="center"><sub>工程内水面渲染画面 · 波浪、法线与海面细节</sub></p>
+主要游戏逻辑位于 [Assets/Scripts/Assembly-CSharp](Assets/Scripts/Assembly-CSharp)。
 
-## 开始你的航程
-
-1. **获取工程** — 克隆仓库，或通过 GitHub 的 **Code → Download ZIP** 下载并解压。
-2. **使用 Unity 打开** — 在 Unity Hub 中添加工程目录，选择 **Unity 6000.4.4f1**，等待首次导入完成。
-3. **进入游戏** — 双击 **Assets/Scenes/Game.unity**，点击 **Play**，创建或载入本地游戏。
-
-> 当前提供 **Windows 离线游玩**。Steam 联机暂未开放。
-
-<details>
-<summary><b>工程环境与 Windows 打包</b></summary>
-
-<br />
-
-| 项目 | 配置 |
+| 功能 | 阅读入口 |
 | --- | --- |
-| Unity | 6000.4.4f1 |
-| 目标平台 | Windows x64 |
-| 脚本后端 | Mono / C# |
-| 渲染管线 | URP 17.4.0 |
-| 入口场景 | Assets/Scenes/Game.unity |
+| 抛竿、收线和鱼线状态 | [FishingRod](Assets/Scripts/Assembly-CSharp/FishingRod.cs)、[FishingRodCast](Assets/Scripts/Assembly-CSharp/FishingRodCast.cs) |
+| 咬钩与鱼类权重 | [Bait](Assets/Scripts/Assembly-CSharp/Bait.cs)、[CreatureManager](Assets/Scripts/Assembly-CSharp/CreatureManager.cs) |
+| 玩家移动与拾取 | [PlayerMovement](Assets/Scripts/Assembly-CSharp/PlayerMovement.cs)、[PlayerHolding](Assets/Scripts/Assembly-CSharp/PlayerHolding.cs) |
+| 物品栏 | [PlayerInventory](Assets/Scripts/Assembly-CSharp/PlayerInventory.cs)、[InventorySlot](Assets/Scripts/Assembly-CSharp/InventorySlot.cs) |
+| 存档与恢复 | [SaveManager](Assets/Scripts/Assembly-CSharp/SaveManager.cs)、[SaveSystem](Assets/Scripts/Assembly-CSharp/SaveSystem.cs) |
+| 本地启动 | [LocalPlayMode](Assets/Scripts/Assembly-CSharp/LocalPlayMode.cs)、[ConnectionManager](Assets/Scripts/Assembly-CSharp/ConnectionManager.cs) |
+| 生命和饱食度 UI | [VitalsUI](Assets/Scripts/Assembly-CSharp/VitalsUI.cs)、[PlayerUI](Assets/Scripts/Assembly-CSharp/PlayerUI.cs) |
 
-在仓库根目录使用 PowerShell 打包，先保存并关闭此工程的 Unity 编辑器。编辑器路径按本机安装位置修改：
+本轮整理涉及 98 个文件，包含语义绑定的局部变量重命名、256 处目标类型 `new()`、存档分支简化和关键逻辑注释。对 366 个脚本、10,191 个声明及脚本 GUID 的核对通过。类名、序列化字段、方法签名与 FishNet 生成的辅助代码保持兼容；不能确认语义的临时变量保留原名。
 
-```powershell
-& 'E:\Unity\6000.4.4f1\Editor\Unity.exe' -batchmode -force-d3d11 -projectPath "$PWD" -executeMethod RecoveryBuildValidation.BuildWindows -logFile "$PWD\offline-build.log"
-```
+详见 [修改清单](Documentation/Readability/changes.json)、[人工整理说明](Documentation/Readability/manual-changes.md) 和 [发布验证](Documentation/Readability/ReleaseValidation)。
 
-输出位置为 `Builds/Offline/HowToFish.exe`。运行时保留整个构建目录；仓库不包含本地构建，需要自行打包。
+## 验证与恢复范围
 
-如果打开后只有天空、相机和灯光，请退出 Play，打开 `Assets/Scenes/Game.unity` 后重新运行。查看水面效果请进入 Play。
+Windows 正式构建包含 12 个启用场景，构建错误为 0。发布前对独立 EXE 检查新建本地世界、玩家生成、存档写入与重启读档；验收结果随仓库保留。历史功能与水面修复记录见 [Documentation](Documentation)。自动检查不代表完整正常难度通关，也不保证视觉逐像素等同原版。
 
-</details>
-
-<br />
-
----
-
-<p align="center">
-  <a href="Documentation/Review-2026-10-15.md">更新记录</a> &nbsp; · &nbsp;
-  <a href="Documentation/WaterResourceRecovery-2026-10-15.md">水面与渲染</a> &nbsp; · &nbsp;
-  <a href="Documentation/OfflineRecoveryValidation-2026-10-14.md">验证记录</a> &nbsp; · &nbsp;
-  <a href="SHARING.md">资源说明</a>
-</p>
+这是从发布产物恢复并进一步整理的工程，**不是原作者的原始源码**。原游戏与第三方组件权利归各自权利人所有，保留第三方许可；本仓库未附加统一开源许可证。详见 [SHARING.md](SHARING.md)。

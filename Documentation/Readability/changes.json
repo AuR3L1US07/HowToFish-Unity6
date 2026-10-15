@@ -1,0 +1,2417 @@
+[
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Albatross.cs",
+    "Line": 142,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 39,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 41,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 43,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 45,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 47,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 49,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "Line": 51,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CAttachmentInfo, int\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AttackingFish.cs",
+    "Line": 149,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "onHitDamage"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioImpactManager.cs",
+    "Line": 8,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CItem, float\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 91,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, AudioClip\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 93,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, float\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 99,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CAudioSource\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 101,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CAudioSource\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 103,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CAudioSource\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "Line": 272,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioSequenceManager.cs",
+    "Line": 27,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cint, ActiveSequence\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioSequenceManager.cs",
+    "Line": 40,
+    "Kind": "target-typed-new",
+    "Before": "new ActiveSequence\r\n\t\t\t{\r\n\t\t\t\tSequence = sequence,\r\n\t\t\t\tCurrentIndex = 0,\r\n\t\t\t\tTimer = sequence.Steps[0].Timer,\r\n\t\t\t\tSpeedMultiplier = Mathf.Max(0.01f, speedMultiplier),\r\n\t\t\t\tDistance = sequence.Distance,\r\n\t\t\t\tPlayer = player,\r\n\t\t\t\tVolume = sequence.Volume,\r\n\t\t\t\tCaller = caller\r\n\t\t\t}",
+    "After": "new()\t\t\t{\r\n\t\t\t\tSequence = sequence,\r\n\t\t\t\tCurrentIndex = 0,\r\n\t\t\t\tTimer = sequence.Steps[0].Timer,\r\n\t\t\t\tSpeedMultiplier = Mathf.Max(0.01f, speedMultiplier),\r\n\t\t\t\tDistance = sequence.Distance,\r\n\t\t\t\tPlayer = player,\r\n\t\t\t\tVolume = sequence.Volume,\r\n\t\t\t\tCaller = caller\r\n\t\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioSequenceManager.cs",
+    "Line": 58,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\AudioSequenceManager.cs",
+    "Line": 74,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Bait.cs",
+    "Line": 37,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CBait\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Bait.cs",
+    "Line": 53,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CSample\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Bait.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u8DDF\u8E2A\u9C7C\u9975\u5165\u6C34\u65F6\u95F4\u3001\u54AC\u94A9\u5BF9\u8C61\u53CA\u5176\u4E0E\u9C7C\u7AFF\u7684\u8FDE\u63A5\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BetButton.cs",
+    "Line": 12,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CBetButton\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BirdManager.cs",
+    "Line": 84,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CBird\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BirdManager.cs",
+    "Line": 86,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CVector2\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BirdManager.cs",
+    "Line": 158,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CBird\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 195,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 197,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Chalf\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 199,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Chalf\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 201,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 203,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 205,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 207,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "Line": 209,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CSample\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BoatManager.cs",
+    "Line": 9,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CCollider, Boat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BoatTrigger.cs",
+    "Line": 6,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CRigidbodySync\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BoatTrigger.cs",
+    "Line": 8,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CTransform\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BoatTrigger.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CRigidbodySync\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BoatTrigger.cs",
+    "Line": 12,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CTransform\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BossManager.cs",
+    "Line": 27,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BossManager.cs",
+    "Line": 29,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BossManager.cs",
+    "Line": 31,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cuint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Bow.cs",
+    "Line": 292,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "audioClipArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "Line": 270,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "Line": 544,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "onHitDamage"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "Line": 169,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cfloat, Vector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "Line": 171,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "Line": 257,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cfloat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ButtonManager.cs",
+    "Line": 839,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "difficultyCount"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ButtonManager.cs",
+    "Line": 904,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "namesCount"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CasinoBox.cs",
+    "Line": 17,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CasinoBox.cs",
+    "Line": 18,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CasinoManager.cs",
+    "Line": 13,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CasinoManager.cs",
+    "Line": 15,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ChatManager.cs",
+    "Line": 40,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003Cfloat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Client.cs",
+    "Line": 9,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CNetworkConnection, Client\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+    "Line": 78,
+    "Kind": "local-name",
+    "Before": "flag2",
+    "After": "isDeadPlayer"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+    "Line": 118,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "isCreature"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+    "Line": 22,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CImage\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+    "Line": 24,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ConnectionManager.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u534F\u8C03\u5BA2\u6237\u7AEF\u548C\u670D\u52A1\u7AEF\u751F\u547D\u5468\u671F\uFF1B\u6062\u590D\u5DE5\u7A0B\u901A\u8FC7\u672C\u5730\u4F20\u8F93\u8FD0\u884C\u5355\u4EBA\u6E38\u620F\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Creature.cs",
+    "Line": 84,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Creature.cs",
+    "Line": 86,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Creature.cs",
+    "Line": 92,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 135,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "shinyRoll"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 136,
+    "Kind": "local-name",
+    "Before": "num2",
+    "After": "shinyChance"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 155,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "totalWeight"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 164,
+    "Kind": "local-name",
+    "Before": "num2",
+    "After": "randomWeight"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 165,
+    "Kind": "local-name",
+    "Before": "num3",
+    "After": "cumulativeWeight"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 18,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 20,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u5728\u670D\u52A1\u7AEF\u68C0\u67E5\u9C7C\u9975\u6761\u4EF6\uFF0C\u6309\u6743\u91CD\u9009\u62E9\u53EF\u9493\u5BF9\u8C61\u5E76\u751F\u6210\u54AC\u94A9\u7269\u54C1\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DazedCommands.cs",
+    "Line": 200,
+    "Kind": "local-name",
+    "Before": "flag",
+    "After": "isMiniIsland"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DazedUtils.cs",
+    "Line": 130,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "deltaTime2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DazedUtils.cs",
+    "Line": 182,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+    "Line": 385,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "quaternionArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+    "Line": 79,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+    "Line": 81,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+    "Line": 83,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecalManager.cs",
+    "Line": 30,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CDecalProjector\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "Line": 167,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "Line": 25,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CMatrix4x4\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "Line": 27,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CMatrix4x4\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "Line": 243,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CMatrix4x4\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "Line": 248,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CMatrix4x4\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\EndGameManager.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 82,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 248,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 24,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItemInfoWeight\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 46,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 47,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 48,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 83,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "Line": 163,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, Vector2Int\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\FishingRod.cs",
+    "Line": 61,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CTransform\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\FishingRod.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u7EF4\u62A4\u9C7C\u7EBF\u3001\u9C7C\u9975\u548C\u6536\u653E\u7EBF\u72B6\u6001\uFF1B\u629B\u7AFF\u52A8\u4F5C\u7531 FishingRodCast \u6269\u5C55\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\FishingRodCast.cs",
+    "Line": 67,
+    "Kind": "local-name",
+    "Before": "flag",
+    "After": "isBailOpen"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\FishingRodCast.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u5904\u7406\u629B\u7AFF\u9C7C\u7AFF\u7684\u6536\u7EBF\u8F93\u5165\u3001\u7EBF\u676F\u5F00\u5173\u53CA\u624B\u90E8\u52A8\u753B\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 422,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "baitInfoArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 431,
+    "Kind": "local-name",
+    "Before": "array2",
+    "After": "attachmentInfoArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 437,
+    "Kind": "local-name",
+    "Before": "array3",
+    "After": "creatureArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 448,
+    "Kind": "local-name",
+    "Before": "array4",
+    "After": "itemArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 191,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CBaitInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 193,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CAttachmentInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 195,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 197,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cbyte, Item\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 199,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, Item\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "Line": 201,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cbyte, Item\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\GrillBox.cs",
+    "Line": 27,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\HitmarkerManager.cs",
+    "Line": 42,
+    "Kind": "target-typed-new",
+    "Before": "new HitMarker\r\n\t\t\t{\r\n\t\t\t\tTransform = gameObject.transform,\r\n\t\t\t\tMesh = gameObject.GetComponent\u003CMeshFilter\u003E()\r\n\t\t\t}",
+    "After": "new()\t\t\t{\r\n\t\t\t\tTransform = gameObject.transform,\r\n\t\t\t\tMesh = gameObject.GetComponent\u003CMeshFilter\u003E()\r\n\t\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "Line": 22,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CMatrix4x4\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "Line": 24,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CTransform\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "Line": 29,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, InstanceType\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "Line": 31,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CMatrix4x4\u003E(1000)",
+    "After": "new(1000)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "Line": 148,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CTransform\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Interactable.cs",
+    "Line": 18,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CCollider, Interactable\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\IslandManager.cs",
+    "Line": 20,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\IslandManager.cs",
+    "Line": 28,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\IslandManager.cs",
+    "Line": 30,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 181,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cfloat\u003E(1f)",
+    "After": "new(1f)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 183,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 185,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cfloat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 187,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cfloat\u003E(1f)",
+    "After": "new(1f)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 189,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CFishingRod\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 191,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CPlayer\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 193,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E(initialValue: true)",
+    "After": "new(initialValue: true)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 195,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cfloat\u003E(1f)",
+    "After": "new(1f)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "Line": 197,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CBird\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemExtraRigidbody.cs",
+    "Line": 21,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CCollision\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemExtraRigidbody.cs",
+    "Line": 23,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CCollision\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 407,
+    "Kind": "local-name",
+    "Before": "item",
+    "After": "valueOrDefault"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 423,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "maxValue"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 17,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 21,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 158,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CTransform\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 159,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCollider\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 190,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "Line": 451,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ItemSpawner.cs",
+    "Line": 52,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\KillScoreCalculator.cs",
+    "Line": 15,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CBonus\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Manta.cs",
+    "Line": 121,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 198,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "side2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 413,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 435,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "positiveInfinity"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 450,
+    "Kind": "local-name",
+    "Before": "obj",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 479,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 98,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "Line": 414,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CTransform, (float, Vector3)\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\MoneyManager.cs",
+    "Line": 14,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\MoneyManager.cs",
+    "Line": 16,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\MoneyUI.cs",
+    "Line": 104,
+    "Kind": "local-name",
+    "Before": "text",
+    "After": "textMeshProUGUI"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\MoneyUI.cs",
+    "Line": 48,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CTextMeshProUGUI\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\MoneyUI.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u663E\u793A\u8D27\u5E01\u6570\u91CF\u53D8\u5316\u53CA\u83B7\u5F97\u3001\u6D88\u8017\u8D27\u5E01\u65F6\u7684\u63D0\u793A\u52A8\u753B\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPC.cs",
+    "Line": 419,
+    "Kind": "local-name",
+    "Before": "text",
+    "After": "localizedString"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 107,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "localizedStringArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 120,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "localizedStringArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 15,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cbyte, NPC\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 17,
+    "Kind": "target-typed-new",
+    "Before": "new SyncDictionary\u003Cbyte, byte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 19,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "Line": 21,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 150,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "indexObj2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 29,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CTextMeshProUGUI\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 31,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 33,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cfloat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 37,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CImage\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "Line": 39,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 268,
+    "Kind": "local-name",
+    "Before": "flag",
+    "After": "isMiniIsland"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 12,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E(2)",
+    "After": "new(2)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 14,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 16,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector2\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 24,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CPlayer, Vector2\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "Line": 26,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\OtherPlayer.cs",
+    "Line": 41,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CSample\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ParticleAudio.cs",
+    "Line": 22,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CParticleCollisionEvent\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ParticleManager.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CMatrix4x4\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ParticleManager.cs",
+    "Line": 13,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, ParticleType\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Piranha.cs",
+    "Line": 65,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Piranha.cs",
+    "Line": 67,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Player.cs",
+    "Line": 118,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Culong\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Player.cs",
+    "Line": 120,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Player.cs",
+    "Line": 122,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Player.cs",
+    "Line": 124,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerAimAssist.cs",
+    "Line": 113,
+    "Kind": "local-name",
+    "Before": "result",
+    "After": "creature2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerAimAssist.cs",
+    "Line": 114,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "maxValue"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerEating.cs",
+    "Line": 56,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 317,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "transformArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 338,
+    "Kind": "local-name",
+    "Before": "flag",
+    "After": "hasPreparedPickupPoseFor"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 468,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "transformArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 477,
+    "Kind": "local-name",
+    "Before": "array2",
+    "After": "quaternionArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 63,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 65,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 67,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 69,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 71,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 73,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 75,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 77,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: false)",
+    "After": "new(exists: false)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 441,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: true, _player.Transform.InverseTransformPoint(item.HandTransformsRight.Parent.TransformPoint(item.HandTransformsRight.HandPos)), item.HandTransformsRight.Parent.rotation * item.HandTransformsRight.HandRot, item.HandTransformsRight.FingerRots, null)",
+    "After": "new(exists: true, _player.Transform.InverseTransformPoint(item.HandTransformsRight.Parent.TransformPoint(item.HandTransformsRight.HandPos)), item.HandTransformsRight.Parent.rotation * item.HandTransformsRight.HandRot, item.HandTransformsRight.FingerRots, null)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 446,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: true, _player.Transform.InverseTransformPoint(item.HandTransformsLeft.Parent.TransformPoint(item.HandTransformsLeft.HandPos)), item.HandTransformsLeft.Parent.rotation * item.HandTransformsLeft.HandRot, item.HandTransformsLeft.FingerRots, null)",
+    "After": "new(exists: true, _player.Transform.InverseTransformPoint(item.HandTransformsLeft.Parent.TransformPoint(item.HandTransformsLeft.HandPos)), item.HandTransformsLeft.Parent.rotation * item.HandTransformsLeft.HandRot, item.HandTransformsLeft.FingerRots, null)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 687,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CTransform\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 688,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CQuaternion\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "Line": 700,
+    "Kind": "target-typed-new",
+    "Before": "new HandTransforms(exists: true, (right ? _handBoneRight.position : _handBoneLeft.position) - _player.CamObject.position, right ? _handBoneRight.rotation : _handBoneLeft.rotation, list2.ToArray(), null)",
+    "After": "new(exists: true, (right ? _handBoneRight.position : _handBoneLeft.position) - _player.CamObject.position, right ? _handBoneRight.rotation : _handBoneLeft.rotation, list2.ToArray(), null)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "Line": 343,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "Line": 390,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "Line": 344,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "Line": 391,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CInteractable\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u7BA1\u7406\u73A9\u5BB6\u5F53\u524D\u6301\u6709\u7684\u7269\u54C1\u53CA\u62FE\u53D6\u3001\u653E\u4E0B\u548C\u4F7F\u7528\u6D41\u7A0B\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 141,
+    "Kind": "local-name",
+    "Before": "item",
+    "After": "heldItem"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 38,
+    "Kind": "target-typed-new",
+    "Before": "new SyncDictionary\u003Cbyte, Item\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 40,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E(-1)",
+    "After": "new(-1)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 42,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 44,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 46,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 48,
+    "Kind": "target-typed-new",
+    "Before": "new SyncList\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 133,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cbyte, Item\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 154,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 819,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u7EF4\u62A4\u73A9\u5BB6\u7684\u5E93\u5B58\u3001\u88C5\u5907\u4E0E\u7269\u54C1\u680F\u9009\u62E9\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerKillScore.cs",
+    "Line": 38,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CKillScore\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 119,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "maxValue"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 120,
+    "Kind": "local-name",
+    "Before": "result",
+    "After": "player"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 7,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 9,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 11,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "Line": 13,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CTransform, Player\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerMovement.cs",
+    "Line": 449,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "walkSpeed"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerMovement.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u8BFB\u53D6\u73A9\u5BB6\u79FB\u52A8\u8F93\u5165\uFF0C\u5E76\u534F\u8C03\u521A\u4F53\u8FD0\u52A8\u3001\u5730\u9762\u68C0\u6D4B\u4E0E\u79FB\u52A8\u72B6\u6001\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "Line": 383,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "Line": 405,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "positiveInfinity"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "Line": 420,
+    "Kind": "local-name",
+    "Before": "obj",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "Line": 448,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "raycastHitArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "Line": 384,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CTransform, (float, Vector3)\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 34,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 36,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 38,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 40,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 42,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 44,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 46,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 48,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 50,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 52,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CVector3\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 54,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 56,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "Line": 58,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerTutorial.cs",
+    "Line": 17,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CTutorial, TutorialBox\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerTutorial.cs",
+    "Line": 19,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CKeyValuePair\u003CTutorial, bool\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+    "Line": 111,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+    "Line": 113,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+    "Line": 115,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+    "Line": 117,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 273,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "matrix4x4Array"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 16,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CNetworkConnection, Dictionary\u003Cuint, Projectile\u003E\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 132,
+    "Kind": "target-typed-new",
+    "Before": "new Projectile\r\n\t\t{\r\n\t\t\tTypeId = weaponInfo.ProjectileType,\r\n\t\t\tOwner = owner,\r\n\t\t\tIsLocal = isLocal,\r\n\t\t\tCatchingUpToDo = catchingUpToDo,\r\n\t\t\tId = id,\r\n\t\t\tPreviousPosition = pos,\r\n\t\t\tPosition = pos,\r\n\t\t\tSpawnPos = pos,\r\n\t\t\tPreviousVelocity = velocity,\r\n\t\t\tVelocity = velocity,\r\n\t\t\tForce = weaponInfo.ProjectileForce,\r\n\t\t\tBoatForceOverride = weaponInfo.BoatForceOverride,\r\n\t\t\tDamage = (ServerSettings.OneShotEnabled ? 99999 : (weaponInfo.ShotDamage ?? (weaponInfo.Weapon ? weaponInfo.Weapon.Damage : ((!fromNpc) ? weaponInfo.ProjectileDamage : (weaponInfo.ProjectileDamage \u002B (PlayerManager.Players.Count - 1) * 2))))),\r\n\t\t\tGravityForce = weaponInfo.ProjectileGravity,\r\n\t\t\tFromNpc = fromNpc,\r\n\t\t\tIsArrow = ((bool)weaponInfo.Weapon \u0026\u0026 weaponInfo.Weapon.UsesArrows),\r\n\t\t\tShotWhileInspecting = shotWhileInspecting\r\n\t\t}",
+    "After": "new()\t\t{\r\n\t\t\tTypeId = weaponInfo.ProjectileType,\r\n\t\t\tOwner = owner,\r\n\t\t\tIsLocal = isLocal,\r\n\t\t\tCatchingUpToDo = catchingUpToDo,\r\n\t\t\tId = id,\r\n\t\t\tPreviousPosition = pos,\r\n\t\t\tPosition = pos,\r\n\t\t\tSpawnPos = pos,\r\n\t\t\tPreviousVelocity = velocity,\r\n\t\t\tVelocity = velocity,\r\n\t\t\tForce = weaponInfo.ProjectileForce,\r\n\t\t\tBoatForceOverride = weaponInfo.BoatForceOverride,\r\n\t\t\tDamage = (ServerSettings.OneShotEnabled ? 99999 : (weaponInfo.ShotDamage ?? (weaponInfo.Weapon ? weaponInfo.Weapon.Damage : ((!fromNpc) ? weaponInfo.ProjectileDamage : (weaponInfo.ProjectileDamage \u002B (PlayerManager.Players.Count - 1) * 2))))),\r\n\t\t\tGravityForce = weaponInfo.ProjectileGravity,\r\n\t\t\tFromNpc = fromNpc,\r\n\t\t\tIsArrow = ((bool)weaponInfo.Weapon \u0026\u0026 weaponInfo.Weapon.UsesArrows),\r\n\t\t\tShotWhileInspecting = shotWhileInspecting\r\n\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 198,
+    "Kind": "target-typed-new",
+    "Before": "new Projectile\r\n\t\t\t{\r\n\t\t\t\tTypeId = weaponInfo.ProjectileType,\r\n\t\t\t\tOwner = owner,\r\n\t\t\t\tIsLocal = isLocal,\r\n\t\t\t\tCatchingUpToDo = catchingUpToDo,\r\n\t\t\t\tId = num,\r\n\t\t\t\tPreviousPosition = pos,\r\n\t\t\t\tPosition = pos,\r\n\t\t\t\tSpawnPos = pos,\r\n\t\t\t\tPreviousVelocity = vector,\r\n\t\t\t\tVelocity = vector,\r\n\t\t\t\tForce = weaponInfo.ProjectileForce,\r\n\t\t\t\tBoatForceOverride = weaponInfo.BoatForceOverride,\r\n\t\t\t\tDamage = (ServerSettings.OneShotEnabled ? 99999 : (weaponInfo.ShotDamage ?? (weaponInfo.Weapon ? weaponInfo.Weapon.Damage : weaponInfo.ProjectileDamage))),\r\n\t\t\t\tGravityForce = weaponInfo.ProjectileGravity,\r\n\t\t\t\tFromNpc = canHitOwner,\r\n\t\t\t\tShotWhileInspecting = shotWhileInspecting\r\n\t\t\t}",
+    "After": "new()\t\t\t{\r\n\t\t\t\tTypeId = weaponInfo.ProjectileType,\r\n\t\t\t\tOwner = owner,\r\n\t\t\t\tIsLocal = isLocal,\r\n\t\t\t\tCatchingUpToDo = catchingUpToDo,\r\n\t\t\t\tId = num,\r\n\t\t\t\tPreviousPosition = pos,\r\n\t\t\t\tPosition = pos,\r\n\t\t\t\tSpawnPos = pos,\r\n\t\t\t\tPreviousVelocity = vector,\r\n\t\t\t\tVelocity = vector,\r\n\t\t\t\tForce = weaponInfo.ProjectileForce,\r\n\t\t\t\tBoatForceOverride = weaponInfo.BoatForceOverride,\r\n\t\t\t\tDamage = (ServerSettings.OneShotEnabled ? 99999 : (weaponInfo.ShotDamage ?? (weaponInfo.Weapon ? weaponInfo.Weapon.Damage : weaponInfo.ProjectileDamage))),\r\n\t\t\t\tGravityForce = weaponInfo.ProjectileGravity,\r\n\t\t\t\tFromNpc = canHitOwner,\r\n\t\t\t\tShotWhileInspecting = shotWhileInspecting\r\n\t\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 268,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CMatrix4x4\u003E\u003E { type.InstanceMatrices.ToList() }",
+    "After": "new(){ type.InstanceMatrices.ToList() }"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "Line": 278,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CList\u003CMatrix4x4\u003E\u003E { array.ToList() }",
+    "After": "new(){ matrix4x4Array.ToList() }"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileType.cs",
+    "Line": 61,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CProjectile\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileType.cs",
+    "Line": 63,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CProjectile\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ProjectileType.cs",
+    "Line": 65,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CMatrix4x4\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Pufferfish.cs",
+    "Line": 244,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "colliderArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Pufferfish.cs",
+    "Line": 153,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Pufferfish.cs",
+    "Line": 155,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CPoisonPoint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Pufferfish.cs",
+    "Line": 241,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Purchasable.cs",
+    "Line": 28,
+    "Kind": "local-name",
+    "Before": "text",
+    "After": "hoverString"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RadarUI.cs",
+    "Line": 122,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "curZoom"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Radio.cs",
+    "Line": 35,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cfloat\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryLocalizationCatalog.cs",
+    "Line": 20,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CLocale\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryOriginalShaders.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, Shader\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryStandaloneValidation.cs",
+    "Line": 18,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryStandaloneValidation.cs",
+    "Line": 20,
+    "Kind": "target-typed-new",
+    "Before": "new Result()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryVfxParticles.cs",
+    "Line": 22,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, Profile\u003E\n    {\n        { \u0022WaterSplash\u0022, new Profile(new Color(.5f,.8f,1f,.85f), 32, 4f, .12f, .8f, 1f, .65f, true) },\n        { \u0022WaterExplosion\u0022, new Profile(new Color(.65f,.85f,1f,.9f), 110, 9f, .22f, 1.3f, 1f, 1f, true) },\n        { \u0022LavaExplosion\u0022, new Profile(new Color(1f,.25f,.03f,1f), 100, 8f, .25f, 1.4f, .8f, 1f, true) },\n        { \u0022VolcanoEruption\u0022, new Profile(new Color(1f,.35f,.05f,1f), 200, 18f, .5f, 3f, 1f, .45f, true) },\n        { \u0022LavaBarf\u0022, new Profile(new Color(1f,.35f,.04f,.95f), 70, 7f, .18f, 1.5f, .7f, .3f, true) },\n        { \u0022Poison\u0022, new Profile(new Color(.35f,.85f,.12f,.65f), 70, 2f, .4f, 2.1f, -.03f, 1f) },\n        { \u0022Angry\u0022, new Profile(new Color(1f,.18f,.1f,.9f), 18, 1.4f, .18f, .65f, 0f, 1f, true) },\n        { \u0022BossDeath\u0022, new Profile(new Color(.45f,.95f,.12f,.8f), 140, 7f, .3f, 1.8f, .25f, 1f) },\n        { \u0022SmallBloodExplosion\u0022, new Profile(new Color(.7f,.025f,.025f,.95f), 26, 3f, .09f, .65f, .6f, 1f) },\n        { \u0022DustExplosion\u0022, new Profile(new Color(.55f,.47f,.35f,.6f), 65, 3.2f, .4f, 1.5f, -.05f, 1f) },\n        { \u0022PufferfishDeath\u0022, new Profile(new Color(.45f,.95f,.12f,.8f), 140, 7f, .3f, 1.8f, .25f, 1f) }\n    }",
+    "After": "new()    {\n        { \u0022WaterSplash\u0022, new Profile(new Color(.5f,.8f,1f,.85f), 32, 4f, .12f, .8f, 1f, .65f, true) },\n        { \u0022WaterExplosion\u0022, new Profile(new Color(.65f,.85f,1f,.9f), 110, 9f, .22f, 1.3f, 1f, 1f, true) },\n        { \u0022LavaExplosion\u0022, new Profile(new Color(1f,.25f,.03f,1f), 100, 8f, .25f, 1.4f, .8f, 1f, true) },\n        { \u0022VolcanoEruption\u0022, new Profile(new Color(1f,.35f,.05f,1f), 200, 18f, .5f, 3f, 1f, .45f, true) },\n        { \u0022LavaBarf\u0022, new Profile(new Color(1f,.35f,.04f,.95f), 70, 7f, .18f, 1.5f, .7f, .3f, true) },\n        { \u0022Poison\u0022, new Profile(new Color(.35f,.85f,.12f,.65f), 70, 2f, .4f, 2.1f, -.03f, 1f) },\n        { \u0022Angry\u0022, new Profile(new Color(1f,.18f,.1f,.9f), 18, 1.4f, .18f, .65f, 0f, 1f, true) },\n        { \u0022BossDeath\u0022, new Profile(new Color(.45f,.95f,.12f,.8f), 140, 7f, .3f, 1.8f, .25f, 1f) },\n        { \u0022SmallBloodExplosion\u0022, new Profile(new Color(.7f,.025f,.025f,.95f), 26, 3f, .09f, .65f, .6f, 1f) },\n        { \u0022DustExplosion\u0022, new Profile(new Color(.55f,.47f,.35f,.6f), 65, 3.2f, .4f, 1.5f, -.05f, 1f) },\n        { \u0022PufferfishDeath\u0022, new Profile(new Color(.45f,.95f,.12f,.8f), 140, 7f, .3f, 1.8f, .25f, 1f) }\n    }"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryVfxParticles.cs",
+    "Line": 37,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, ParticleSystem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RecoveryVfxParticles.cs",
+    "Line": 38,
+    "Kind": "target-typed-new",
+    "Before": "new System.Random(93671)",
+    "After": "new(93671)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodyManager.cs",
+    "Line": 6,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CRigidbodySync\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodyManager.cs",
+    "Line": 8,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CCollider, Rigidbody\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "Line": 645,
+    "Kind": "local-name",
+    "Before": "flag4",
+    "After": "isBirdHolder"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "Line": 715,
+    "Kind": "local-name",
+    "Before": "array2",
+    "After": "quaternionArray"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "Line": 40,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E(new SyncTypeSettings(Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "Line": 42,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003CNetworkConnection\u003E(new SyncTypeSettings(0f, Channel.Reliable))",
+    "After": "new(new SyncTypeSettings(0f, Channel.Reliable))"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "Line": 44,
+    "Kind": "target-typed-new",
+    "Before": "new Queue\u003CSample\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SavedItemSkin.cs",
+    "Line": 9,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 177,
+    "Kind": "local-name",
+    "Before": "obj",
+    "After": "serverSaveObject"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 204,
+    "Kind": "local-name",
+    "Before": "obj",
+    "After": "serverSaveObject"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 545,
+    "Kind": "local-name",
+    "Before": "item",
+    "After": "savedItem"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 51,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedPlayer\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 53,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedWorldItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 93,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedItemSkin\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 95,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 97,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 99,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cbyte, SavedCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 112,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CServerSaveObject\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 177,
+    "Kind": "target-typed-new",
+    "Before": "new ServerSaveObject\r\n\t\t{\r\n\t\t\tName = serverName,\r\n\t\t\tLastSave = ticks,\r\n\t\t\tUseSteam = useSteam,\r\n\t\t\tIsPublic = isPublic,\r\n\t\t\tDifficulty = difficulty\r\n\t\t}",
+    "After": "new()\t\t{\r\n\t\t\tName = serverName,\r\n\t\t\tLastSave = ticks,\r\n\t\t\tUseSteam = useSteam,\r\n\t\t\tIsPublic = isPublic,\r\n\t\t\tDifficulty = difficulty\r\n\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 234,
+    "Kind": "target-typed-new",
+    "Before": "new DateTime(ticks, DateTimeKind.Local)",
+    "After": "new(ticks, DateTimeKind.Local)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 282,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedCreature\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 472,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cbyte\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 542,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 548,
+    "Kind": "target-typed-new",
+    "Before": "new SavedPlayer\r\n\t\t{\r\n\t\t\tSteamID = player.SteamID,\r\n\t\t\tHeldItem = heldItem2,\r\n\t\t\tHealth = Mathf.Clamp(player.Vitals.Health, 10, 100),\r\n\t\t\tFullness = player.Vitals.Fullness,\r\n\t\t\tInventoryItems = list,\r\n\t\t\tExtraSlots = extraSlots,\r\n\t\t\tHasFinishedTutorial = player.ServerHasFinishedTutorial,\r\n\t\t\tOwnedBaits = ownedBaits,\r\n\t\t\tWishboneIndex = player.Inventory.WishboneIndex\r\n\t\t}",
+    "After": "new()\t\t{\r\n\t\t\tSteamID = player.SteamID,\r\n\t\t\tHeldItem = heldItem2,\r\n\t\t\tHealth = Mathf.Clamp(player.Vitals.Health, 10, 100),\r\n\t\t\tFullness = player.Vitals.Fullness,\r\n\t\t\tInventoryItems = list,\r\n\t\t\tExtraSlots = extraSlots,\r\n\t\t\tHasFinishedTutorial = player.ServerHasFinishedTutorial,\r\n\t\t\tOwnedBaits = ownedBaits,\r\n\t\t\tWishboneIndex = player.Inventory.WishboneIndex\r\n\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 603,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 604,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 615,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CSavedWorldItem\u003E(num)",
+    "After": "new(num)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 728,
+    "Kind": "target-typed-new",
+    "Before": "new SavedCreature\r\n\t\t\t{\r\n\t\t\t\tID = id,\r\n\t\t\t\tBeenKilled = true,\r\n\t\t\t\tKilledDrip = drip\r\n\t\t\t}",
+    "After": "new()\t\t\t{\r\n\t\t\t\tID = id,\r\n\t\t\t\tBeenKilled = true,\r\n\t\t\t\tKilledDrip = drip\r\n\t\t\t}"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u6C47\u603B\u4E16\u754C\u548C\u672C\u5730\u73A9\u5BB6\u6570\u636E\uFF0C\u534F\u8C03\u5B58\u6863\u8BFB\u53D6\u4E0E\u4FDD\u5B58\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 91,
+    "Kind": "local-name",
+    "Before": "text",
+    "After": "savePath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 92,
+    "Kind": "local-name",
+    "Before": "text2",
+    "After": "backupPath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 93,
+    "Kind": "local-name",
+    "Before": "text3",
+    "After": "temporaryPath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 133,
+    "Kind": "local-name",
+    "Before": "text",
+    "After": "savePath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 138,
+    "Kind": "local-name",
+    "Before": "path",
+    "After": "backupPath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 143,
+    "Kind": "local-name",
+    "Before": "path2",
+    "After": "temporaryPath"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 153,
+    "Kind": "local-name",
+    "Before": "list",
+    "After": "serverSaves"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 154,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "files2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 153,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u8D1F\u8D23\u5B58\u6863\u6587\u4EF6\u6821\u9A8C\u3001\u4E34\u65F6\u6587\u4EF6\u66FF\u6362\u53CA\u5907\u4EFD\u6062\u590D\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+    "Line": 8,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E(initialValue: true)",
+    "After": "new(initialValue: true)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+    "Line": 10,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+    "Line": 12,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbyte\u003E(1)",
+    "After": "new(1)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 53,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 55,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 57,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 300,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 324,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "Line": 348,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003COutfitMeshInfo\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinPreset.cs",
+    "Line": 32,
+    "Kind": "local-name",
+    "Before": "item3",
+    "After": "itemSkin"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinPreset.cs",
+    "Line": 38,
+    "Kind": "local-name",
+    "Before": "item2",
+    "After": "itemSkin2"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinPreset.cs",
+    "Line": 44,
+    "Kind": "local-name",
+    "Before": "item4",
+    "After": "itemSkin3"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SkinPreset.cs",
+    "Line": 50,
+    "Kind": "local-name",
+    "Before": "item",
+    "After": "itemSkin4"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SlotMachineManager.cs",
+    "Line": 45,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E(SlotMachine.AvailableItems)",
+    "After": "new(SlotMachine.AvailableItems)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SlotMachineManager.cs",
+    "Line": 50,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CItem\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SlotMachineManager.cs",
+    "Line": 51,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cint\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Spidercrab.cs",
+    "Line": 111,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Spidercrab.cs",
+    "Line": 113,
+    "Kind": "target-typed-new",
+    "Before": "new SyncVar\u003Cbool\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SpriteManager.cs",
+    "Line": 90,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003Cstring\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SteamLobbyAuthenticator.cs",
+    "Line": 33,
+    "Kind": "target-typed-new",
+    "Before": "new CSteamID(steamIDValue)",
+    "After": "new(steamIDValue)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SteamManager.cs",
+    "Line": 177,
+    "Kind": "target-typed-new",
+    "Before": "new CSteamID(param.m_ulSteamIDUserChanged)",
+    "After": "new(param.m_ulSteamIDUserChanged)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SteamManager.cs",
+    "Line": 213,
+    "Kind": "target-typed-new",
+    "Before": "new CSteamID(callback.m_ulSteamIDLobby)",
+    "After": "new(callback.m_ulSteamIDLobby)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\SurfaceManager.cs",
+    "Line": 20,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CTransform, string\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\TutorialManager.cs",
+    "Line": 11,
+    "Kind": "target-typed-new",
+    "Before": "new HashSet\u003CTutorial\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\VFXManager.cs",
+    "Line": 7,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003Cstring, VisualEffect\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\VitalsUI.cs",
+    "Line": 0,
+    "Kind": "explanatory-comment",
+    "Before": "",
+    "After": "\u663E\u793A\u751F\u547D\u3001\u9971\u98DF\u5EA6\u3001\u4E2D\u6BD2\u548C\u71C3\u70E7\u72B6\u6001\uFF0C\u5E76\u9A71\u52A8\u72B6\u6001\u56FE\u6807\u52A8\u753B\u3002"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\WaterManager.cs",
+    "Line": 370,
+    "Kind": "local-name",
+    "Before": "num",
+    "After": "maxValue"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\WaterManager.cs",
+    "Line": 114,
+    "Kind": "target-typed-new",
+    "Before": "new Dictionary\u003CRenderObjects, Material\u003E()",
+    "After": "new()"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\WaterManager.cs",
+    "Line": 363,
+    "Kind": "target-typed-new",
+    "Before": "new List\u003CRenderer\u003E(_waterTiles)",
+    "After": "new(_waterTiles)"
+  },
+  {
+    "File": "Assets\\Scripts\\Assembly-CSharp\\Weapon.cs",
+    "Line": 475,
+    "Kind": "local-name",
+    "Before": "array",
+    "After": "vector3Array"
+  }
+]

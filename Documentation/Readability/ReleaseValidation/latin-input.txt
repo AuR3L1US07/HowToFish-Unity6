@@ -1,0 +1,1 @@
+value=Local123 label=Local123​ glyphs=9 atlas=1024x1024

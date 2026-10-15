@@ -54,6 +54,16 @@ public static class RecoveryBuildValidation
 
     public static void BuildWindows()
     {
+        BuildWindows(BuildOptions.Development);
+    }
+
+    public static void BuildReleaseWindows()
+    {
+        BuildWindows(BuildOptions.None);
+    }
+
+    private static void BuildWindows(BuildOptions buildOptions)
+    {
         var result = new Result
         {
             target = "StandaloneWindows64",
@@ -64,6 +74,10 @@ public static class RecoveryBuildValidation
         Directory.CreateDirectory("CompilationChecks");
         try
         {
+            // Recovered shaders are stable on the direct graphics path; split jobs
+            // can crash the native player when the first island is activated.
+            UnityEditor.PlayerSettings.graphicsJobs = false;
+            UnityEditor.PlayerSettings.MTRendering = false;
             RecoveryLocalizationSettings.Initialize();
             RecoveryLocalizationSettings.BuildCatalog();
             AssetDatabase.SaveAssets();
@@ -79,7 +93,7 @@ public static class RecoveryBuildValidation
                 scenes = result.scenes,
                 locationPathName = result.output,
                 target = BuildTarget.StandaloneWindows64,
-                options = BuildOptions.Development
+                options = buildOptions
             });
             result.status = report.summary.result.ToString();
             result.errors = (int)report.summary.totalErrors;

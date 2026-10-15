@@ -1,0 +1,10 @@
+{
+    "completed": true,
+    "localPlayerSpawned": true,
+    "localServerStarted": true,
+    "localClientStarted": true,
+    "saveReadBack": true,
+    "loadedExistingWorld": false,
+    "loadedStateMatches": true,
+    "errors": []
+}

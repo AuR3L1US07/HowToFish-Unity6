@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [Serializable]
 public class SavedItemSkin
 {
-	public byte ID;
+    public byte ID;
 
-	public List<byte> SkinsUnlocked = new List<byte>();
+    public List<byte> SkinsUnlocked = new();
 }

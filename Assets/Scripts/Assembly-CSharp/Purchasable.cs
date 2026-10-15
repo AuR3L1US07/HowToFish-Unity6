@@ -2,62 +2,64 @@ using UnityEngine;
 
 public abstract class Purchasable : Interactable
 {
-	[SerializeField]
-	protected bool _isFree;
+    [SerializeField]
+    protected bool _isFree;
 
-	[SerializeField]
-	protected int _customCost;
+    [SerializeField]
+    protected int _customCost;
 
-	protected string _hoverString;
+    protected string _hoverString;
 
-	protected bool _customCanBuy = true;
+    protected bool _customCanBuy = true;
 
-	protected Currency _customCurrency;
+    protected Currency _customCurrency;
 
-	private string _finalHoverString;
+    private string _finalHoverString;
 
-	protected override void OnDestroy()
-	{
-		base.OnDestroy();
-		PlayerUI.HideLookAtText(_finalHoverString);
-		PlayerUI.HideInspectInfo(this);
-	}
+    protected override void OnDestroy()
+    {
+        base.OnDestroy();
+        PlayerUI.HideLookAtText(_finalHoverString);
+        PlayerUI.HideInspectInfo(this);
+    }
 
-	public override void Hover()
-	{
-		string text = _hoverString;
-		if ((bool)Player.LocalPlayer.Holding.HeldItem && !InteractableWhenHoldingItem)
-		{
-			text = text + "\n(" + LocalizationManager.UnequipItemLocalized.GetLocalizedString() + ")";
-		}
-		if (!_isHovering)
-		{
-			OnStartHover();
-			PlayerUI.SetLookAtText(text, base.TextTarget);
-		}
-		else if (text != _finalHoverString)
-		{
-			PlayerUI.UpdateLookAtText(text);
-		}
-		_finalHoverString = text;
-		PlayerUI.SetLookAtColor((MoneyManager.CanAfford(_customCost, _customCurrency) && _customCanBuy) ? Color.white : GameInfo.RedColor);
-		base.Hover();
-	}
+    public override void Hover()
+    {
+        string hoverString = _hoverString;
+        if ((bool)Player.LocalPlayer.Holding.HeldItem && !InteractableWhenHoldingItem)
+        {
+            hoverString = hoverString + "\n(" + LocalizationManager.UnequipItemLocalized.GetLocalizedString() + ")";
+        }
 
-	protected virtual void OnStartHover()
-	{
-	}
+        if (!_isHovering)
+        {
+            OnStartHover();
+            PlayerUI.SetLookAtText(hoverString, base.TextTarget);
+        }
+        else if (hoverString != _finalHoverString)
+        {
+            PlayerUI.UpdateLookAtText(hoverString);
+        }
 
-	public override void UnHover()
-	{
-		PlayerUI.HideLookAtText(_finalHoverString);
-		PlayerUI.HideInspectInfo(this);
-		base.UnHover();
-	}
+        _finalHoverString = hoverString;
+        PlayerUI.SetLookAtColor((MoneyManager.CanAfford(_customCost, _customCurrency) && _customCanBuy) ? Color.white : GameInfo.RedColor);
+        base.Hover();
+    }
 
-	protected void CantBuyEffects()
-	{
-		MonoBehaviour.print("Cant afford idiot");
-		AudioManager.PlayGlobalClip("Error", variation: true, 0.3f);
-	}
+    protected virtual void OnStartHover()
+    {
+    }
+
+    public override void UnHover()
+    {
+        PlayerUI.HideLookAtText(_finalHoverString);
+        PlayerUI.HideInspectInfo(this);
+        base.UnHover();
+    }
+
+    protected void CantBuyEffects()
+    {
+        MonoBehaviour.print("Cant afford idiot");
+        AudioManager.PlayGlobalClip("Error", variation: true, 0.3f);
+    }
 }

@@ -1,0 +1,17 @@
+{
+    "enteredPlay": true,
+    "completed": true,
+    "steamRestartCheck": false,
+    "steamRestartRequired": false,
+    "steamInitialized": false,
+    "localGameRequested": true,
+    "localPlayerSpawned": true,
+    "localServerStarted": true,
+    "localClientStarted": true,
+    "movementInputReceived": true,
+    "movementDistance": 2.307166337966919,
+    "inputDiagnostics": "menu=False enabled=True driving=False paused=False time=65.00271 input=InputActions (UnityEngine.InputSystem.InputActionAsset):Player blocked=False moveEnabled=True controls=4 owner=True keyboard=False inputUser=True",
+    "saveReadBack": true,
+    "errors": [],
+    "screenshot": "CompilationChecks/local-game.png"
+}

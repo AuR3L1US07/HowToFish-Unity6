@@ -1,0 +1,492 @@
+[
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Albatross.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Attachments.cs",
+    "rewrites": 7,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\AttackingFish.cs",
+    "rewrites": 4,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\AudioImpactManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\AudioManager.cs",
+    "rewrites": 6,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\AudioSequenceManager.cs",
+    "rewrites": 4,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Bait.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BetButton.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BirdManager.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Boat.cs",
+    "rewrites": 8,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BoatManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BoatTrigger.cs",
+    "rewrites": 4,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BossManager.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Bow.cs",
+    "rewrites": 4,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\BowheadWhale.cs",
+    "rewrites": 10,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ButtonManager.cs",
+    "rewrites": 6,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\CasinoBox.cs",
+    "rewrites": 3,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\CasinoManager.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ChatManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Client.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\CloseItemsUI.cs",
+    "rewrites": 7,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ConnectionManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Creature.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\CreatureManager.cs",
+    "rewrites": 15,
+    "renamedLocals": 5
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\DazedCommands.cs",
+    "rewrites": 3,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\DazedUtils.cs",
+    "rewrites": 5,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\DeadPlayer.cs",
+    "rewrites": 7,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\DecalManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\DecorationManager.cs",
+    "rewrites": 7,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\EndGameManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ExplosionManager.cs",
+    "rewrites": 11,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\FishingRod.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\FishingRodCast.cs",
+    "rewrites": 6,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\GameInfo.cs",
+    "rewrites": 14,
+    "renamedLocals": 4
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\GrillBox.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\HitmarkerManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\InstanceManager.cs",
+    "rewrites": 5,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Interactable.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\IslandManager.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Item.cs",
+    "rewrites": 9,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ItemExtraRigidbody.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ItemManager.cs",
+    "rewrites": 13,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ItemSpawner.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\KillScoreCalculator.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Manta.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Melee.cs",
+    "rewrites": 15,
+    "renamedLocals": 5
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\MoneyManager.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\MoneyUI.cs",
+    "rewrites": 12,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\NPC.cs",
+    "rewrites": 3,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\NPCManager.cs",
+    "rewrites": 9,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\OnHitUI.cs",
+    "rewrites": 8,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\OnlineIslandManager.cs",
+    "rewrites": 11,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\OtherPlayer.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ParticleAudio.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ParticleManager.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Piranha.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Player.cs",
+    "rewrites": 4,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerAimAssist.cs",
+    "rewrites": 6,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerEating.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerHands.cs",
+    "rewrites": 27,
+    "renamedLocals": 4
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerHolding.cs",
+    "rewrites": 7,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerInventory.cs",
+    "rewrites": 22,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerKillScore.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerManager.cs",
+    "rewrites": 10,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerMovement.cs",
+    "rewrites": 6,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerPunching.cs",
+    "rewrites": 11,
+    "renamedLocals": 4
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerSkin.cs",
+    "rewrites": 13,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerTutorial.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\PlayerVitals.cs",
+    "rewrites": 4,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ProjectileManager.cs",
+    "rewrites": 8,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ProjectileType.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Pufferfish.cs",
+    "rewrites": 6,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Purchasable.cs",
+    "rewrites": 7,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RadarUI.cs",
+    "rewrites": 9,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Radio.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RecoveryLocalizationCatalog.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RecoveryOriginalShaders.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RecoveryStandaloneValidation.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RecoveryVfxParticles.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RigidbodyManager.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\RigidbodySync.cs",
+    "rewrites": 9,
+    "renamedLocals": 2
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SavedItemSkin.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SaveManager.cs",
+    "rewrites": 27,
+    "renamedLocals": 3
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SaveSystem.cs",
+    "rewrites": 36,
+    "renamedLocals": 8
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SkinManager.cs",
+    "rewrites": 6,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SkinPreset.cs",
+    "rewrites": 8,
+    "renamedLocals": 4
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SlotMachineManager.cs",
+    "rewrites": 3,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Spidercrab.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SpriteManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SteamLobbyAuthenticator.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SteamManager.cs",
+    "rewrites": 2,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\SurfaceManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\TutorialManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\VFXManager.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\VitalsUI.cs",
+    "rewrites": 1,
+    "renamedLocals": 0
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\WaterManager.cs",
+    "rewrites": 5,
+    "renamedLocals": 1
+  },
+  {
+    "file": "Assets\\Scripts\\Assembly-CSharp\\Weapon.cs",
+    "rewrites": 6,
+    "renamedLocals": 1
+  }
+]
