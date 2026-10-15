@@ -290,6 +290,29 @@ public class LocalSkin : MonoBehaviour
 		};
 	}
 
+	// Save files store an absolute mesh identity, not a number of unlocked
+	// entries to advance. Starting from that identity also makes reload idempotent.
+	public static void RestoreMesh(byte savedIndex, PlayerSkinType type)
+	{
+		byte index = SkinManager.ResolveSavedMeshIndex(savedIndex, type);
+		switch (type)
+		{
+		case PlayerSkinType.Hat:
+			LocalHatIndex = index;
+			if (_instance) _instance._hatRenderer.sharedMesh = SkinManager.GetHat(index);
+			break;
+		case PlayerSkinType.Outfit:
+			LocalOutfitIndex = index;
+			if (_instance) _instance._outfitRenderer.sharedMesh = SkinManager.GetOutfit(index);
+			break;
+		case PlayerSkinType.Accessory:
+			LocalAccessoryIndex = index;
+			if (_instance) _instance._accessoryRenderer.sharedMesh = SkinManager.GetAccessory(index);
+			break;
+		default: return;
+		}
+	}
+
 	public static void ChangeMesh(int toChange, PlayerSkinType type)
 	{
 		switch (type)

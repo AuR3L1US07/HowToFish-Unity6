@@ -4,13 +4,13 @@
 
 ## 当前验证
 
-已验证编辑器编译、主场景加载、本地玩家生成、移动及存档读取。部分自定义 shader 为近似重建；部分特效临时禁用。完整钓鱼流程、Steam 联机、语音及发布构建尚未验收。
+已验证离线钓鱼、交易、NPC 任务、船升级驾驶、战斗和复活、四 Boss 奖励与结局、换装读档及独立 Windows 构建。最新水面修复版已实际启动并通过本地玩家、服务器、客户端与存档读回检查。测试条件和验证范围见 README 及 Documentation；这些检查不等于完整正常难度通关或原版视觉逐像素一致。Steam 联机不在范围，语音听感未验收。
 
 ## 获取与打开
 
 克隆后在 Unity Hub 中添加仓库根目录。首次打开会重新生成 Library 缓存。Assets 的 .meta 文件和 Packages 内本地包必须保留。
 
-仓库不包含 ReferenceOnly 原始游戏副本、CompilationChecks 验证产物、Library 缓存或 EditorRuntime；README 中这些本地分析目录在克隆版本中不可用。
+仓库不包含 ReferenceOnly 原始游戏副本、完整 CompilationChecks 验证产物、Library 缓存、Builds 本地构建或 EditorRuntime。精简验证记录与水面对比图保存在 Documentation；其他本地分析路径在克隆版本中不可用。
 
 ## 权利说明
 

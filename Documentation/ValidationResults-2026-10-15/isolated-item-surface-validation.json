@@ -1,0 +1,8 @@
+{
+    "completed": true,
+    "cookingShadersPassed": 2,
+    "skinShadersPassed": 2,
+    "distinctPatternPairs": 6,
+    "failure": "",
+    "limitation": "GPU functional reconstruction check; does not prove original lighting or graph-source equivalence."
+}

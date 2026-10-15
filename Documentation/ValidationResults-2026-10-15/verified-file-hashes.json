@@ -1,0 +1,42 @@
+[
+  {
+    "path": "Assets/Scripts/Assembly-CSharp/LocalSkin.cs",
+    "sha256": "A5BFFD0955E8FDE64F38A33025772072FD1427A8E7F28C8F3F6D2105C355C8D4"
+  },
+  {
+    "path": "Assets/Scripts/Assembly-CSharp/SaveManager.cs",
+    "sha256": "4F7176E837E92427447C7562206429F01643B8149580CBA97FA1DFC11F427798"
+  },
+  {
+    "path": "Assets/Scripts/Assembly-CSharp/SkinManager.cs",
+    "sha256": "CF431E75DF04035C1DDF80618A15CAB9903522156668F2A88021EE43B23C2E43"
+  },
+  {
+    "path": "Assets/Editor/RecoveryBuildValidation.cs",
+    "sha256": "EB57C8782C92FB9DBF2DC49187CB13937087E864F337C4C4F0C52AE664DDDEF9"
+  },
+  {
+    "path": "Assets/Shader/Shader Graphs_DefaultShader.shader",
+    "sha256": "8664C729762E13B1296B5D5F3BF200D4AA2F023D956221843226A7C52A004266"
+  },
+  {
+    "path": "Assets/Shader/Shader Graphs_BoatShader.shader",
+    "sha256": "37FCA95D7B113C6031703D316F4073475AC7975FE9E4308A3F02FC5BF2F83BFE"
+  },
+  {
+    "path": "Assets/Shader/Shader Graphs_CookableGlassShader.shader",
+    "sha256": "6774C5D17CDEDAF2AA799695FBFC7659F4221A515735502A574CE144CCBD008D"
+  },
+  {
+    "path": "Assets/Shader/RecoveryItemSurface.hlsl",
+    "sha256": "4DDE554130869BEF1827D9C8C9BCA89ABFD275482D0A5EA494121D30D9B4583D"
+  },
+  {
+    "path": "Assets/StreamingAssets/Recovery/original-shaders.bundle",
+    "sha256": "B37A06F4B8221314D4EC97873E08E61D3D7CF5B619B36A7986ACB9BC3D4BD4C7"
+  },
+  {
+    "path": "Builds/Offline/HowToFish_Data/Managed/Assembly-CSharp.dll",
+    "sha256": "279452C3DCAC89CEA227B91A283CBDCEA3FA42F8273E3EE39244F86D43EFE8F0"
+  }
+]

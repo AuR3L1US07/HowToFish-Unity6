@@ -1,0 +1,23 @@
+{
+    "target": "StandaloneWindows64",
+    "output": "Builds/Offline/HowToFish.exe",
+    "status": "Succeeded",
+    "errors": 0,
+    "warnings": 190,
+    "scenes": [
+        "Assets/Scenes/Game.unity",
+        "Assets/Scenes/Islands/Island1.unity",
+        "Assets/Scenes/Islands/Island2.unity",
+        "Assets/Scenes/Islands/Island3.unity",
+        "Assets/Scenes/Islands/Island4.unity",
+        "Assets/Scenes/Islands/Island5.unity",
+        "Assets/Scenes/Islands/DevIsland.unity",
+        "Assets/Scenes/Islands/Mini1.unity",
+        "Assets/Scenes/Islands/Mini2.unity",
+        "Assets/Scenes/Islands/Mini3.unity",
+        "Assets/Scenes/Islands/Mini4.unity",
+        "Assets/Scenes/Islands/Mini5.unity"
+    ],
+    "failure": "",
+    "errorMessages": []
+}

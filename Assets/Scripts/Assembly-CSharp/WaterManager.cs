@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using FishNet;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class WaterManager : MonoBehaviour
 {
@@ -110,6 +111,25 @@ public class WaterManager : MonoBehaviour
 
 	private Transform _customTarget;
 
+	private readonly Dictionary<RenderObjects, Material> _originalWaterOverrides = new Dictionary<RenderObjects, Material>();
+	private float _nextWaterOverrideScan;
+
+	private void BindOriginalWaterRenderPasses()
+	{
+		if (!_waterMat) return;
+		foreach (var feature in Resources.FindObjectsOfTypeAll<RenderObjects>())
+		{
+			if (feature.settings.overrideMode != RenderObjects.RenderObjectsSettings.OverrideMaterialMode.Material) continue;
+			var material = feature.settings.overrideMaterial;
+			if (!material || material == _waterMat || !material.shader || material.shader.name != "Shader Graphs/WaterShader") continue;
+			if (!_originalWaterOverrides.ContainsKey(feature)) _originalWaterOverrides.Add(feature, material);
+			feature.settings.overrideMaterial = _waterMat;
+			// RenderObjects.Create copies the override into its cached render pass.
+			// Updating settings alone leaves the previous approximate material active.
+			feature.Create();
+		}
+	}
+
 	public static float ItemAngularVelocty => _instance._itemAngularVelocity;
 
 	public static float ItemMinForce => _instance._itemMinForce;
@@ -143,6 +163,7 @@ public class WaterManager : MonoBehaviour
 			}
 			foreach(var tile in _waterTiles) if(tile) tile.sharedMaterial=_waterMat;
 		}
+		BindOriginalWaterRenderPasses();
 		Renderer[] waterTiles = _waterTiles;
 		for (int i = 0; i < waterTiles.Length; i++)
 		{
@@ -168,6 +189,13 @@ public class WaterManager : MonoBehaviour
 	private void OnDestroy()
 	{
 		TogglePlayerUnderwater(to: false);
+		foreach (var previous in _originalWaterOverrides)
+			if (previous.Key && previous.Key.settings.overrideMaterial == _waterMat)
+			{
+				previous.Key.settings.overrideMaterial = previous.Value;
+				previous.Key.Create();
+			}
+		_originalWaterOverrides.Clear();
 	}
 
 	public static void OnTickUpdate()
@@ -181,6 +209,12 @@ public class WaterManager : MonoBehaviour
 
 	private void LateUpdate()
 	{
+		// A quality change can load a different renderer asset after Awake.
+		if (Time.unscaledTime >= _nextWaterOverrideScan)
+		{
+			_nextWaterOverrideScan = Time.unscaledTime + 1f;
+			BindOriginalWaterRenderPasses();
+		}
 		_waterMat.SetFloat(FakeTimeID, Time.time);
 		CheckPlayerUnderwater();
 		CheckPlayerPos();

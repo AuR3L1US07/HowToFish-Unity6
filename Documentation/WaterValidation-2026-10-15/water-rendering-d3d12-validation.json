@@ -1,0 +1,14 @@
+{
+    "completed": true,
+    "originalShader": true,
+    "originalNormal": true,
+    "originalMesh": true,
+    "renderPassMaterial": true,
+    "graphicsApi": "Direct3D12",
+    "failure": "",
+    "checkedPasses": 1,
+    "changedPixels": 153295,
+    "passes": [
+        "Render Water: settings/cached-pass=True; event=BeforeRenderingTransparents"
+    ]
+}

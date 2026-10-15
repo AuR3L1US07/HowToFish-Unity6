@@ -44,12 +44,29 @@ SubShader {
  #pragma shader_feature_local _SKIN_AFFECTS_ONLY_METALLIC _SKIN_AFFECTS_ONLY_METALLIC_NOISE _SKIN_AFFECTS_EVERYTHING
  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
- struct A { float4 pos:POSITION; float3 normal:NORMAL; float2 uv:TEXCOORD0; };
- struct V { float4 pos:SV_POSITION; float3 normal:TEXCOORD0; float2 uv:TEXCOORD1; };
+
+ #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Packing.hlsl"
+ struct A { float4 pos:POSITION; float3 normal:NORMAL; float4 tangent:TANGENT; float2 uv:TEXCOORD0; float2 normalUV:TEXCOORD1; float2 materialMask:TEXCOORD2; };
+ struct V { float4 pos:SV_POSITION; float3 normal:TEXCOORD0; float2 uv:TEXCOORD1; float3 world:TEXCOORD2; float2 normalUV:TEXCOORD3; float2 materialMask:TEXCOORD4; float4 tangent:TEXCOORD5; };
  TEXTURE2D(_Colors); SAMPLER(sampler_Colors);
- V vert(A v) { V o; o.pos=TransformObjectToHClip(v.pos.xyz); o.normal=TransformObjectToWorldNormal(v.normal); o.uv=v.uv; return o; }
- half4 frag(V i):SV_Target { Light light=GetMainLight(); half3 color=SAMPLE_TEXTURE2D(_Colors,sampler_Colors,i.uv).rgb;
- half3 illumination=SampleSH(normalize(i.normal))+light.color*(0.2+0.8*saturate(dot(normalize(i.normal),light.direction)));
- return half4(color*max(illumination,0.25),1); }
+ TEXTURE2D(_Normal_Texture); SAMPLER(sampler_Normal_Texture);
+ float _Cookness, _Normal_Scale, _Normal_Strength; float4 _CookColor, _BurntColor, _Distance_Min_Max;
+ V vert(A v) { V o; o.world=TransformObjectToWorld(v.pos.xyz); o.pos=TransformWorldToHClip(o.world); o.normal=TransformObjectToWorldNormal(v.normal); o.uv=v.uv; o.normalUV=v.normalUV; o.materialMask=v.materialMask; o.tangent=float4(TransformObjectToWorldDir(v.tangent.xyz),v.tangent.w*GetOddNegativeScale()); return o; }
+ half4 frag(V i):SV_Target {
+ half3 color=SAMPLE_TEXTURE2D(_Colors,sampler_Colors,i.uv).rgb;
+ // Original DXBC fragment-0: palette -> CookColor -> BurntColor, alpha always one.
+ color=lerp(color,_CookColor.rgb,saturate(_Cookness));
+ color=lerp(color,_BurntColor.rgb,saturate(_Cookness-1));
+ float3 N=normalize(i.normal), T=normalize(i.tangent.xyz), B=cross(N,T)*i.tangent.w;
+ float3 view=GetCameraPositionWS()-i.world;
+ float attenuation=1-saturate((length(view)-_Distance_Min_Max.x)/max(_Distance_Min_Max.y-_Distance_Min_Max.x,.0001));
+ float3 normalTS=UnpackNormal(SAMPLE_TEXTURE2D(_Normal_Texture,sampler_Normal_Texture,i.normalUV*_Normal_Scale));
+ N=normalize(lerp(N,normalize(T*normalTS.x+B*normalTS.y+N*normalTS.z),_Normal_Strength*attenuation));
+ Light light=GetMainLight();
+ half3 illumination=SampleSH(N)+light.color*(.2+.8*saturate(dot(N,light.direction)));
+ float2 material=saturate(i.materialMask-_Cookness);
+ half specular=pow(saturate(dot(N,SafeNormalize(light.direction+SafeNormalize(view)))),lerp(8,256,material.y))*material.y;
+ return half4(color*max(illumination,.25)+lerp(.04,color,material.x)*light.color*specular,1);
+ }
  ENDHLSL }
 } }

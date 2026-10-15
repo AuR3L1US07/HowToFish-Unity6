@@ -45,7 +45,7 @@ Material:
     - _ColorMask: 15
     - _Distortion1: 0.1
     - _Distortion2: 0.1
-    - _Intensity: 1.0999987
+    - _Intensity: 0
     - _Noise: 1
     - _NoiseScale: 5
     - _NoiseStep: 0.39
@@ -70,7 +70,7 @@ Material:
     - _NoiseSpeed2: {r: -0.01, g: 0.01, b: 0, a: 0}
     - _SmoothStep: {r: 0, g: 1, b: 0, a: 0}
     - _UnderwaterColor: {r: 1, g: 1, b: 1, a: 1}
-    - _VignetteColor: {r: 3.704007e-26, g: 0, b: 0, a: 1}
+    - _VignetteColor: {r: 0, g: 0, b: 0, a: 1}
     - _WaveSpeed1: {r: 0, g: 0, b: 0, a: 0}
     - _WaveSpeed2: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

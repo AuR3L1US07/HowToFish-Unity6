@@ -1,0 +1,22 @@
+{
+  "compiled_shader_programs": {
+    "original_sha256": "823d2024469d2e95482b2ed78d70dcc977fe4ab0773acfa1634c140b5d76a835",
+    "packed_sha256": "823d2024469d2e95482b2ed78d70dcc977fe4ab0773acfa1634c140b5d76a835",
+    "identical": true
+  },
+  "mesh_vertex_stream": {
+    "original_sha256": "45a753b51af10937cb98425266b174f58b8c81bbb28681454c2da73a71a168e1",
+    "packed_sha256": "45a753b51af10937cb98425266b174f58b8c81bbb28681454c2da73a71a168e1",
+    "identical": true
+  },
+  "mesh_index_buffer": {
+    "original_sha256": "dba6b0b7bf31b388f4cf38907d737f7565a84f1d9117fdda244e74fa8c89506b",
+    "packed_sha256": "dba6b0b7bf31b388f4cf38907d737f7565a84f1d9117fdda244e74fa8c89506b",
+    "identical": true
+  },
+  "normal_texture_pixels": {
+    "original_sha256": "b6dd254a4828bb1bcea89052555bd10e98b194a83b58c38632f99b27d5a30b98",
+    "packed_sha256": "b6dd254a4828bb1bcea89052555bd10e98b194a83b58c38632f99b27d5a30b98",
+    "identical": true
+  }
+}

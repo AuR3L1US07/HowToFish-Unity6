@@ -1,0 +1,265 @@
+{
+    "completed": true,
+    "checks": [
+        {
+            "name": "HoldToAttack-callback-save",
+            "passed": true,
+            "detail": "Original UI callback changed runtime behavior and persisted preference; separate-process reload is not asserted here."
+        },
+        {
+            "name": "HoldToSprint-callback-save",
+            "passed": true,
+            "detail": "Original UI callback changed runtime behavior and persisted preference; separate-process reload is not asserted here."
+        },
+        {
+            "name": "HoldToAim-callback-save",
+            "passed": true,
+            "detail": "Original UI callback changed runtime behavior and persisted preference; separate-process reload is not asserted here."
+        },
+        {
+            "name": "Hat-selection-changed",
+            "passed": true,
+            "detail": "Original ChangeMesh cycles currently unlocked meshes; no unlock flags assigned."
+        },
+        {
+            "name": "Outfit-selection-changed",
+            "passed": true,
+            "detail": "Original ChangeMesh cycles currently unlocked meshes; no unlock flags assigned."
+        },
+        {
+            "name": "Accessory-selection-changed",
+            "passed": true,
+            "detail": "Original ChangeMesh cycles currently unlocked meshes; no unlock flags assigned."
+        },
+        {
+            "name": "clothing-indices-on-disk",
+            "passed": true,
+            "detail": "Real SaveLocal/LoadLocal file round trip in dedicated directory."
+        },
+        {
+            "name": "clothing-load-selection",
+            "passed": true,
+            "detail": "Original private LoadLocal invoked after clearing selection; verifies actual restoration, not JSON fields only."
+        },
+        {
+            "name": "Hat-loaded-renderer-mesh",
+            "passed": true,
+            "detail": "Selected original clothing mesh must be assigned to preview renderer."
+        },
+        {
+            "name": "Outfit-loaded-renderer-mesh",
+            "passed": true,
+            "detail": "Selected original clothing mesh must be assigned to preview renderer."
+        },
+        {
+            "name": "Accessory-loaded-renderer-mesh",
+            "passed": true,
+            "detail": "Selected original clothing mesh must be assigned to preview renderer."
+        },
+        {
+            "name": "Skin-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Outfit-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Outfit2-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Outfit3-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Hat-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Hat2-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Hat3-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Accessory-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Accessory2-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Accessory3-load-color",
+            "passed": true,
+            "detail": "Color restored by original local-save loader."
+        },
+        {
+            "name": "Hat-unlocked-cycle",
+            "passed": true,
+            "detail": "Discovered actual selectable indices by original ChangeMesh: 1,2,3,16,0"
+        },
+        {
+            "name": "Hat-restore-index-1",
+            "passed": true,
+            "detail": "Saved absolute index=1; changed selection=2; loaded=1; original saved mesh match=True"
+        },
+        {
+            "name": "Hat-idempotent-index-1",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=1; after=1; expected saved=1"
+        },
+        {
+            "name": "Hat-restore-index-2",
+            "passed": true,
+            "detail": "Saved absolute index=2; changed selection=3; loaded=2; original saved mesh match=True"
+        },
+        {
+            "name": "Hat-idempotent-index-2",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=2; after=2; expected saved=2"
+        },
+        {
+            "name": "Hat-restore-index-3",
+            "passed": true,
+            "detail": "Saved absolute index=3; changed selection=16; loaded=3; original saved mesh match=True"
+        },
+        {
+            "name": "Hat-idempotent-index-3",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=3; after=3; expected saved=3"
+        },
+        {
+            "name": "Hat-restore-index-16",
+            "passed": true,
+            "detail": "Saved absolute index=16; changed selection=0; loaded=16; original saved mesh match=True"
+        },
+        {
+            "name": "Hat-idempotent-index-16",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=16; after=16; expected saved=16"
+        },
+        {
+            "name": "Hat-restore-index-0",
+            "passed": true,
+            "detail": "Saved absolute index=0; changed selection=1; loaded=0; original saved mesh match=True"
+        },
+        {
+            "name": "Hat-idempotent-index-0",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=0; after=0; expected saved=0"
+        },
+        {
+            "name": "Outfit-unlocked-cycle",
+            "passed": true,
+            "detail": "Discovered actual selectable indices by original ChangeMesh: 1,2,3,16,0"
+        },
+        {
+            "name": "Outfit-restore-index-1",
+            "passed": true,
+            "detail": "Saved absolute index=1; changed selection=2; loaded=1; original saved mesh match=True"
+        },
+        {
+            "name": "Outfit-idempotent-index-1",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=1; after=1; expected saved=1"
+        },
+        {
+            "name": "Outfit-restore-index-2",
+            "passed": true,
+            "detail": "Saved absolute index=2; changed selection=3; loaded=2; original saved mesh match=True"
+        },
+        {
+            "name": "Outfit-idempotent-index-2",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=2; after=2; expected saved=2"
+        },
+        {
+            "name": "Outfit-restore-index-3",
+            "passed": true,
+            "detail": "Saved absolute index=3; changed selection=16; loaded=3; original saved mesh match=True"
+        },
+        {
+            "name": "Outfit-idempotent-index-3",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=3; after=3; expected saved=3"
+        },
+        {
+            "name": "Outfit-restore-index-16",
+            "passed": true,
+            "detail": "Saved absolute index=16; changed selection=0; loaded=16; original saved mesh match=True"
+        },
+        {
+            "name": "Outfit-idempotent-index-16",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=16; after=16; expected saved=16"
+        },
+        {
+            "name": "Outfit-restore-index-0",
+            "passed": true,
+            "detail": "Saved absolute index=0; changed selection=1; loaded=0; original saved mesh match=True"
+        },
+        {
+            "name": "Outfit-idempotent-index-0",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=0; after=0; expected saved=0"
+        },
+        {
+            "name": "Accessory-unlocked-cycle",
+            "passed": true,
+            "detail": "Discovered actual selectable indices by original ChangeMesh: 1,2,3,0"
+        },
+        {
+            "name": "Accessory-restore-index-1",
+            "passed": true,
+            "detail": "Saved absolute index=1; changed selection=2; loaded=1; original saved mesh match=True"
+        },
+        {
+            "name": "Accessory-idempotent-index-1",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=1; after=1; expected saved=1"
+        },
+        {
+            "name": "Accessory-restore-index-2",
+            "passed": true,
+            "detail": "Saved absolute index=2; changed selection=3; loaded=2; original saved mesh match=True"
+        },
+        {
+            "name": "Accessory-idempotent-index-2",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=2; after=2; expected saved=2"
+        },
+        {
+            "name": "Accessory-restore-index-3",
+            "passed": true,
+            "detail": "Saved absolute index=3; changed selection=0; loaded=3; original saved mesh match=True"
+        },
+        {
+            "name": "Accessory-idempotent-index-3",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=3; after=3; expected saved=3"
+        },
+        {
+            "name": "Accessory-restore-index-0",
+            "passed": true,
+            "detail": "Saved absolute index=0; changed selection=1; loaded=0; original saved mesh match=True"
+        },
+        {
+            "name": "Accessory-idempotent-index-0",
+            "passed": true,
+            "detail": "Repeated original LoadLocal without modifying file; before=0; after=0; expected saved=0"
+        }
+    ]
+}

@@ -360,9 +360,9 @@ public class SaveManager : MonoBehaviour
 					unlockedItemSkin.SkinsUnlocked = new List<byte>();
 				}
 			}
-			LocalSkin.ChangeMesh(localSaveObject.LocalHatIndex, PlayerSkinType.Hat);
-			LocalSkin.ChangeMesh(localSaveObject.LocalOutfitIndex, PlayerSkinType.Outfit);
-			LocalSkin.ChangeMesh(localSaveObject.LocalAccessoryIndex, PlayerSkinType.Accessory);
+			LocalSkin.RestoreMesh(localSaveObject.LocalHatIndex, PlayerSkinType.Hat);
+			LocalSkin.RestoreMesh(localSaveObject.LocalOutfitIndex, PlayerSkinType.Outfit);
+			LocalSkin.RestoreMesh(localSaveObject.LocalAccessoryIndex, PlayerSkinType.Accessory);
 			LocalSkin.SetLocalColor(localSaveObject.LocalSkinColor, PlayerSkinType.Skin, isPreview: false, updatePreview: false);
 			LocalSkin.SetLocalColor(localSaveObject.LocalHatColor, PlayerSkinType.Hat, isPreview: false, updatePreview: false);
 			LocalSkin.SetLocalColor(localSaveObject.LocalHatColor2, PlayerSkinType.Hat2, isPreview: false, updatePreview: false);

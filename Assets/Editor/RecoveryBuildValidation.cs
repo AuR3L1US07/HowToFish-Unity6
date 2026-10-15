@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.Build.Reporting;
+using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
 
 public static class RecoveryBuildValidation
@@ -31,11 +32,11 @@ public static class RecoveryBuildValidation
     {
         const string aaRoot = "Assets/StreamingAssets/aa";
         const string callbackRoot = "Library/com.unity.addressables/aa/Windows";
-        if(!Directory.Exists(callbackRoot)) return;
+        if(!Directory.Exists(callbackRoot) || !Directory.Exists(aaRoot)) return;
         var provided=new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach(var file in Directory.GetFiles(callbackRoot,"*",SearchOption.AllDirectories))
             provided.Add(Path.GetFileName(file));
-        var backup=Path.Combine("CompilationChecks","streaming-aa-backup");
+        var backup=Path.Combine("CompilationChecks","streaming-aa-backup",DateTime.UtcNow.ToString("yyyyMMdd-HHmmss-fffffff"));
         Directory.CreateDirectory(backup);
         foreach(var file in Directory.GetFiles(aaRoot,"*",SearchOption.AllDirectories))
         {
@@ -46,7 +47,6 @@ public static class RecoveryBuildValidation
             var relative=file.Substring(aaRoot.Length).TrimStart('\\','/');
             var destination=Path.Combine(backup,relative);
             Directory.CreateDirectory(Path.GetDirectoryName(destination));
-            if(File.Exists(destination)) File.Delete(destination);
             File.Move(file,destination);
         }
         AssetDatabase.Refresh();
@@ -67,6 +67,12 @@ public static class RecoveryBuildValidation
             RecoveryLocalizationSettings.Initialize();
             RecoveryLocalizationSettings.BuildCatalog();
             AssetDatabase.SaveAssets();
+            // On a clean checkout the callback directory does not exist yet.
+            // Generate it before resolving conflicts, rather than relying on a
+            // previous failed player build to create its file inventory.
+            AddressableAssetSettings.BuildPlayerContent(out var contentResult);
+            if (contentResult == null || !string.IsNullOrEmpty(contentResult.Error))
+                throw new InvalidOperationException("Addressables content build failed: " + contentResult?.Error);
             MoveAddressablesCallbackConflicts();
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {

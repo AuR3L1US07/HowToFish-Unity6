@@ -272,6 +272,18 @@ public class SkinManager : MonoBehaviour
 		return null;
 	}
 
+	public static byte ResolveSavedMeshIndex(byte index, PlayerSkinType type)
+	{
+		var list = type == PlayerSkinType.Hat ? _allHats :
+			type == PlayerSkinType.Outfit ? _allOutfits : _allAccessories;
+		// Achievement Start callbacks may run after SaveManager.Start. Keep a
+		// valid saved identity even before those callbacks restore its unlock.
+		if (index < list.Count) return index;
+		for (int i = 0; i < list.Count; i++)
+			if (list[i].Unlocked) return (byte)i;
+		return 0;
+	}
+
 	public static int GetMeshIndex(PlayerSkinType type, int indexOfAll, int toChange)
 	{
 		if (!_instance)

@@ -1,47 +1,70 @@
 # How to Fish — Unity 6 恢复工程
 
-在 Unity Hub 中选择“添加现有项目”，添加这个文件夹本身。目标编辑器为 **Unity 6000.4.4f1（Windows x64）**。不要选择 ReferenceOnly，也不要用正在安装的 2022.3.62f3c1 打开或降级工程。
+从游戏发布产物恢复并修复的 Unity 工程，不是开发者原始仓库。当前以 Windows 离线游玩为目标，使用 **Unity 6000.4.4f1**、**Mono** 脚本后端和 URP 17.4.0。Steam 大厅、好友邀请和 Steam 联机不在恢复范围。
 
-## 已整理到一个文件夹
+## 打开与运行
 
-- Assets：场景、模型、贴图、材质、动画、游戏脚本、托管及原生插件。
-- Packages、ProjectSettings：Unity 工程配置，保留原版编辑器版本与场景列表。
-- ReferenceOnly/recovered-code：全部 178 个程序集的反编译源码，供阅读，不自动加入 Unity 编译。
-- ReferenceOnly/original-artifacts：原始游戏的逐文件校验一致副本。
-- ReferenceOnly/ExcludedEngineAssemblies：避免与编辑器重复的引擎 DLL，以及原游戏的 Burst AOT 缓存。
-- Documentation：已有分析报告、人物/换装资源核对及完整性清单。
-- CompilationChecks：独立 C# 编译日志和检查产物，不属于可导入插件。
-- Tools：可重复执行的检查工具。
+1. 克隆仓库，在 Unity Hub 中“添加现有项目”，选择仓库根目录。
+2. 使用 Unity **6000.4.4f1** 打开，等待包解析、源码编译和资源导入完成。
+3. 在 Project 面板双击 **Assets/Scenes/Game.unity**，再进入 Play。
+4. 通过游戏菜单创建或载入本地游戏。
 
-## 为编译做的整理
+如果只看到天空、相机和灯光，请检查是否打开了 `Untitled` 空场景。游戏入口是 `Game.unity`，清理 Library 后可能需要重新打开它。
 
-保持 Assembly-CSharp 和 Assembly-CSharp-firstpass 的原程序集结构；firstpass 脚本仍在 Assets/Plugins 下。依赖使用原游戏 DLL，不将第三方反编译源码再复制进 Assets，也不重复安装同名 Unity 包。
+`.meta` 文件和 Packages 中的本地源码包必须保留。不要把 ReferenceOnly 中的备份 DLL 放回 Assets，也不要降级到 Unity 2022 打开。
 
-修正托管插件的导入设置，启用编辑器使用；为原生插件限定 Windows x64。把 8 个引擎内置模块移出 Assets，保留 UnityEngine.UI.dll。原始 lib_burst_generated.dll 是玩家构建的 AOT 产物，外部保留，不当作编辑器缓存加载。修改详情见 Documentation/unity-importer-changes.json。
+## 当前恢复内容
 
-## 验证结果与边界
+- 游戏主程序集和 firstpass 使用恢复的 C# 源码。
+- Addressables、Localization、Animation Rigging、AI Navigation、Transport、VFX Graph 等使用官方兼容源码包；并非已经证明与原开发者使用的每个包版本完全一致。
+- FishNet、GameKit、FishyUnityTransport、Blur、Concentus、RNNoise 托管包装等依赖已迁移到源码程序集，保留原生成的网络调用逻辑。
+- 离线启动、钓鱼、库存交易、NPC 任务、船升级与驾驶、武器、伤害和复活、换装、存档及 Boss/结局已有功能验证。
+- 物品 Shader 补齐烹饪颜色、皮肤开关和图案；多种事件特效使用恢复的粒子实现。
+- 运行时加载 `Assets/StreamingAssets/Recovery/original-shaders.bundle` 中的原版编译 Shader。水面专用渲染通道已同步使用原版材质，避免再次被近似 Shader 覆盖。
 
-使用 Microsoft C# 编译器 4.12、C# 9、Unity 编辑器相关编译标志、原版 Unity 6 引擎/框架引用和本工程插件，分别重编译两个游戏程序集：
+Unity 引擎、Steam 组件、部分框架以及原生插件仍包含正常运行所需的 DLL。工程不是完全无二进制依赖的项目，也不代表原生库已经恢复为 C#。
 
-| 程序集 | 错误 | 警告 |
-|---|---:|---:|
-| Assembly-CSharp-firstpass | 0 | 3 |
-| Assembly-CSharp | 0 | 1581 |
+## 最新验证（2026-10-15）
 
-这是独立 C# 编译验证，尚不是 Unity 编辑器内导入/构建成功的证明。警告包括序列化字段未显式赋值、未使用字段，以及 FishNet 已生成序列化类型同名冲突；没有为了隐藏问题而统一关闭警告。保留原版玩法代码。
+| 范围 | 结果 |
+| --- | --- |
+| 设置、换装、配色与实际读档 | 52 项断言通过，包含外观遍历及重复读档保持相同穿戴 |
+| 源码物品 Shader | 两份烹饪、两份皮肤开关及六组图案差异的 GPU 检查通过 |
+| 原版水面资源 | 编译程序、顶点、索引和法线像素与原始资源逐字节一致 |
+| 水面实际绘制通道 | Direct3D 12 下原 Shader/法线/网格及内部缓存材质检查通过 |
+| Windows 构建 | 最新水面修复版构建成功，0 错误、274 警告；未关闭警告 |
+| 更新后独立程序 | 实际启动，本地玩家、服务器、客户端及存档读回通过，运行错误列表为空 |
 
-2026-10-13 已使用 E:/Unity/6000.4.4f1/Editor/Unity.exe 完成真实编辑器编译及主场景加载验证。最终检查没有 C# 编译错误，也没有场景加载异常；URP 全局设置和管线创建成功，Assets/Scenes/Game.unity 的丢失脚本数为 0。结果见 CompilationChecks/render-runtime-validation.json，完整日志为 render-final-validation.log。尚未验证进入 Play 模式、完整玩法或打包发布。
+四个 Boss 的原奖杯交付、岛屿进度、最终结局，以及此前独立程序新进程读档的记录见下列文档。Boss 测试使用高伤害测试条件，部分捕鱼测试缩短等待时间，不代表完整正常难度通关。音源播放状态测试也不代表听感完全一致。
 
-本次修复将游戏运行用的裁剪渲染 DLL 替换为同编辑器自带的完整 URP/Core/Shader Graph 17.4.0 和依赖，迁移了 161 个资源文件的脚本引用。替换前文件在 ReferenceOnly/BeforeRenderPackageRepair 中保留。补齐了本地化设置的编辑器注册及预加载配置。Unity 自带 Shader Graph 的三处源码补充了 UnityEngine 命名空间引用，以解决 GUID 类型无法解析的问题。
+- [本轮检查与修复](Documentation/Review-2026-10-15.md)
+- [水面恢复、资源依据与验证](Documentation/WaterResourceRecovery-2026-10-15.md)
+- [物品表面源码重建](Documentation/ItemSurfaceReconstruction.md)
+- [此前离线功能验证](Documentation/OfflineRecoveryValidation-2026-10-14.md)
+- [验收范围](Documentation/OfflineRecoveryAcceptance.md)
 
-## 已知画面限制
+## 画面说明
 
-已用官方同名源码恢复 45 个标准 shader，并移出 5 个有对应官方源码的计算着色器导出文件。相关报告在 CompilationChecks/official-shader-recovery.json 和 official-compute-recovery.json，替换前文件保留于 ReferenceOnly。人物等自定义 shader 仍为 AssetRipper 的替代输出，人物 shader 当前恒输出白色。模型、骨骼、服装和贴图引用检查完整不代表画面等价；完整玩法与画面尚未验收。完整情况见 Documentation/analysis/人物资源核对.md。
+**进入 Play 或运行构建后的游戏查看原版编译 Shader 效果。** 编辑状态的可编辑 Shader 仍是重建预览。原始 Shader Graph 源文件没有完整恢复；功能和 GPU 验证通过不代表所有光照、天气、视角下与原版逐像素一致。
 
-## 重复检查
+以下是同一恢复工程中修复渲染通道后的测试画面，并非原版游戏截图：
 
-Tools/Check-CSharp.ps1 使用已安装的 .NET 8 运行时和保留的原版运行库完成独立 C# 基线检查。它无需 .NET SDK，不能代替当前完整包工程的 Unity 验证；当前验收以编辑器日志为准。
+![恢复后的水面](Documentation/WaterValidation-2026-10-15/water-restored.png)
 
-Tools/Validate-Unity6.ps1 的参数 UnityEditorPath 指向你安装好的 Unity 6000.4.4f1/Editor/Unity.exe；日志写入 CompilationChecks/unity-editor-import.log。首次导入会生成 Library 等缓存。
+[同视角修复前画面](Documentation/WaterValidation-2026-10-15/water-before.png)
 
-插件导入格式参考 Unity 官方项目示例：https://github.com/Unity-Technologies/VHACD-deprecated/blob/main/libvhacd.dll.meta 。报告中的历史绝对路径仅用于说明分析来源；Unity 工程代码和资源不依赖原 Steam 安装路径。
+## Windows 打包
+
+先保存并关闭该工程的 Unity 编辑器，再在仓库根目录运行 PowerShell；编辑器路径按本机安装位置修改：
+
+```powershell
+& 'E:\Unity\6000.4.4f1\Editor\Unity.exe' -batchmode -force-d3d11 -projectPath "$PWD" -executeMethod RecoveryBuildValidation.BuildWindows -logFile "$PWD\offline-build.log"
+```
+
+该入口会生成本地化和 Addressables 内容，备份冲突的旧 StreamingAssets 文件，再构建全部启用场景。结果写入 `CompilationChecks/offline-build-validation.json`，程序位于 `Builds/Offline/HowToFish.exe`。运行时必须保留同目录的数据文件和运行库，不能只复制 exe。
+
+本仓库上传工程源码和资源，不上传本地 Build、Library、日志或测试存档；克隆后需要自行构建。部分本地分析文档引用的 ReferenceOnly、CompilationChecks、EditorRuntime 和工作区工具目录不随仓库分发。便于复核的精简结果保存在 Documentation 的 ValidationResults 和 WaterValidation 目录。
+
+## 权利与来源
+
+原游戏及第三方组件的权利归原权利人所有。仓库没有统一开源许可，不代表对其中全部资源、代码或二进制授予再分发或商业使用权。保留第三方组件自带的许可文件。更多信息见 [分享说明](SHARING.md)。
